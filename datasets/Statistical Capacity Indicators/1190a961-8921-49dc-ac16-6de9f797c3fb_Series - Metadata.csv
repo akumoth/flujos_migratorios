@@ -1,0 +1,1092 @@
+Country Name,Country Code,Series Name,Series Code,2004 [YR2004],2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
+Afghanistan,AFG,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667
+Afghanistan,AFG,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Afghanistan,AFG,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,0.66667,0.66667,1
+Afghanistan,AFG,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Afghanistan,AFG,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Afghanistan,AFG,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0.5,1,1,1,1,1,1,1,1,1,1,1,1
+Afghanistan,AFG,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+Albania,ALB,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667
+Albania,ALB,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Albania,ALB,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,0,0,0,1,1,1,1,1
+Albania,ALB,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Albania,ALB,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Albania,ALB,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Albania,ALB,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1
+Algeria,DZA,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333
+Algeria,DZA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Algeria,DZA,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0,0
+Algeria,DZA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Algeria,DZA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Algeria,DZA,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Algeria,DZA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Angola,AGO,Child malnutrition,5.51.01.02.malnut,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667
+Angola,AGO,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Angola,AGO,Gender equality,5.51.01.07.gender,0.33333,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0,0,0
+Angola,AGO,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Angola,AGO,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+Angola,AGO,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0.5,0.5,1,1,1,0.5,0,0,0,0,0,0,0,0.5
+Angola,AGO,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0
+Antigua and Barbuda,ATG,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Antigua and Barbuda,ATG,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Antigua and Barbuda,ATG,Gender equality,5.51.01.07.gender,..,0,0,0,0,0.33333,0.33333,0.66667,0.66667,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Antigua and Barbuda,ATG,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Antigua and Barbuda,ATG,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Antigua and Barbuda,ATG,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Antigua and Barbuda,ATG,UNESCO reporting,5.12.01.01.unesco,..,0,0,0,1,0,0,1,1,1,1,1,1,1,0,1,1
+Argentina,ARG,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0.33333
+Argentina,ARG,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Argentina,ARG,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,0.66667
+Argentina,ARG,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Argentina,ARG,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Argentina,ARG,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Argentina,ARG,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Armenia,ARM,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Armenia,ARM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Armenia,ARM,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.66667,0.66667,1,1,1,1,1,0.66667,0.33333,0.33333,0,0.33333,0.66667,0.66667,0.66667
+Armenia,ARM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Armenia,ARM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Armenia,ARM,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Armenia,ARM,UNESCO reporting,5.12.01.01.unesco,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+Azerbaijan,AZE,Child malnutrition,5.51.01.02.malnut,0.66667,1,1,1,1,1,1,1,1,0.66667,0.33333,0.33333,0.66667,0.66667,1,1,0.66667
+Azerbaijan,AZE,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Azerbaijan,AZE,Gender equality,5.51.01.07.gender,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,1,1,0.66667,1,0,0,0,0.33333
+Azerbaijan,AZE,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Azerbaijan,AZE,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Azerbaijan,AZE,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Azerbaijan,AZE,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bangladesh,BGD,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bangladesh,BGD,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bangladesh,BGD,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0,0,0,0.66667,0.66667,0.33333,0.66667,0,0,0.33333
+Bangladesh,BGD,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bangladesh,BGD,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bangladesh,BGD,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,0.5,1,1,1
+Bangladesh,BGD,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0
+Belarus,BLR,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0
+Belarus,BLR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belarus,BLR,Gender equality,5.51.01.07.gender,0.33333,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,1,1,1,1,1,1,1
+Belarus,BLR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belarus,BLR,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belarus,BLR,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belarus,BLR,UNESCO reporting,5.12.01.01.unesco,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belize,BLZ,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,0.66667
+Belize,BLZ,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belize,BLZ,Gender equality,5.51.01.07.gender,..,1,0.66667,0.66667,0.33333,0.33333,0,0,0,0,1,1,1,1,1,1,1
+Belize,BLZ,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belize,BLZ,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Belize,BLZ,Poverty survey,5.14.01.01.povsurv,..,1,1,0.5,0.5,0.5,0.5,0.5,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+Belize,BLZ,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Benin,BEN,Child malnutrition,5.51.01.02.malnut,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667
+Benin,BEN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Benin,BEN,Gender equality,5.51.01.07.gender,0.66667,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667
+Benin,BEN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Benin,BEN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Benin,BEN,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0,0.5,1,1,1,1,1,1,1,1,1,1,1,1,1
+Benin,BEN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bhutan,BTN,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Bhutan,BTN,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bhutan,BTN,Gender equality,5.51.01.07.gender,..,0.66667,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,1,0.66667,1,1,1
+Bhutan,BTN,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bhutan,BTN,Population census,3.11.01.01.popcen,..,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bhutan,BTN,Poverty survey,5.14.01.01.povsurv,..,1,1,0.5,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bhutan,BTN,UNESCO reporting,5.12.01.01.unesco,..,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Bolivia,BOL,Child malnutrition,5.51.01.02.malnut,1,1,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,1,1,1
+Bolivia,BOL,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bolivia,BOL,Gender equality,5.51.01.07.gender,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,1,0,1,1,1,1
+Bolivia,BOL,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bolivia,BOL,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bolivia,BOL,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bolivia,BOL,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1
+Bosnia and Herzegovina,BIH,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333
+Bosnia and Herzegovina,BIH,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bosnia and Herzegovina,BIH,Gender equality,5.51.01.07.gender,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,1,0,0,0.66667,0,0,0,0
+Bosnia and Herzegovina,BIH,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bosnia and Herzegovina,BIH,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+Bosnia and Herzegovina,BIH,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,0.5,1,0.5,0.5
+Bosnia and Herzegovina,BIH,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+Botswana,BWA,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Botswana,BWA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Botswana,BWA,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0.33333,0,0,0,0
+Botswana,BWA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Botswana,BWA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Botswana,BWA,Poverty survey,5.14.01.01.povsurv,1,1,0.5,0.5,0.5,0.5,0.5,1,1,1,0.5,0,0,0,1,1,1
+Botswana,BWA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0
+Brazil,BRA,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333
+Brazil,BRA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brazil,BRA,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0.66667,1,1,1,0
+Brazil,BRA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brazil,BRA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brazil,BRA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Brazil,BRA,UNESCO reporting,5.12.01.01.unesco,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1
+Bulgaria,BGR,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0.66667
+Bulgaria,BGR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bulgaria,BGR,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,0.66667,1,1,1,1,1,0.66667,1
+Bulgaria,BGR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bulgaria,BGR,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bulgaria,BGR,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bulgaria,BGR,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burkina Faso,BFA,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1,1
+Burkina Faso,BFA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burkina Faso,BFA,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burkina Faso,BFA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burkina Faso,BFA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+Burkina Faso,BFA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burkina Faso,BFA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burundi,BDI,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Burundi,BDI,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burundi,BDI,Gender equality,5.51.01.07.gender,0,0.33333,0.33333,0.66667,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1
+Burundi,BDI,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Burundi,BDI,Population census,3.11.01.01.popcen,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Burundi,BDI,Poverty survey,5.14.01.01.povsurv,0,0,0,0.5,0.5,0.5,0,0,0,0,0,0,0.5,0.5,0.5,0.5,0.5
+Burundi,BDI,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cabo Verde,CPV,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.33333,0.33333,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cabo Verde,CPV,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cabo Verde,CPV,Gender equality,5.51.01.07.gender,..,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cabo Verde,CPV,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cabo Verde,CPV,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cabo Verde,CPV,Poverty survey,5.14.01.01.povsurv,..,1,1,1,1,1,1,0.5,0.5,0.5,0,0,0,0,0.5,0,0
+Cabo Verde,CPV,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cambodia,KHM,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,1,0.66667,0.66667,1,1,1,1,1,1,1,1,1
+Cambodia,KHM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cambodia,KHM,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,0
+Cambodia,KHM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cambodia,KHM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cambodia,KHM,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cambodia,KHM,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cameroon,CMR,Child malnutrition,5.51.01.02.malnut,0.66667,0.33333,0.33333,0.33333,0.66667,0.66667,1,1,0.66667,0.66667,1,1,1,1,1,1,1
+Cameroon,CMR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cameroon,CMR,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Cameroon,CMR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cameroon,CMR,Population census,3.11.01.01.popcen,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+Cameroon,CMR,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0,0,0.5,0.5,0.5,0,0
+Cameroon,CMR,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Central African Republic,CAF,Child malnutrition,5.51.01.02.malnut,1,1,1,1,0.66667,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Central African Republic,CAF,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Central African Republic,CAF,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333
+Central African Republic,CAF,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Central African Republic,CAF,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+Central African Republic,CAF,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0.5,0.5,1,1,1,1,1,1,0.5,0.5,0.5,0,0,0
+Central African Republic,CAF,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0
+Chad,TCD,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,1,1,1,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Chad,TCD,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chad,TCD,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,1,0.66667,1
+Chad,TCD,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chad,TCD,Population census,3.11.01.01.popcen,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+Chad,TCD,Poverty survey,5.14.01.01.povsurv,0.5,1,1,0.5,0.5,0.5,0.5,0.5,1,1,0.5,0.5,0,0,0,0.5,0.5
+Chad,TCD,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,1
+Chile,CHL,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chile,CHL,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chile,CHL,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chile,CHL,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chile,CHL,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chile,CHL,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Chile,CHL,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+China,CHN,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+China,CHN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+China,CHN,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1
+China,CHN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+China,CHN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+China,CHN,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,0.5,1,1,1
+China,CHN,UNESCO reporting,5.12.01.01.unesco,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+Colombia,COL,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667
+Colombia,COL,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Colombia,COL,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,0.33333,1,1,1,1,1
+Colombia,COL,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Colombia,COL,Population census,3.11.01.01.popcen,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Colombia,COL,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Colombia,COL,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Comoros,COM,Child malnutrition,5.51.01.02.malnut,..,1,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Comoros,COM,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Comoros,COM,Gender equality,5.51.01.07.gender,..,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667
+Comoros,COM,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Comoros,COM,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Comoros,COM,Poverty survey,5.14.01.01.povsurv,..,0.5,0.5,0,0,0,0,0,0,0,0,0,0,0,0.5,0.5,1
+Comoros,COM,UNESCO reporting,5.12.01.01.unesco,..,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"Congo, Dem. Rep.",COD,Child malnutrition,5.51.01.02.malnut,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,1,0.66667,1,1,1,1,1,1
+"Congo, Dem. Rep.",COD,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Congo, Dem. Rep.",COD,Gender equality,5.51.01.07.gender,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,1,1,1,1,0.66667,0.66667,0.66667,0.33333
+"Congo, Dem. Rep.",COD,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Congo, Dem. Rep.",COD,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Congo, Dem. Rep.",COD,Poverty survey,5.14.01.01.povsurv,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0
+"Congo, Dem. Rep.",COD,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0
+"Congo, Rep.",COG,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+"Congo, Rep.",COG,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Congo, Rep.",COG,Gender equality,5.51.01.07.gender,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0,0
+"Congo, Rep.",COG,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Congo, Rep.",COG,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"Congo, Rep.",COG,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0,0,0,0
+"Congo, Rep.",COG,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+Costa Rica,CRI,Child malnutrition,5.51.01.02.malnut,1,1,1,0.66667,0.33333,0.33333,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Costa Rica,CRI,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Costa Rica,CRI,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Costa Rica,CRI,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Costa Rica,CRI,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Costa Rica,CRI,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Costa Rica,CRI,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cote d'Ivoire,CIV,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,1,0.66667,0.66667,0.66667,1,1,1,1,1,1
+Cote d'Ivoire,CIV,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cote d'Ivoire,CIV,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.66667,0.66667,1
+Cote d'Ivoire,CIV,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cote d'Ivoire,CIV,Population census,3.11.01.01.popcen,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1
+Cote d'Ivoire,CIV,Poverty survey,5.14.01.01.povsurv,1,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0.5,0.5
+Cote d'Ivoire,CIV,UNESCO reporting,5.12.01.01.unesco,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+Croatia,HRV,Child malnutrition,5.51.01.02.malnut,1,1,1,1,0.66667,0.33333,0,0,0,0,0,0,0,0,0,0,0
+Croatia,HRV,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Croatia,HRV,Gender equality,5.51.01.07.gender,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,0.66667,1,0.66667,0.66667,1,1,0.66667,1
+Croatia,HRV,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Croatia,HRV,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Croatia,HRV,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Croatia,HRV,UNESCO reporting,5.12.01.01.unesco,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Djibouti,DJI,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333
+Djibouti,DJI,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Djibouti,DJI,Gender equality,5.51.01.07.gender,..,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1
+Djibouti,DJI,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Djibouti,DJI,Population census,3.11.01.01.popcen,..,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+Djibouti,DJI,Poverty survey,5.14.01.01.povsurv,..,1,1,1,0.5,0.5,0.5,0,0,0,0,0,0,0,1,1,1
+Djibouti,DJI,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominica,DMA,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dominica,DMA,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominica,DMA,Gender equality,5.51.01.07.gender,..,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333
+Dominica,DMA,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominica,DMA,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominica,DMA,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dominica,DMA,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Dominican Republic,DOM,Child malnutrition,5.51.01.02.malnut,1,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.66667
+Dominican Republic,DOM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominican Republic,DOM,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,0.66667,1,1,1,1,1
+Dominican Republic,DOM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominican Republic,DOM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominican Republic,DOM,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dominican Republic,DOM,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+East Asia & Pacific (excluding high income),EAP,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+East Asia & Pacific (excluding high income),EAP,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+East Asia & Pacific (excluding high income),EAP,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+East Asia & Pacific (excluding high income),EAP,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+East Asia & Pacific (excluding high income),EAP,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+East Asia & Pacific (excluding high income),EAP,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+East Asia & Pacific (excluding high income),EAP,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Ecuador,ECU,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,1,1,0.66667
+Ecuador,ECU,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ecuador,ECU,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1
+Ecuador,ECU,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ecuador,ECU,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ecuador,ECU,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ecuador,ECU,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Egypt, Arab Rep.",EGY,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667
+"Egypt, Arab Rep.",EGY,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Egypt, Arab Rep.",EGY,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,1,1,0.66667,0.66667,0.66667,0.66667
+"Egypt, Arab Rep.",EGY,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Egypt, Arab Rep.",EGY,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Egypt, Arab Rep.",EGY,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Egypt, Arab Rep.",EGY,UNESCO reporting,5.12.01.01.unesco,0,1,1,1,1,1,1,1,0,1,1,1,0,0,1,1,1
+El Salvador,SLV,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+El Salvador,SLV,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+El Salvador,SLV,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+El Salvador,SLV,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+El Salvador,SLV,Population census,3.11.01.01.popcen,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0
+El Salvador,SLV,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+El Salvador,SLV,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Equatorial Guinea,GNQ,Child malnutrition,5.51.01.02.malnut,..,0.66667,0.66667,0.66667,1,1,1,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333
+Equatorial Guinea,GNQ,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Equatorial Guinea,GNQ,Gender equality,5.51.01.07.gender,..,0.66667,0.33333,0.33333,0.33333,0,0,0,0,0,0,0,0,0,0,0,0
+Equatorial Guinea,GNQ,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Equatorial Guinea,GNQ,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Equatorial Guinea,GNQ,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equatorial Guinea,GNQ,UNESCO reporting,5.12.01.01.unesco,..,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0
+Eritrea,ERI,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333
+Eritrea,ERI,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eritrea,ERI,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,0,0.66667,1,0.66667,0.66667,0.66667
+Eritrea,ERI,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eritrea,ERI,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Eritrea,ERI,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Eritrea,ERI,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eswatini,SWZ,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,1,1,1,1,1,1,1,1,1
+Eswatini,SWZ,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eswatini,SWZ,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,0.66667,0.66667
+Eswatini,SWZ,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eswatini,SWZ,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Eswatini,SWZ,Poverty survey,5.14.01.01.povsurv,1,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0,1,1,1
+Eswatini,SWZ,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+Ethiopia,ETH,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,1,1,1,1,1,1
+Ethiopia,ETH,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ethiopia,ETH,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,0,0,0.66667,0.66667,0.33333,0.33333,0.33333
+Ethiopia,ETH,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ethiopia,ETH,Population census,3.11.01.01.popcen,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0
+Ethiopia,ETH,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,0.5,0.5,0.5,0.5,1,1,1,1,1,1
+Ethiopia,ETH,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+Europe & Central Asia (excluding high income),ECA,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Europe & Central Asia (excluding high income),ECA,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Europe & Central Asia (excluding high income),ECA,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Europe & Central Asia (excluding high income),ECA,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Europe & Central Asia (excluding high income),ECA,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Europe & Central Asia (excluding high income),ECA,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Europe & Central Asia (excluding high income),ECA,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Fiji,FJI,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.33333,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0
+Fiji,FJI,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Fiji,FJI,Gender equality,5.51.01.07.gender,..,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0,0
+Fiji,FJI,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Fiji,FJI,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Fiji,FJI,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0.5,1,1,1,1,1,0.5,0.5,1,1,1,0.5
+Fiji,FJI,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,0,0,1,1,1,0,1,1,1,0,0
+Gabon,GAB,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Gabon,GAB,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gabon,GAB,Gender equality,5.51.01.07.gender,0.33333,0.33333,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gabon,GAB,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gabon,GAB,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gabon,GAB,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0,0,0,0,0
+Gabon,GAB,UNESCO reporting,5.12.01.01.unesco,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Gambia, The",GMB,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,1,1,1,1,1
+"Gambia, The",GMB,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Gambia, The",GMB,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0,0,0,0
+"Gambia, The",GMB,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Gambia, The",GMB,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Gambia, The",GMB,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,0.5,0.5,0.5,0.5,0.5,0,0,0,0.5,0.5,1
+"Gambia, The",GMB,UNESCO reporting,5.12.01.01.unesco,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Georgia,GEO,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333
+Georgia,GEO,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Georgia,GEO,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,1,1
+Georgia,GEO,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Georgia,GEO,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Georgia,GEO,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Georgia,GEO,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ghana,GHA,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1,1
+Ghana,GHA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ghana,GHA,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1
+Ghana,GHA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ghana,GHA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ghana,GHA,Poverty survey,5.14.01.01.povsurv,0,0,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,1,0.5,1,1,1
+Ghana,GHA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Grenada,GRD,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grenada,GRD,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Grenada,GRD,Gender equality,5.51.01.07.gender,..,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1
+Grenada,GRD,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Grenada,GRD,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Grenada,GRD,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grenada,GRD,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,0,0,1,1,1,1,0,0,0,1,1,1,1
+Guatemala,GTM,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667
+Guatemala,GTM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guatemala,GTM,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,0.66667,0.66667,1,1,1,1,1,1
+Guatemala,GTM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guatemala,GTM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guatemala,GTM,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guatemala,GTM,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guinea,GIN,Child malnutrition,5.51.01.02.malnut,1,1,1,1,0.66667,1,1,1,1,0.66667,1,1,1,1,1,1,1
+Guinea,GIN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guinea,GIN,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Guinea,GIN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guinea,GIN,Population census,3.11.01.01.popcen,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1
+Guinea,GIN,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0
+Guinea,GIN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+Guinea-Bissau,GNB,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,1,0.66667,0.66667,1,1,1,1,1,0.66667
+Guinea-Bissau,GNB,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guinea-Bissau,GNB,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.33333,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Guinea-Bissau,GNB,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guinea-Bissau,GNB,Population census,3.11.01.01.popcen,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+Guinea-Bissau,GNB,Poverty survey,5.14.01.01.povsurv,0.5,0,0,0,0,0,0.5,0.5,0.5,0.5,0,0,0,0,0.5,1,1
+Guinea-Bissau,GNB,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Guyana,GUY,Child malnutrition,5.51.01.02.malnut,..,1,1,0.66667,0.66667,0.66667,1,0.66667,1,0.66667,0.66667,0.66667,1,1,1,1,0.66667
+Guyana,GUY,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guyana,GUY,Gender equality,5.51.01.07.gender,..,0.33333,0.33333,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,0.66667,0.66667,0.33333,0.33333,0,0
+Guyana,GUY,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guyana,GUY,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Guyana,GUY,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0.5,0.5,0,0,0,0,0,0,0,0,0,0,0
+Guyana,GUY,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,0,0,0,1,1,1,1,1,0,0,0,0,0
+Haiti,HTI,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Haiti,HTI,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Haiti,HTI,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Haiti,HTI,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Haiti,HTI,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+Haiti,HTI,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+Haiti,HTI,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Honduras,HND,Child malnutrition,5.51.01.02.malnut,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333
+Honduras,HND,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Honduras,HND,Gender equality,5.51.01.07.gender,0,0,0,0,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,0.66667
+Honduras,HND,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Honduras,HND,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+Honduras,HND,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Honduras,HND,UNESCO reporting,5.12.01.01.unesco,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+IBRD only,IBD,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IBRD only,IBD,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IBRD only,IBD,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IBRD only,IBD,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IBRD only,IBD,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IBRD only,IBD,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IBRD only,IBD,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA & IBRD total,IBT,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA & IBRD total,IBT,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA & IBRD total,IBT,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA & IBRD total,IBT,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA & IBRD total,IBT,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA & IBRD total,IBT,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA & IBRD total,IBT,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA total,IDA,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA total,IDA,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA total,IDA,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA total,IDA,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA total,IDA,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA total,IDA,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+IDA total,IDA,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+India,IND,Child malnutrition,5.51.01.02.malnut,1,1,0.66667,0.66667,0.66667,0.66667,1,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,1
+India,IND,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+India,IND,Gender equality,5.51.01.07.gender,0.66667,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,0.66667
+India,IND,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+India,IND,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+India,IND,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+India,IND,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,0,1,0,0,0,0,0,0,1,1,1,1
+Indonesia,IDN,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Indonesia,IDN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Indonesia,IDN,Gender equality,5.51.01.07.gender,0.66667,0.66667,1,1,1,1,1,1,1,1,1,0.66667,1,1,1,1,1
+Indonesia,IDN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Indonesia,IDN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Indonesia,IDN,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Indonesia,IDN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Iran, Islamic Rep.",IRN,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,1,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+"Iran, Islamic Rep.",IRN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Iran, Islamic Rep.",IRN,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,0.66667,1,1,1,1,0.66667
+"Iran, Islamic Rep.",IRN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Iran, Islamic Rep.",IRN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Iran, Islamic Rep.",IRN,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,1,1,1,0.5,1,1,1,1,1,1,1,1,1,1
+"Iran, Islamic Rep.",IRN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+Iraq,IRQ,Child malnutrition,5.51.01.02.malnut,0.66667,0.33333,0.33333,0.66667,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667
+Iraq,IRQ,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Iraq,IRQ,Gender equality,5.51.01.07.gender,0.66667,1,1,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0,0
+Iraq,IRQ,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Iraq,IRQ,Population census,3.11.01.01.popcen,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Iraq,IRQ,Poverty survey,5.14.01.01.povsurv,0,0,0,0.5,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1
+Iraq,IRQ,UNESCO reporting,5.12.01.01.unesco,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Jamaica,JAM,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jamaica,JAM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jamaica,JAM,Gender equality,5.51.01.07.gender,0.66667,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0,0,0,0,0.33333,0.66667,0.66667
+Jamaica,JAM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jamaica,JAM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jamaica,JAM,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jamaica,JAM,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+Jordan,JOR,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Jordan,JOR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jordan,JOR,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Jordan,JOR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jordan,JOR,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Jordan,JOR,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.5
+Jordan,JOR,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1
+Kazakhstan,KAZ,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,0.66667
+Kazakhstan,KAZ,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kazakhstan,KAZ,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,0.33333,1,1,1,1,1
+Kazakhstan,KAZ,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kazakhstan,KAZ,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kazakhstan,KAZ,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kazakhstan,KAZ,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kenya,KEN,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667
+Kenya,KEN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kenya,KEN,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0,0,0,0
+Kenya,KEN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kenya,KEN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kenya,KEN,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0,0,0.5
+Kenya,KEN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0
+Kiribati,KIR,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Kiribati,KIR,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kiribati,KIR,Gender equality,5.51.01.07.gender,..,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,0
+Kiribati,KIR,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kiribati,KIR,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kiribati,KIR,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kiribati,KIR,UNESCO reporting,5.12.01.01.unesco,..,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,1
+Kosovo,XKX,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,0,0,0,0,0,0,0,0
+Kosovo,XKX,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,0,0,0,0,0,0,0,0
+Kosovo,XKX,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,0,0,0,0,0,0,0,0
+Kosovo,XKX,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,0,0,0,0,0,0,0,0
+Kosovo,XKX,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,1,1,1,1,1,1,1,1
+Kosovo,XKX,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,1,1,1,1,1,1,1,1
+Kosovo,XKX,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,0,0,0,0,0,0,0,0
+Kyrgyz Republic,KGZ,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.33333,0.33333,0.33333,0.33333,1,1,1,1,1,1
+Kyrgyz Republic,KGZ,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kyrgyz Republic,KGZ,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,1,1,1,1
+Kyrgyz Republic,KGZ,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kyrgyz Republic,KGZ,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kyrgyz Republic,KGZ,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Kyrgyz Republic,KGZ,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lao PDR,LAO,Child malnutrition,5.51.01.02.malnut,1,1,1,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Lao PDR,LAO,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lao PDR,LAO,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lao PDR,LAO,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lao PDR,LAO,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lao PDR,LAO,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0.5,0.5,1,1,1,1,1,1,1,0.5,0.5,1,0.5,0
+Lao PDR,LAO,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Latin America & Caribbean (excluding high income),LAC,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Latin America & Caribbean (excluding high income),LAC,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Latin America & Caribbean (excluding high income),LAC,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Latin America & Caribbean (excluding high income),LAC,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Latin America & Caribbean (excluding high income),LAC,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Latin America & Caribbean (excluding high income),LAC,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Latin America & Caribbean (excluding high income),LAC,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Lebanon,LBN,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0,0,0
+Lebanon,LBN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lebanon,LBN,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,0.66667,1,0,0,0
+Lebanon,LBN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lebanon,LBN,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lebanon,LBN,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0
+Lebanon,LBN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lesotho,LSO,Child malnutrition,5.51.01.02.malnut,1,1,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Lesotho,LSO,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lesotho,LSO,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,0.66667,1,1,1,1,0.66667
+Lesotho,LSO,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lesotho,LSO,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lesotho,LSO,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0,0,0,0,0,0.5,0.5,0.5,0,0,0,1,1,1
+Lesotho,LSO,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Liberia,LBR,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,1,1,1
+Liberia,LBR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Liberia,LBR,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.33333,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.66667,0.33333,0.33333,0.33333
+Liberia,LBR,Immunization,5.51.01.04.immun,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Liberia,LBR,Population census,3.11.01.01.popcen,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Liberia,LBR,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0.5,0.5,0.5,0.5,0.5,1,1,1,1,1
+Liberia,LBR,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Libya,LBY,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667
+Libya,LBY,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Libya,LBY,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0,0,0,0,0,0,0,0
+Libya,LBY,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Libya,LBY,Population census,3.11.01.01.popcen,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+Libya,LBY,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Libya,LBY,UNESCO reporting,5.12.01.01.unesco,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Madagascar,MDG,Child malnutrition,5.51.01.02.malnut,1,1,1,0.66667,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0.66667
+Madagascar,MDG,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Madagascar,MDG,Gender equality,5.51.01.07.gender,0,0,0,0.33333,0.33333,0.66667,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Madagascar,MDG,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Madagascar,MDG,Population census,3.11.01.01.popcen,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Madagascar,MDG,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Madagascar,MDG,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malawi,MWI,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malawi,MWI,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malawi,MWI,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1,1
+Malawi,MWI,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malawi,MWI,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malawi,MWI,Poverty survey,5.14.01.01.povsurv,0,0.5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malawi,MWI,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+Malaysia,MYS,Child malnutrition,5.51.01.02.malnut,1,1,1,1,0.66667,0.33333,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667
+Malaysia,MYS,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malaysia,MYS,Gender equality,5.51.01.07.gender,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,1,1,1,0.66667
+Malaysia,MYS,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malaysia,MYS,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malaysia,MYS,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Malaysia,MYS,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Maldives,MDV,Child malnutrition,5.51.01.02.malnut,..,1,1,1,1,0.66667,0.66667,0.33333,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Maldives,MDV,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Maldives,MDV,Gender equality,5.51.01.07.gender,..,1,1,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,0,0,0,0,0.33333
+Maldives,MDV,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Maldives,MDV,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Maldives,MDV,Poverty survey,5.14.01.01.povsurv,..,0.5,0.5,0.5,0.5,0,0,0.5,0.5,0.5,0.5,0.5,0,0,0.5,0.5,0.5
+Maldives,MDV,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mali,MLI,Child malnutrition,5.51.01.02.malnut,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,1,1,1
+Mali,MLI,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mali,MLI,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Mali,MLI,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mali,MLI,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mali,MLI,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mali,MLI,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Marshall Islands,MHL,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.33333
+Marshall Islands,MHL,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Marshall Islands,MHL,Gender equality,5.51.01.07.gender,..,0.66667,0.66667,0.66667,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0.33333,0.33333,0.33333,0.33333
+Marshall Islands,MHL,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Marshall Islands,MHL,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Marshall Islands,MHL,Poverty survey,5.14.01.01.povsurv,..,0.5,0.5,1,1,1,1,1,1,1,0.5,0.5,0,0,0,0,0
+Marshall Islands,MHL,UNESCO reporting,5.12.01.01.unesco,..,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Mauritania,MRT,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,1,1,0.66667,1,1,1,1,1,1,1,1
+Mauritania,MRT,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mauritania,MRT,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mauritania,MRT,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mauritania,MRT,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1
+Mauritania,MRT,Poverty survey,5.14.01.01.povsurv,1,1,1,1,0.5,1,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+Mauritania,MRT,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mauritius,MUS,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0,0,0,0,0,0,0
+Mauritius,MUS,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mauritius,MUS,Gender equality,5.51.01.07.gender,0.33333,0,0,0,0,0,0,0,0,0,1,0.66667,1,1,1,1,1
+Mauritius,MUS,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mauritius,MUS,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mauritius,MUS,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0.5,0.5,0.5,1,1,0.5,1,1,1,1,1,1,1
+Mauritius,MUS,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mexico,MEX,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,1
+Mexico,MEX,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mexico,MEX,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,1,0.66667,1,1,1
+Mexico,MEX,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mexico,MEX,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mexico,MEX,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mexico,MEX,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Micronesia, Fed. Sts.",FSM,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Micronesia, Fed. Sts.",FSM,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Micronesia, Fed. Sts.",FSM,Gender equality,5.51.01.07.gender,..,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0,0,0,0
+"Micronesia, Fed. Sts.",FSM,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Micronesia, Fed. Sts.",FSM,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Micronesia, Fed. Sts.",FSM,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0.5,0.5,0.5,0.5,1
+"Micronesia, Fed. Sts.",FSM,UNESCO reporting,5.12.01.01.unesco,..,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Middle East & North Africa (excluding high income),MNA,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Middle East & North Africa (excluding high income),MNA,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Middle East & North Africa (excluding high income),MNA,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Middle East & North Africa (excluding high income),MNA,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Middle East & North Africa (excluding high income),MNA,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Middle East & North Africa (excluding high income),MNA,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Middle East & North Africa (excluding high income),MNA,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Moldova,MDA,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333
+Moldova,MDA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Moldova,MDA,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Moldova,MDA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Moldova,MDA,Population census,3.11.01.01.popcen,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Moldova,MDA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Moldova,MDA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mongolia,MNG,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,0.66667,0.66667,1,1,1,1,0.66667,1
+Mongolia,MNG,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mongolia,MNG,Gender equality,5.51.01.07.gender,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0,0,0
+Mongolia,MNG,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mongolia,MNG,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mongolia,MNG,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mongolia,MNG,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1
+Montenegro,MNE,Child malnutrition,5.51.01.02.malnut,..,..,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333
+Montenegro,MNE,Child mortality,5.51.01.03.mortal,..,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Montenegro,MNE,Gender equality,5.51.01.07.gender,..,..,0.33333,0.66667,0.66667,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Montenegro,MNE,Immunization,5.51.01.04.immun,..,..,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+Montenegro,MNE,Population census,3.11.01.01.popcen,..,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Montenegro,MNE,Poverty survey,5.14.01.01.povsurv,..,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Montenegro,MNE,UNESCO reporting,5.12.01.01.unesco,..,..,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Morocco,MAR,Child malnutrition,5.51.01.02.malnut,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.66667
+Morocco,MAR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Morocco,MAR,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333
+Morocco,MAR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Morocco,MAR,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Morocco,MAR,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,0.5,0.5,0.5,1,1,1,1,1,1
+Morocco,MAR,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mozambique,MOZ,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,0.66667,1,1,1,1,1,1,0.66667,0.66667,0.66667,1
+Mozambique,MOZ,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mozambique,MOZ,Gender equality,5.51.01.07.gender,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667
+Mozambique,MOZ,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mozambique,MOZ,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Mozambique,MOZ,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,0.5,0,0.5,1,1,1,1
+Mozambique,MOZ,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Myanmar,MMR,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667
+Myanmar,MMR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Myanmar,MMR,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667
+Myanmar,MMR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Myanmar,MMR,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+Myanmar,MMR,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0,0,0,0,1,1,1,1
+Myanmar,MMR,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1
+Namibia,NAM,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Namibia,NAM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Namibia,NAM,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,0,0
+Namibia,NAM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Namibia,NAM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Namibia,NAM,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0.5,0.5,0.5,0.5,0,0,0,0.5,0.5,0.5
+Namibia,NAM,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+Nauru,NRU,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,0,0,0,0.33333
+Nauru,NRU,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,0,0,0,1
+Nauru,NRU,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,0,0,0,0.33333
+Nauru,NRU,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,0,0,0,1
+Nauru,NRU,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,1,1,1,1
+Nauru,NRU,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,0,0,0,0
+Nauru,NRU,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,0,0,0,0
+Nepal,NPL,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1
+Nepal,NPL,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nepal,NPL,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,1,1,1,1,1,1,0.66667
+Nepal,NPL,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nepal,NPL,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nepal,NPL,Poverty survey,5.14.01.01.povsurv,1,1,1,1,0.5,0.5,0.5,1,1,1,1,1,0.5,1,1,1,1
+Nepal,NPL,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1
+Nicaragua,NIC,Child malnutrition,5.51.01.02.malnut,0.66667,1,1,0.66667,0.66667,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333
+Nicaragua,NIC,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nicaragua,NIC,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0,0,0,0
+Nicaragua,NIC,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nicaragua,NIC,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+Nicaragua,NIC,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,0.5,0.5,0.5,0.5,1,1,0.5,0.5
+Nicaragua,NIC,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+Niger,NER,Child malnutrition,5.51.01.02.malnut,1,1,0.66667,0.66667,0.66667,0.66667,1,1,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Niger,NER,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Niger,NER,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.66667
+Niger,NER,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Niger,NER,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Niger,NER,Poverty survey,5.14.01.01.povsurv,1,1,0.5,0.5,0.5,0.5,1,1,1,1,1,1,1,1,1,1,1
+Niger,NER,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nigeria,NGA,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1
+Nigeria,NGA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nigeria,NGA,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333
+Nigeria,NGA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nigeria,NGA,Population census,3.11.01.01.popcen,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+Nigeria,NGA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Nigeria,NGA,UNESCO reporting,5.12.01.01.unesco,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+North Macedonia,MKD,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.66667,1,1,1,0.66667,0.66667,1,1,1,1,0.66667,0.33333,0.33333
+North Macedonia,MKD,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+North Macedonia,MKD,Gender equality,5.51.01.07.gender,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667
+North Macedonia,MKD,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+North Macedonia,MKD,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+North Macedonia,MKD,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+North Macedonia,MKD,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1
+Pakistan,PAK,Child malnutrition,5.51.01.02.malnut,1,1,1,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Pakistan,PAK,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pakistan,PAK,Gender equality,5.51.01.07.gender,0,0.33333,0.33333,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1,1,1
+Pakistan,PAK,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pakistan,PAK,Population census,3.11.01.01.popcen,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1
+Pakistan,PAK,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pakistan,PAK,UNESCO reporting,5.12.01.01.unesco,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1
+Palau,PLW,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Palau,PLW,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Palau,PLW,Gender equality,5.51.01.07.gender,..,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Palau,PLW,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Palau,PLW,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Palau,PLW,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0.5,0.5,0,0,0
+Palau,PLW,UNESCO reporting,5.12.01.01.unesco,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Panama,PAN,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333
+Panama,PAN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Panama,PAN,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,0.66667,0.66667,0.66667,1,0.66667
+Panama,PAN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Panama,PAN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Panama,PAN,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Panama,PAN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Papua New Guinea,PNG,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333
+Papua New Guinea,PNG,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Papua New Guinea,PNG,Gender equality,5.51.01.07.gender,0.33333,0,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Papua New Guinea,PNG,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Papua New Guinea,PNG,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Papua New Guinea,PNG,Poverty survey,5.14.01.01.povsurv,0,0,0.5,0.5,0,0,0,0,0,0,0.5,0.5,1,0.5,1,1,1
+Papua New Guinea,PNG,UNESCO reporting,5.12.01.01.unesco,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Paraguay,PRY,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667
+Paraguay,PRY,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Paraguay,PRY,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0,0
+Paraguay,PRY,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Paraguay,PRY,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Paraguay,PRY,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Paraguay,PRY,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,0
+Peru,PER,Child malnutrition,5.51.01.02.malnut,1,0.66667,0.66667,0.66667,0.66667,1,0.66667,0.66667,1,0.66667,0.66667,1,1,1,1,1,1
+Peru,PER,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Peru,PER,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Peru,PER,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Peru,PER,Population census,3.11.01.01.popcen,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Peru,PER,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Peru,PER,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Philippines,PHL,Child malnutrition,5.51.01.02.malnut,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1
+Philippines,PHL,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Philippines,PHL,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,1
+Philippines,PHL,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Philippines,PHL,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Philippines,PHL,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Philippines,PHL,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1
+Poland,POL,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Poland,POL,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Poland,POL,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,0.66667,1,1,0.66667,0.66667,0.66667,0.66667,0.66667
+Poland,POL,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Poland,POL,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Poland,POL,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Poland,POL,UNESCO reporting,5.12.01.01.unesco,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0
+Romania,ROU,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,0.66667,0.33333,0.33333,0,0,0,0,0
+Romania,ROU,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Romania,ROU,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667
+Romania,ROU,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Romania,ROU,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Romania,ROU,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Romania,ROU,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Russian Federation,RUS,Child malnutrition,5.51.01.02.malnut,0,0.333333333333333,0.333333333333333,0.333333333333333,0.333333333333333,0.333333333333333,0.333333333333333,0.333333333333333,0.333333333333333,0.333333333333333,0,0,0,0,0,0,0
+Russian Federation,RUS,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Russian Federation,RUS,Gender equality,5.51.01.07.gender,0,0.333333333333333,0.333333333333333,0.333333333333333,0.666666666666667,0.666666666666667,0.666666666666667,1,0.666666666666667,0.666666666666667,0.666666666666667,0.66667,0.66667,1,1,1,1
+Russian Federation,RUS,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Russian Federation,RUS,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Russian Federation,RUS,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Russian Federation,RUS,UNESCO reporting,5.12.01.01.unesco,1,1,0,0,0,0,1,1,1,0,1,1,1,1,1,1,1
+Rwanda,RWA,Child malnutrition,5.51.01.02.malnut,1,1,0.66667,0.66667,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1
+Rwanda,RWA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rwanda,RWA,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rwanda,RWA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rwanda,RWA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rwanda,RWA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Rwanda,RWA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Samoa,WSM,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0,0.33333,0.33333,0.33333
+Samoa,WSM,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Samoa,WSM,Gender equality,5.51.01.07.gender,..,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Samoa,WSM,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Samoa,WSM,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Samoa,WSM,Poverty survey,5.14.01.01.povsurv,..,0.5,0.5,0.5,0.5,0,0,0,0,0,0,0,0,0.5,0.5,0.5,0.5
+Samoa,WSM,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1
+Sao Tome and Principe,STP,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,1,0.66667,0.66667,0.66667,0.66667,1,1,1,0.66667
+Sao Tome and Principe,STP,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sao Tome and Principe,STP,Gender equality,5.51.01.07.gender,..,0.33333,0.33333,0.66667,0.66667,1,1,1,1,1,1,1,0.66667,1,1,1,0.66667
+Sao Tome and Principe,STP,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sao Tome and Principe,STP,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sao Tome and Principe,STP,Poverty survey,5.14.01.01.povsurv,..,1,1,1,1,1,1,1,1,1,1,0.5,0.5,0,0.5,0.5,0.5
+Sao Tome and Principe,STP,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Senegal,SEN,Child malnutrition,5.51.01.02.malnut,1,0.66667,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1
+Senegal,SEN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Senegal,SEN,Gender equality,5.51.01.07.gender,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.66667,0.66667,0.33333
+Senegal,SEN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Senegal,SEN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Senegal,SEN,Poverty survey,5.14.01.01.povsurv,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1,1,1,1,1,1,1
+Senegal,SEN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Serbia,SRB,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33,0.67,1,1,1,1,0.66667,0.66667
+Serbia,SRB,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Serbia,SRB,Gender equality,5.51.01.07.gender,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1,1,1
+Serbia,SRB,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Serbia,SRB,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Serbia,SRB,Poverty survey,5.14.01.01.povsurv,0.5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Serbia,SRB,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+Seychelles,SYC,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333
+Seychelles,SYC,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Seychelles,SYC,Gender equality,5.51.01.07.gender,..,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,0.66667,1,1,1,1,1,1
+Seychelles,SYC,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Seychelles,SYC,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Seychelles,SYC,Poverty survey,5.14.01.01.povsurv,..,0.5,0.5,0.5,1,1,1,0.5,0,0,0,0,0.5,0.5,0.5,0,0
+Seychelles,SYC,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1
+Sierra Leone,SLE,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1
+Sierra Leone,SLE,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sierra Leone,SLE,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0,0,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Sierra Leone,SLE,Immunization,5.51.01.04.immun,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sierra Leone,SLE,Population census,3.11.01.01.popcen,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sierra Leone,SLE,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0.5,0.5,0.5,0.5,1,1,1,0.5,0.5,0.5,0.5,0.5,0.5
+Sierra Leone,SLE,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+Solomon Islands,SLB,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667
+Solomon Islands,SLB,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Solomon Islands,SLB,Gender equality,5.51.01.07.gender,..,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0,0
+Solomon Islands,SLB,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Solomon Islands,SLB,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Solomon Islands,SLB,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0.5,0.5,1,1,1
+Solomon Islands,SLB,UNESCO reporting,5.12.01.01.unesco,..,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1
+Somalia,SOM,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.33333
+Somalia,SOM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Somalia,SOM,Gender equality,5.51.01.07.gender,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0,0
+Somalia,SOM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Somalia,SOM,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Somalia,SOM,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+Somalia,SOM,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+South Africa,ZAF,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,1,0.66667,1,1,1,1,1,0.66667,1,1,0.66667,1,1,1
+South Africa,ZAF,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+South Africa,ZAF,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,1,1,0.66667,0.66667,0.66667,1
+South Africa,ZAF,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+South Africa,ZAF,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+South Africa,ZAF,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+South Africa,ZAF,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1
+South Asia,SAS,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+South Asia,SAS,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+South Asia,SAS,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+South Asia,SAS,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+South Asia,SAS,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+South Asia,SAS,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+South Asia,SAS,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+South Sudan,SSD,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,0,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333
+South Sudan,SSD,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,1,1,1,1,1,1,1,1
+South Sudan,SSD,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,0,0,0,0,0.33333,0.33333,0.33333,0.33333
+South Sudan,SSD,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,0,0,0,0,1,1,1,1
+South Sudan,SSD,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,1,1,1,1,1,1,1,1
+South Sudan,SSD,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,0,0,0,0,0,1,1,1
+South Sudan,SSD,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,0,0,0,0,0,0,0,0
+Sri Lanka,LKA,Child malnutrition,5.51.01.02.malnut,1,1,1,0.66667,0.66667,0.33333,0.33333,0.66667,1,0.66667,0.66667,1,1,1,1,1,1
+Sri Lanka,LKA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sri Lanka,LKA,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Sri Lanka,LKA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sri Lanka,LKA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sri Lanka,LKA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sri Lanka,LKA,UNESCO reporting,5.12.01.01.unesco,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Kitts and Nevis,KNA,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+St. Kitts and Nevis,KNA,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Kitts and Nevis,KNA,Gender equality,5.51.01.07.gender,..,0.66667,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,1,0.66667,1,1,1,1,0.66667,0.66667
+St. Kitts and Nevis,KNA,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Kitts and Nevis,KNA,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Kitts and Nevis,KNA,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+St. Kitts and Nevis,KNA,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+St. Lucia,LCA,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+St. Lucia,LCA,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Lucia,LCA,Gender equality,5.51.01.07.gender,..,1,1,1,1,1,1,1,1,1,1,0,0,0,0.33333,0.66667,0.66667
+St. Lucia,LCA,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Lucia,LCA,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Lucia,LCA,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0.5,0.5,0,0.5,0.5,0.5
+St. Lucia,LCA,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Vincent and the Grenadines,VCT,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+St. Vincent and the Grenadines,VCT,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Vincent and the Grenadines,VCT,Gender equality,5.51.01.07.gender,..,0.66667,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1
+St. Vincent and the Grenadines,VCT,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Vincent and the Grenadines,VCT,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+St. Vincent and the Grenadines,VCT,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+St. Vincent and the Grenadines,VCT,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1
+Sub-Saharan Africa (excluding high income),SSA,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sub-Saharan Africa (excluding high income),SSA,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sub-Saharan Africa (excluding high income),SSA,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sub-Saharan Africa (excluding high income),SSA,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sub-Saharan Africa (excluding high income),SSA,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sub-Saharan Africa (excluding high income),SSA,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sub-Saharan Africa (excluding high income),SSA,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sudan,SDN,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.33333,0,0.33333,0.66667,0.66667,1,1,0.66667
+Sudan,SDN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sudan,SDN,Gender equality,5.51.01.07.gender,0.33333,0.66667,0.66667,1,1,1,1,1,0.66667,0.66667,0,0.66667,0.66667,0.66667,1,1,0.66667
+Sudan,SDN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sudan,SDN,Population census,3.11.01.01.popcen,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Sudan,SDN,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,1,1,0.5
+Sudan,SDN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1
+Suriname,SUR,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333
+Suriname,SUR,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Suriname,SUR,Gender equality,5.51.01.07.gender,..,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.33333,1,0.66667,0.66667,0.33333
+Suriname,SUR,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Suriname,SUR,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Suriname,SUR,Poverty survey,5.14.01.01.povsurv,..,0.5,0.5,0.5,0.5,1,1,1,0.5,0,0,0,0,0.5,1,1,0.5
+Suriname,SUR,UNESCO reporting,5.12.01.01.unesco,..,1,0,0,0,1,1,1,1,1,0,0,1,1,1,1,1
+Syrian Arab Republic,SYR,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,0.66667,1,1,1,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333
+Syrian Arab Republic,SYR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Syrian Arab Republic,SYR,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0
+Syrian Arab Republic,SYR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Syrian Arab Republic,SYR,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+Syrian Arab Republic,SYR,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0,0,0.5,0.5,0.5,1,1,0.5,0.5
+Syrian Arab Republic,SYR,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+Tajikistan,TJK,Child malnutrition,5.51.01.02.malnut,0,0,0,0,0,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1
+Tajikistan,TJK,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tajikistan,TJK,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.66667,0.33333,0.33333,0
+Tajikistan,TJK,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tajikistan,TJK,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tajikistan,TJK,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tajikistan,TJK,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tanzania,TZA,Child malnutrition,5.51.01.02.malnut,1,0.66667,0.66667,0.66667,1,1,0.66667,0.66667,0.33333,0.66667,0.66667,1,1,1,1,1,1
+Tanzania,TZA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tanzania,TZA,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.66667,0.66667,0.33333,0.66667,0.66667,1
+Tanzania,TZA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tanzania,TZA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tanzania,TZA,Poverty survey,5.14.01.01.povsurv,0.5,0,0,0,0.5,0.5,1,1,1,1,1,1,1,1,1,1,1
+Tanzania,TZA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Thailand,THA,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.33333,0.33333,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Thailand,THA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Thailand,THA,Gender equality,5.51.01.07.gender,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,0.66667,0.66667,1,1,0.66667,1,1,1,1
+Thailand,THA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Thailand,THA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Thailand,THA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Thailand,THA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+Timor-Leste,TLS,Child malnutrition,5.51.01.02.malnut,..,0,0.33333,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1,1,1,1
+Timor-Leste,TLS,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Timor-Leste,TLS,Gender equality,5.51.01.07.gender,..,0,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1
+Timor-Leste,TLS,Immunization,5.51.01.04.immun,..,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Timor-Leste,TLS,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Timor-Leste,TLS,Poverty survey,5.14.01.01.povsurv,..,0.5,0.5,0.5,1,1,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+Timor-Leste,TLS,UNESCO reporting,5.12.01.01.unesco,..,0,0,0,0,0,1,0,1,1,1,0,1,1,1,1,1
+Togo,TGO,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,1,1,1
+Togo,TGO,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Togo,TGO,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0,0,0,0,0,0.33333,0.33333
+Togo,TGO,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Togo,TGO,Population census,3.11.01.01.popcen,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+Togo,TGO,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1,1
+Togo,TGO,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tonga,TON,Child malnutrition,5.51.01.02.malnut,..,0,0,0,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333
+Tonga,TON,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tonga,TON,Gender equality,5.51.01.07.gender,..,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0,0.66667,1,1,0.66667,0.66667,0.66667,0.33333
+Tonga,TON,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tonga,TON,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tonga,TON,Poverty survey,5.14.01.01.povsurv,..,0,0,0,0,0,0.5,0.5,0.5,0,0,0,0,0,0.5,0.5,0.5
+Tonga,TON,UNESCO reporting,5.12.01.01.unesco,..,1,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0
+Trinidad and Tobago,TTO,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0.33333,0.33333,0.33333
+Trinidad and Tobago,TTO,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Trinidad and Tobago,TTO,Gender equality,5.51.01.07.gender,0.66667,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0,0,0
+Trinidad and Tobago,TTO,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Trinidad and Tobago,TTO,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Trinidad and Tobago,TTO,Poverty survey,5.14.01.01.povsurv,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Trinidad and Tobago,TTO,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+Tunisia,TUN,Child malnutrition,5.51.01.02.malnut,1,1,1,1,0.66667,0.66667,1,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Tunisia,TUN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tunisia,TUN,Gender equality,5.51.01.07.gender,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333
+Tunisia,TUN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tunisia,TUN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Tunisia,TUN,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0.5,0.5,0.5
+Tunisia,TUN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkey,TUR,Child malnutrition,5.51.01.02.malnut,1,1,1,0.66667,1,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,1,1,1,0.66667,0.66667,0.66667
+Turkey,TUR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkey,TUR,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,0.66667,1,1,0.66667,1,1,1,1
+Turkey,TUR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkey,TUR,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkey,TUR,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkey,TUR,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+Turkmenistan,TKM,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0,0,0,0,0.33333,0.66667,0.66667,0.33333
+Turkmenistan,TKM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkmenistan,TKM,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0
+Turkmenistan,TKM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Turkmenistan,TKM,Population census,3.11.01.01.popcen,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+Turkmenistan,TKM,Poverty survey,5.14.01.01.povsurv,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Turkmenistan,TKM,UNESCO reporting,5.12.01.01.unesco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tuvalu,TUV,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,..,..,..,..,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Tuvalu,TUV,Child mortality,5.51.01.03.mortal,..,..,..,..,..,..,..,..,..,1,1,1,1,1,1,1,1
+Tuvalu,TUV,Gender equality,5.51.01.07.gender,..,..,..,..,..,..,..,..,..,0,0,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667
+Tuvalu,TUV,Immunization,5.51.01.04.immun,..,..,..,..,..,..,..,..,..,1,1,1,1,1,1,1,1
+Tuvalu,TUV,Population census,3.11.01.01.popcen,..,..,..,..,..,..,..,..,..,1,1,1,1,1,1,1,1
+Tuvalu,TUV,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,..,..,..,..,0,0,0,0.5,0.5,1,1,1
+Tuvalu,TUV,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,..,..,..,..,0,0,0,0,0,1,1,1
+Uganda,UGA,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1
+Uganda,UGA,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uganda,UGA,Gender equality,5.51.01.07.gender,0.66667,0.66667,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.66667,0.66667,0,0,0,0
+Uganda,UGA,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uganda,UGA,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Uganda,UGA,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uganda,UGA,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+Ukraine,UKR,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0,0,0,0,0
+Ukraine,UKR,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ukraine,UKR,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333
+Ukraine,UKR,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ukraine,UKR,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+Ukraine,UKR,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Ukraine,UKR,UNESCO reporting,5.12.01.01.unesco,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Uruguay,URY,Child malnutrition,5.51.01.02.malnut,0,0,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,1,1,1,1,0.66667,0.66667,0.66667
+Uruguay,URY,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uruguay,URY,Gender equality,5.51.01.07.gender,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,0.33333,0.33333,0,0,0.33333
+Uruguay,URY,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uruguay,URY,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uruguay,URY,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uruguay,URY,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1
+Uzbekistan,UZB,Child malnutrition,5.51.01.02.malnut,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.33333,0.33333,0.33333
+Uzbekistan,UZB,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uzbekistan,UZB,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,0.66667,0.66667,0.33333,1,1,1,1
+Uzbekistan,UZB,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Uzbekistan,UZB,Population census,3.11.01.01.popcen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Uzbekistan,UZB,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,0.5,0.5,0,0,0,0,1,1,1
+Uzbekistan,UZB,UNESCO reporting,5.12.01.01.unesco,1,1,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1
+Vanuatu,VUT,Child malnutrition,5.51.01.02.malnut,..,0.33333,0.33333,0.33333,0.33333,0.33333,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667
+Vanuatu,VUT,Child mortality,5.51.01.03.mortal,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vanuatu,VUT,Gender equality,5.51.01.07.gender,..,1,1,0.66667,0.66667,0.33333,0.33333,0,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333,0.33333
+Vanuatu,VUT,Immunization,5.51.01.04.immun,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vanuatu,VUT,Population census,3.11.01.01.popcen,..,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vanuatu,VUT,Poverty survey,5.14.01.01.povsurv,..,0,0,0.5,0.5,0.5,0,0,0,0,0,0,0.5,0.5,0,0.5,0.5
+Vanuatu,VUT,UNESCO reporting,5.12.01.01.unesco,..,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0
+"Venezuela, RB",VEN,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,0.66667,0.33333,1,1,1,1,1,1,1
+"Venezuela, RB",VEN,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Venezuela, RB",VEN,Gender equality,5.51.01.07.gender,0.66667,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.66667
+"Venezuela, RB",VEN,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Venezuela, RB",VEN,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Venezuela, RB",VEN,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Venezuela, RB",VEN,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vietnam,VNM,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vietnam,VNM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vietnam,VNM,Gender equality,5.51.01.07.gender,0.33333,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vietnam,VNM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vietnam,VNM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vietnam,VNM,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Vietnam,VNM,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1
+West Bank and Gaza,PSE,Child malnutrition,5.51.01.02.malnut,..,..,..,..,..,0.3,0,0.33333,0.33333,0.33333,0.33333,1,1,1,1,1,0.66667
+West Bank and Gaza,PSE,Child mortality,5.51.01.03.mortal,..,..,..,..,..,1,1,1,1,1,1,1,1,1,1,1,1
+West Bank and Gaza,PSE,Gender equality,5.51.01.07.gender,..,..,..,..,..,1,1,1,1,1,1,1,1,1,1,1,1
+West Bank and Gaza,PSE,Immunization,5.51.01.04.immun,..,..,..,..,..,0,0,0,0,0,0,0,0,0,0,0,0
+West Bank and Gaza,PSE,Population census,3.11.01.01.popcen,..,..,..,..,..,1,1,1,1,1,1,1,1,1,1,1,1
+West Bank and Gaza,PSE,Poverty survey,5.14.01.01.povsurv,..,..,..,..,..,0.5,1,1,1,1,1,1,1,1,1,1,1
+West Bank and Gaza,PSE,UNESCO reporting,5.12.01.01.unesco,..,..,..,..,..,1,1,1,1,1,1,1,1,1,1,1,1
+"Yemen, Rep.",YEM,Child malnutrition,5.51.01.02.malnut,1,0.66667,0.66667,1,1,1,0.66667,0.33333,0.33333,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+"Yemen, Rep.",YEM,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Yemen, Rep.",YEM,Gender equality,5.51.01.07.gender,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.33333,0.33333
+"Yemen, Rep.",YEM,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Yemen, Rep.",YEM,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+"Yemen, Rep.",YEM,Poverty survey,5.14.01.01.povsurv,0,0,0.5,0.5,0.5,0.5,0,0,0,0,0,0,0,0,0,0,0
+"Yemen, Rep.",YEM,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,0,0,0,0,1,0,1,0,0,0,0,0
+Zambia,ZMB,Child malnutrition,5.51.01.02.malnut,1,1,1,1,1,1,0.66667,1,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667,0.66667
+Zambia,ZMB,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Zambia,ZMB,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Zambia,ZMB,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Zambia,ZMB,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Zambia,ZMB,Poverty survey,5.14.01.01.povsurv,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,0.5,0.5,0.5
+Zambia,ZMB,UNESCO reporting,5.12.01.01.unesco,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Zimbabwe,ZWE,Child malnutrition,5.51.01.02.malnut,0.66667,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,0.66667,0.33333,0.66667,0.66667,1,1,1,1,1,1
+Zimbabwe,ZWE,Child mortality,5.51.01.03.mortal,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Zimbabwe,ZWE,Gender equality,5.51.01.07.gender,0,0,0,0,0,0,0,0,0,0,0,0.33333,0.33333,0.33333,0.33333,0.33333,0
+Zimbabwe,ZWE,Immunization,5.51.01.04.immun,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Zimbabwe,ZWE,Population census,3.11.01.01.popcen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Zimbabwe,ZWE,Poverty survey,5.14.01.01.povsurv,0.5,0.5,0.5,0,0,0.5,1,1,1,1,1,1,1,1,1,1,1
+Zimbabwe,ZWE,UNESCO reporting,5.12.01.01.unesco,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Data from database: Statistical Capacity Indicators,,,,,,,,,,,,,,,,,,,,
+Last Updated: 02/03/2021,,,,,,,,,,,,,,,,,,,,
+Code,Indicator Name,Short definition,Long definition,Source,Topic,Statistical concept and methodology
+5.51.01.02.malnut,Child malnutrition (prevalence of underweight children under five),"Prevalence of underweight children under-five years of age, also known as prevalence of child malnutrition (weight for age), is the percentage of children under-five whose weight for age is less than minus two standard deviations from the median for the international reference population ages 0 to 59 months.","Prevalence of underweight children under-five years of age, also known as prevalence of child malnutrition (weight for age), is the percentage of children under-five whose weight for age is less than minus two standard deviations from the median for the international reference population ages 0 to 59 months. The data are based on the World Health Organization’s new child growth standards released in 2006. Child malnutrition is linked to poverty, low levels of education, and poor access to health services. Sufficient and good-quality nutrition is therefore critical for development, health, and survival of current and succeeding generations. This indicator monitors nutritional status and health in populations and relates to the first MDG aiming at reducing poverty and hunger.","World Development Indicator (WDI) databank. Original source: World Health Organization (WHO), Global Database on Child Growth and Malnutrition",Statistical Capacity Indicator (SCI),"Scores are 1, 2/3, and 1/3 if the indicator was observed at least 3 times, 2 times, or once within 10 years. For assessment, look at 10 year interval starting two years before current and count number of data points available."
+5.51.01.03.mortal,Child mortality (under-five mortality rate),"Under-five mortality rate is the probability that a newborn baby will die before reaching age five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000. The indicator measures child survival.","Under-five mortality rate is the probability that a newborn baby will die before reaching age five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000. The indicator measures child survival. Survival of a child is closely linked to the provision of primary health-care services; but poverty, malnutrition, a decline in breast-feeding, maternal education, use of improved water, and inadequacy sanitation and health facilities are all associated with high child mortality. The indicator relates to the fourth MDG calling for reducing child mortality.","World Development Indicator (WDI) databank. Original source: UNICEF, WHO, World Bank, UN DESA, UNPD",Statistical Capacity Indicator (SCI),Score is 1 if a national or international estimate is available for reference year. For assessment the reference year which is the year 2 years before current will be checked for data avail.
+5.51.01.07.gender,Gender equality in education (gross enrollment rate of girls to boys in primary and secondary education),The indicator is defined as the ratio of the gross enrollment rate of girls to boys in primary and secondary education levels in both public and private schools.,"The indicator is defined as the ratio of the gross enrollment rate of girls to boys in primary and secondary education levels in both public and private schools. Women have an enormous impact on the well-being of their families and societies, but their potential is sometimes not realized because of discriminatory social norms, incentives, and legal institutions. Although their status has improved in recent decades, gender inequalities persist. Education is one of the most important aspects of human development, and eliminating gender disparity at all levels of education would help to increase the status and capabilities of women. This indicator provides a measure of equality of educational opportunity and relates to the third MDG that seeks to promote gender equality and the empowerment of women.",World Development Indicator (WDI) databank. Original source: UNESCO Institute for Statistics: Table 5: Enrolment ratios by ISCED level,Statistical Capacity Indicator (SCI),"Scores are 1, 2/3, and 1/3 if the indicator is observed for 5, 4-3, and 2-1 out of the 5 latest years, respectively. For assessment, look at 5 year interval starting 2 years before current and count number of data points available."
+5.51.01.04.immun,Child immunization (proportion of one-year-old children immunized against measles),The proportion of one-year-old children immunized against measles is the proportion of children aged one who received one dose of measles vaccine. A child is considered adequately immunized against measles after receiving one dose of vaccine,"The proportion of one-year-old children immunized against measles is the proportion of children aged one who received one dose of measles vaccine. A child is considered adequately immunized against measles after receiving one dose of vaccine. Immunization is an essential component for reducing under-five mortality, and it serves as a proxy to measure the coverage and the quality of the child health care system. This indicator is also related to the fourth MDG aiming at reducing child mortality.",World Development Indicator (WDI) databank. Original source: WHO and UNICEF,Statistical Capacity Indicator (SCI),"Score is 1 if the periodicity of the indicator is annual within 5 year reference period. For assessment, look at 5 year interval starting 2 years before current year and count number of data points available."
+3.11.01.01.popcen,Population Census,"Population censuses collect data on the size, distribution and composition of population and information on a broad range of social and economic characteristics of the population.","Population censuses collect data on the size, distribution and composition of population and information on a broad range of social and economic characteristics of the population. It also provides sampling frames for household and other surveys. It is recommended that population censuses be conducted at least every 10 years.","World Bank Microdata library. Original source: United Nations Statistical Division (UNSD), 2010 World Population and Housing Censuses Programme",Statistical Capacity Indicator (SCI),Score is 1 if the country had a census at least once in the last 10 years. For assessment it will be looked at 10 year interval starting the year before current and counting the number of agricultural censuses conducted.
+5.14.01.01.povsurv,Poverty surveys,"Poverty surveys collect data on household income, consumption and expenditure, including income in kind. They typically include income, expenditure, and consumption surveys, household budget surveys, Integrated Surveys, Living Standard Measuring Surveys, and other poverty related surveys. It is recommended that poverty surveys be conducted at least every 3 to 5 years.","Poverty surveys collect data on household income, consumption and expenditure, including income in kind. They typically include income, expenditure, and consumption surveys, household budget surveys, Integrated Surveys, Living Standard Measuring Surveys, and other poverty related surveys. It is recommended that poverty surveys be conducted at least every 3 to 5 years.",World Bank Microdata library,Statistical Capacity Indicator (SCI),"Scores are 1, and 1/2 if a survey is conducted at least 3 times, or 2 times respectively in the last 10 years. For assessment it will be looked at 10 year interval starting the year before current and the number of conducted poverty surveys counted."
+5.12.01.01.unesco,Enrolment reporting to UNESCO,UNESCO Institute of Statistics compiles data on education based on official responses to surveys and from reports provided by education authorities in each country.,"UNESCO Institute of Statistics compiles data on education based on official responses to surveys and from reports provided by education authorities in each country. As the recommended periodicity of these data is annual, annual reporting from countries is considered a good practice.",World Bank EdStats. Original source: UNESCO Institute for Statistics (UIS),Statistical Capacity Indicator (SCI),Score is 1 if the country reported at least 3 times in the last 4 years. For assessment it will be looked at the 4-year-period starting 2 years back from actual year.
