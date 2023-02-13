@@ -30,8 +30,8 @@ for i in reg_wpp_df.columns[2:]:
     reg_wpp_df[i] = pd.to_numeric(reg_wpp_df[i],downcast='float')
 
 for i in dev_wpp_df.columns[2:]:
-    dev_wpp_df[i] = reg_wpp_df[i].astype(str).str.replace('...','0',regex=False)
-    dev_wpp_df[i] = pd.to_numeric(reg_wpp_df[i],downcast='float')
+    dev_wpp_df[i] = dev_wpp_df[i].astype(str).str.replace('...','0',regex=False)
+    dev_wpp_df[i] = pd.to_numeric(dev_wpp_df[i],downcast='float')
 
 reg_wpp_df.to_csv('../datasets/processed/world_population_prospects/WPP_by_region.csv')
 dev_wpp_df.to_csv('../datasets/processed/world_population_prospects/WPP_by_development.csv')
