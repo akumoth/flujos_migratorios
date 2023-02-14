@@ -1,0 +1,267 @@
+Country Name,cod
+afghanistan,1
+albania,2
+algeria,3
+american samoa,4
+andorra,5
+angola,6
+antigua and barbuda,7
+argentina,8
+armenia,9
+aruba,10
+australia,11
+austria,12
+azerbaijan,13
+"bahamas, the",14
+bahrain,15
+bangladesh,16
+barbados,17
+belarus,18
+belgium,19
+belize,20
+benin,21
+bermuda,22
+bhutan,23
+"bolivia, plurinational state of",24
+bosnia and herzegovina,25
+botswana,26
+brazil,27
+"virgin islands, british",28
+brunei darussalam,29
+bulgaria,30
+burkina faso,31
+burundi,32
+cabo verde,33
+cambodia,34
+cameroon,35
+canada,36
+cayman islands,37
+central african republic,38
+chad,39
+channel islands,40
+chile,41
+china,42
+colombia,43
+comoros,44
+"congo, dem. rep.",45
+"congo, rep.",46
+costa rica,47
+cote d'ivoire,48
+croatia,49
+cuba,50
+curacao,51
+cyprus,52
+czechia,53
+denmark,54
+djibouti,55
+dominica,56
+dominican republic,57
+ecuador,58
+"egypt, arab rep.",59
+el salvador,60
+equatorial guinea,61
+eritrea,62
+estonia,63
+eswatini,64
+ethiopia,65
+faroe islands,66
+fiji,67
+finland,68
+france,69
+french polynesia,70
+gabon,71
+"gambia, the",72
+georgia,73
+germany,74
+ghana,75
+gibraltar,76
+greece,77
+greenland,78
+grenada,79
+guam,80
+guatemala,81
+guinea,82
+guinea-bissau,83
+guyana,84
+haiti,85
+honduras,86
+hong kong,87
+hungary,88
+iceland,89
+india,90
+indonesia,91
+iran,92
+iraq,93
+ireland,94
+isle of man,95
+israel,96
+italy,97
+jamaica,98
+japan,99
+jordan,100
+kazakhstan,101
+kenya,102
+kiribati,103
+"korea, dem. people's rep.",104
+"korea, rep.",105
+kosovo,106
+kuwait,107
+kyrgyzstan,108
+lao pdr,109
+latvia,110
+lebanon,111
+lesotho,112
+liberia,113
+libya,114
+liechtenstein,115
+lithuania,116
+luxembourg,117
+"macao sar, china",118
+madagascar,119
+malawi,120
+malaysia,121
+maldives,122
+mali,123
+malta,124
+marshall islands,125
+mauritania,126
+mauritius,127
+mexico,128
+"micronesia, fed. sts.",129
+"moldova, republic of",130
+monaco,131
+mongolia,132
+montenegro,133
+morocco,134
+mozambique,135
+myanmar,136
+namibia,137
+nauru,138
+nepal,139
+netherlands,140
+new caledonia,141
+new zealand,142
+nicaragua,143
+niger,144
+nigeria,145
+north macedonia,146
+northern mariana islands,147
+norway,148
+oman,149
+pakistan,150
+palau,151
+panama,152
+papua new guinea,153
+paraguay,154
+peru,155
+philippines,156
+poland,157
+portugal,158
+puerto rico,159
+qatar,160
+romania,161
+russian federation,162
+rwanda,163
+samoa,164
+san marino,165
+sao tome and principe,166
+saudi arabia,167
+senegal,168
+serbia,169
+seychelles,170
+sierra leone,171
+singapore,172
+sint maarten (dutch part),173
+slovakia,174
+slovenia,175
+solomon islands,176
+somalia,177
+south africa,178
+south sudan,179
+spain,180
+sri lanka,181
+st. kitts and nevis,182
+st. lucia,183
+st. martin (french part),184
+st. vincent and the grenadines,185
+sudan,186
+suriname,187
+sweden,188
+switzerland,189
+syrian arab republic,190
+tajikistan,191
+"tanzania, united republic of",192
+thailand,193
+timor-leste,194
+togo,195
+tonga,196
+trinidad and tobago,197
+tunisia,198
+turkiye,199
+turkmenistan,200
+turks and caicos islands,201
+tuvalu,202
+uganda,203
+ukraine,204
+united arab emirates,205
+united kingdom,206
+united states,207
+uruguay,208
+uzbekistan,209
+vanuatu,210
+"venezuela, rb",211
+viet nam,212
+virgin islands (u.s.),213
+west bank and gaza,214
+"yemen, rep.",215
+zambia,216
+zimbabwe,217
+africa eastern and southern,218
+africa western and central,219
+arab world,220
+caribbean small states,221
+central europe and the baltics,222
+early-demographic dividend,223
+east asia & pacific,224
+east asia & pacific (excluding high income),225
+east asia & pacific (ida & ibrd countries),226
+euro area,227
+europe & central asia,228
+europe & central asia (excluding high income),229
+europe & central asia (ida & ibrd countries),230
+european union,231
+fragile and conflict affected situations,232
+heavily indebted poor countries (hipc),233
+high income,234
+ibrd only,235
+ida & ibrd total,236
+ida blend,237
+ida only,238
+ida total,239
+late-demographic dividend,240
+latin america & caribbean,241
+latin america & caribbean (excluding high income),242
+latin america & the caribbean (ida & ibrd countries),243
+least developed countries: un classification,244
+low & middle income,245
+low income,246
+lower middle income,247
+middle east & north africa,248
+middle east & north africa (excluding high income),249
+middle east & north africa (ida & ibrd countries),250
+middle income,251
+north america,252
+not classified,253
+oecd members,254
+other small states,255
+pacific island small states,256
+post-demographic dividend,257
+pre-demographic dividend,258
+small states,259
+south asia,260
+south asia (ida & ibrd),261
+sub-saharan africa,262
+sub-saharan africa (excluding high income),263
+sub-saharan africa (ida & ibrd countries),264
+upper middle income,265
+world,266
