@@ -17,7 +17,7 @@ def normalize_country(name):
         if name == "United States of America*":
             return "United States"
         elif name == "Iran (Islamic Republic of)":
-            return "iran"
+            return "Iran"
         elif name == "Russian Federation":
             return "Russia"
         elif name == "France*":
@@ -27,7 +27,7 @@ def normalize_country(name):
         elif name == "United Kingdom*":
             return "United Kingdom"
         elif name == "China, Hong Kong SAR*":
-            return "hong kong"                 
+            return "Hong Kong"                 
         elif name == "Ukraine*":
             return "Ukraine"
         # agrega más verificaciones aquí para otros casos especiales
