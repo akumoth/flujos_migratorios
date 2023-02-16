@@ -17,13 +17,17 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 def normalize_country(name):
     custom_mapping = {
+        "iran, islamic republic of": "iran",
+        "viet nam" : "vietnam",
+        "taiwan, province of china" : "taiwan",
+        "vie tnam": "vietnam",
         "spain*": "spain",
         "Iran (Islamic Republic of)": "iran",
         "côte d'ivoire": "cote d'ivoire",
         "China, Hong Kong SAR*": "hong kong",
         "hong kong sar, china": "hong kong",
         "iran, islamic rep.": "iran",
-        "turkey":"turkiye",
+        "turkiye": "turkey",
         "United States of America*": "United States",
         "Iran (Islamic Republic of)": "iran",
         "Russian Federation": "russia",
@@ -33,15 +37,26 @@ def normalize_country(name):
         "China, Hong Kong SAR*": "hong kong", 
         "Ukraine*": "Ukraine",
         "iran islamic republic of": "iran",
-        "curaao": "curazao",
-        "saint barthlemy": "san bartolome",
+        "curazao" : "curacao",
+        "saint barthlemy" : "saint barth",
         "bolivia plurinational state of": "bolivia",
-        "democratic republic of the congo": "republic democratic of the congo",
-        "guineabissau": "guinea-bisau",
+        "democratic republic of the congo" : "congo",
+        "guineabisau" : "guinea-bissau",
+        "guinea-bisau" : "guinea-bissau",
+        "guineabissau" : "guinea-bissau",
         "china hong kong sar": "hong kong",
         "china macao sar": "macao",
         "china taiwan province of china": "taiwan",
-        "dem peoples republic of korea": "north korea"
+        "dem peoples republic of korea": "north korea",
+        "palestina" : "palestine",
+        "palestine, state of": "palestine",
+        "russian federation": "russia",
+        "bolivia, plurinational state of": "bolivia",
+        "maldovia": "republic of maldova",
+        "moldova, republic of": "republic of maldova",
+        "siria": "syrian",
+        "syrian arab republic": "syrian"
+
     }
     
     if name in custom_mapping:
