@@ -1,7 +1,6 @@
 import pandas as pd
 import etl
-from peewee import chunked
-from peewee_models import *
+
 
 country_code_df = pd.read_csv("../datasets/processed/codigo_pais.csv")
 wdi_df = pd.read_csv(
@@ -34,36 +33,29 @@ wdi_df = (
     .rename_axis("year", axis=1)
     .stack()
     .unstack(1)
+    .sort_values('region')
     .reset_index()
     .rename_axis(None, axis=1)
     .rename_axis("id")
 )
 
+wdi_df.drop(wdi_df.where(~wdi_df.region.isin(country_code_df['Country Name'])).dropna().index,axis=0)
 etl.insert_country_code(wdi_df)
-wdi_df[["region", "region_id", "year"] + etl.economia].to_csv(
+
+wdi_df[["region", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.economia))].to_csv(
     "../datasets/sql/world_development_indicators/wdi_economia.csv"
 )
-wdi_df[["region", "region_id", "year"] + etl.salud].to_csv(
+wdi_df[["region", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.salud))].to_csv(
     "../datasets/sql/world_development_indicators/wdi_salud.csv"
 )
-wdi_df[["region", "region_id", "year"] + etl.educacion].to_csv(
+wdi_df[["region", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.educacion))].to_csv(
     "../datasets/sql/world_development_indicators/wdi_educacion.csv"
 )
-wdi_df[["region", "region_id", "year"] + etl.empleos].to_csv(
+wdi_df[["region", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.empleos))].to_csv(
     "../datasets/sql/world_development_indicators/wdi_empleos.csv"
 )
-wdi_df[["region", "region_id", "year"] + etl.poblacion].to_csv(
+wdi_df[["region", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.poblacion))].to_csv(
     "../datasets/sql/world_development_indicators/wdi_poblacion.csv"
 )
 
-with database.atomic():
-    for batch in chunked(wdi_df[["region", "region_id", "year"] + etl.poblacion].to_dict(orient="records"),100):
-        Demography.insert_many(batch).execute()
-    for batch in chunked(wdi_df[["region", "region_id", "year"] + etl.economia].to_dict(orient="records"),100):
-        Economy.insert_many(batch).execute()
-    for batch in chunked(wdi_df[["region", "region_id", "year"] + etl.educacion].to_dict(orient="records"),100):
-        Education.insert_many(batch).execute()
-    for batch in chunked(wdi_df[["region", "region_id", "year"] + etl.empleos].to_dict(orient="records"),100):
-        Employment.insert_many(batch).execute()
-    for batch in chunked(wdi_df[["region", "region_id", "year"] + etl.salud].to_dict(orient="records"),100):
-        Health.insert_many(batch).execute()
+# etl.insert_data(wdi_df.drop('region',axis=1))

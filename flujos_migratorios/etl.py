@@ -1,8 +1,11 @@
 import pycountry
 import pandas as pd
+import pycountry
 import numpy as np
 import re
 from geopy.geocoders import Nominatim
+from peewee import chunked
+from peewee_models import *
 
 country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
 country_code_df.columns = ['region','region_id']
@@ -43,10 +46,12 @@ def normalize_country(name):
         return custom_mapping[name]
     
     # Buscar el país más cercano al nombre normalizado
-    country = pycountry.countries.search_fuzzy(name)
-    if country:
-        return country[0].name
-    else:
+    try: 
+        # country = pycountry.countries.search_fuzzy(name) - Añadir después
+        country = pycountry.countries.lookup(name)
+        print(country)
+        return country.name
+    except LookupError:
         return name
 
 def remove_special_characters(text):
@@ -80,6 +85,19 @@ def insert_lat_long(df):
         log.append(longitude)
     df['latitude'] = pd.Series(lat)
     df['longitude'] = pd.Series(log)
+
+def insert_data(df):
+    with database.atomic():
+        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(poblacion))].to_dict(orient="records"), 100):
+            Demography.insert_many(batch).on_conflict_replace(True).execute()
+        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(economia))].to_dict(orient="records"), 100):
+            Economy.insert_many(batch).on_conflict_replace(True).execute()
+        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(educacion))].to_dict(orient="records"), 100):
+            Education.insert_many(batch).on_conflict_replace(True).execute()
+        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(empleos))].to_dict(orient="records"), 100):
+            Employment.insert_many(batch).on_conflict_replace(True).execute()
+        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(salud))].to_dict(orient="records"), 100):
+            Health.insert_many(batch).on_conflict_replace(True).execute()
 
 # Características a contemplar para nuestro ETL
 
@@ -133,11 +151,23 @@ economia = [
 salud = [
     "cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)",
     "cause of death, by non-communicable diseases (% of total)",
+    "intentional homicides (per 100,000 people)",
     "death rate, crude (per 1,000 people)",
+    'male life expectancy at birth (years)',
+    'female life expectancy at birth (years)',
+    'male deaths (thousands)',
+    'female deaths (thousands)',
+    'births (thousands)',
+    'total fertility rate (live births per woman)',
+    'net reproduction rate (surviving daughters per woman)',
+    'male mortality between age 15 and 50 (deaths under age 50 per 1,000 males alive at age 15)',
+    'female mortality between age 15 and 50 (deaths under age 50 per 1,000 females alive at age 15)',
+    'infant deaths, under age 1 (thousands)',
+    'under-five deaths, under age 5 (thousands)',
+    'infant mortality rate (infant deaths per 1,000 live births)',
+    'mean age childbearing (years)',
     "domestic private health expenditure per capita (current us$)",
     "domestic general government health expenditure per capita (current us$)",
-    "intentional homicides (per 100,000 people)",
-    "life expectancy at birth, total (years)",
     "people using at least basic drinking water services (% of population)",
     "people with basic handwashing facilities including soap and water (% of population)",
     "pregnant women receiving prenatal care (%)",
@@ -171,16 +201,19 @@ empleos = [
 ]
 
 poblacion = [
+    "male population, as of 1 july (thousands)",
+    'female population, as of 1 july (thousands)',
+    'median age, as of 1 july (years)',
     "individuals using the internet (% of population)",
     "international migrant stock, total",
     "international migrant stock (% of population)",
-    "net migration",
+    'net number of migrants (thousands)',
+    'net migration rate (per 1,000 population)',
     "population ages 0-14 (% of total population)",
     "population density (people per sq. km of land area)",
     "population growth (annual %)",
     "population in largest city",
     "population in the largest city (% of urban population)",
-    "population, total",
     "refugee population by country or territory of asylum",
     "refugee population by country or territory of origin",
     "rural population (% of total population)",

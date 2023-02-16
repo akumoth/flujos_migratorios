@@ -49,3 +49,16 @@ dev_wpp_df.to_csv('../datasets/processed/world_population_prospects/WPP_by_devel
 
 ### Carga de los datos a nuestra base de datos
 
+# Renombrando el indice a "id"
+reg_wpp_df = reg_wpp_df.drop('type',axis=1).sort_values('region').reset_index(drop=True).rename_axis("id")
+# Soltando valores que no coincidan con las regiones en la base de datos
+reg_wpp_df.drop(reg_wpp_df.where(~reg_wpp_df.region.isin(country_code_df['Country Name'])).dropna().index,axis=0)
+
+reg_wpp_df[["region", "region_id", "year"] + list(set(reg_wpp_df.columns.str.lower().to_list()) & set(etl.salud))].to_csv(
+    "../datasets/sql/world_population_prospects/wpp_salud.csv"
+)
+reg_wpp_df[["region", "region_id", "year"] + list(set(reg_wpp_df.columns.str.lower().to_list()) & set(etl.poblacion))].to_csv(
+    "../datasets/sql/world_population_prospects/wpp_poblacion.csv"
+)
+
+# etl.insert_data(reg_wpp_df.drop('region',axis=1))
