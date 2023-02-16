@@ -5,6 +5,9 @@ import re
 from geopy.geocoders import Nominatim
 
 country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
+country_code_df.columns = ['region','region_id']
+country_code_df.set_index('region',inplace=True)
+
 geolocator = Nominatim(user_agent="geoapiExercises")
 
 def normalize_country(name):
@@ -54,10 +57,9 @@ def get_lat_long(country_name):
         return location.latitude, location.longitude
 
 def insert_country_code(df):
-    country_code_df.columns = ['region','country_code']
-    country_code_df.set_index('region',inplace=True)
-    df.insert(df.columns.get_loc("region"),'region_code',df.join(country_code_df,on='region',how='left',validate='m:1')['country_code'])
-
+    df.insert((df.columns.get_loc("region")+1),'region_id',df.join(country_code_df,on='region',how='left',validate='m:1')['region_id'])
+    df.dropna(inplace=True)
+    df['region_id'] = df['region_id'].astype(int)
 
 def insert_lat_long(df):
     lat = []
