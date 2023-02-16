@@ -12,38 +12,42 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 def normalize_country(name):
     custom_mapping = {
+        "spain*": "spain",
         "Iran (Islamic Republic of)": "iran",
         "côte d'ivoire": "cote d'ivoire",
         "China, Hong Kong SAR*": "hong kong",
         "hong kong sar, china": "hong kong",
-        "iran, islamic rep.": "iran"
+        "iran, islamic rep.": "iran",
+        "turkey":"turkiye",
+        "United States of America*": "United States",
+        "Iran (Islamic Republic of)": "iran",
+        "Russian Federation": "russia",
+        "France*": "France",
+        "Australia*": "Australia",
+        "United Kingdom*": "United Kingdom",
+        "China, Hong Kong SAR*": "hong kong", 
+        "Ukraine*": "Ukraine",
+        "iran islamic republic of": "iran",
+        "curaao": "curazao",
+        "saint barthlemy": "san bartolome",
+        "bolivia plurinational state of": "bolivia",
+        "democratic republic of the congo": "republic democratic of the congo",
+        "guineabissau": "guinea-bisau",
+        "china hong kong sar": "hong kong",
+        "china macao sar": "macao",
+        "china taiwan province of china": "taiwan",
+        "dem peoples republic of korea": "north korea"
     }
     
     if name in custom_mapping:
         return custom_mapping[name]
-    try:
-        country = pycountry.countries.lookup(name)
-        return country.name
-    except LookupError:
-        if name == "United States of America*":
-            return "United States"
-        elif name == "Iran (Islamic Republic of)":
-            return "Iran"
-        elif name == "Russian Federation":
-            return "Russia"
-        elif name == "France*":
-            return "France"
-        elif name == "Australia*":
-            return "Australia"
-        elif name == "United Kingdom*":
-            return "United Kingdom"
-        elif name == "China, Hong Kong SAR*":
-            return "Hong Kong"                 
-        elif name == "Ukraine*":
-            return "Ukraine"
-        # agrega más verificaciones aquí para otros casos especiales
-        else:
-          return name
+    
+    # Buscar el país más cercano al nombre normalizado
+    country = pycountry.countries.search_fuzzy(name)
+    if country:
+        return country[0].name
+    else:
+        return name
 
 def remove_special_characters(text):
     return re.sub(r"[^a-zA-Z0-9\s]+", "", text)
