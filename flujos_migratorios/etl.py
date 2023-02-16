@@ -4,6 +4,8 @@ import pycountry
 import numpy as np
 import re
 from geopy.geocoders import Nominatim
+import geonamescache
+
 from peewee import chunked
 from peewee_models import *
 
@@ -99,6 +101,14 @@ def insert_data(df):
         for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(salud))].to_dict(orient="records"), 100):
             Health.insert_many(batch).on_conflict_replace(True).execute()
 
+def obtener_idioma_principal(pais):
+    gc = geonamescache.GeonamesCache()
+    countries = gc.get_countries()
+    for codigo, detalles in countries.items():
+        if str.lower(detalles['name']) == pais:
+            idioma_principal = detalles['languages'].split(',')[0]
+            return idioma_principal
+    return None
 # Características a contemplar para nuestro ETL
 
 economia = [
