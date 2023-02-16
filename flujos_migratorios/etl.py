@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import re
 from geopy.geocoders import Nominatim
+import geonamescache
 
 country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
 country_code_df.columns = ['region','region_id']
@@ -80,6 +81,15 @@ def insert_lat_long(df):
         log.append(longitude)
     df['latitude'] = pd.Series(lat)
     df['longitude'] = pd.Series(log)
+
+def obtener_idioma_principal(pais):
+    gc = geonamescache.GeonamesCache()
+    countries = gc.get_countries()
+    for codigo, detalles in countries.items():
+        if str.lower(detalles['name']) == pais:
+            idioma_principal = detalles['languages'].split(',')[0]
+            return idioma_principal
+    return None
 
 # Características a contemplar para nuestro ETL
 
