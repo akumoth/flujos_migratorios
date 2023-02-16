@@ -7,7 +7,6 @@ from playhouse.migrate import *
 
 db = pw.SqliteDatabase("sql.db")
 migrator = SqliteMigrator(db)
-
 country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
 
 def create_connection(db_file):
@@ -152,45 +151,40 @@ poblacion = [i.replace("%","percent") for i in poblacion]
 poblacion = [normalization.remove_special_characters(i) for i in poblacion]
 poblacion = [i.replace(" ","_") for i in poblacion]
 
-print(poblacion)
 class BaseModel(pw.Model):
     class Meta:
         database = db
         table_name = 'migration'
 
-class Country(BaseModel):
+class Region(BaseModel):
     name = pw.CharField()
 
 class Demography(BaseModel):
     year = pw.IntegerField()
-    country = pw.ForeignKeyField(Country)
+    region = pw.ForeignKeyField(Region)
     
 class Health(BaseModel):
     year = pw.IntegerField()
-    country = pw.ForeignKeyField(Country)
+    region = pw.ForeignKeyField(Region)
 
 class Economy(BaseModel):
     year = pw.IntegerField()
-    country = pw.ForeignKeyField(Country)
+    region = pw.ForeignKeyField(Region)
 
 class Education(BaseModel):
     year = pw.IntegerField()
-    country = pw.ForeignKeyField(Country)
+    region = pw.ForeignKeyField(Region)
 
 class Employment(BaseModel):
     year = pw.IntegerField()
-    country = pw.ForeignKeyField(Country)
+    region = pw.ForeignKeyField(Region)
 
 
 db.connect()
 
-db.create_tables([Country, Demography, Health, Economy, Education, Employment])
+db.create_tables([Region, Demography, Health, Economy, Education, Employment])
 
 myfield = pw.FloatField(null=True)
-
-country_code_df = country_code_df.set_index('cod')
-country_code_df.columns = ['name']
-Country.insert_many(country_code_df.to_dict(orient="records")).execute()
 
 for i in economia:
     migrate(
@@ -212,3 +206,12 @@ for i in poblacion:
     migrate(
         migrator.add_column('Demography',i,myfield)
     )
+
+country_code_df = country_code_df.set_index('cod')
+country_code_df.columns = ['name']
+
+Region.insert_many(country_code_df.to_dict(orient="records")).execute()
+
+import os
+
+os.system("python -m pwiz sql.db > peewee_models.py")
