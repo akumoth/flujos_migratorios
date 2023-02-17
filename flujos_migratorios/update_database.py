@@ -1,6 +1,8 @@
 import pandas as pd
 from peewee_models import *
 
+# Transformación y concatenación de los csv anteriormente generados a un solo dataframe para ingestarlos después a la base de datos
+
 wpp_poblacion = pd.read_csv("../datasets/sql/world_population_prospects/wpp_poblacion.csv")
 wdi_poblacion = pd.read_csv("../datasets/sql/world_development_indicators/wdi_poblacion.csv")
 wpp_poblacion.set_index(["region_id", "year"], inplace=True)
@@ -21,6 +23,8 @@ table_educacion = wdi_educacion
 
 wdi_empleos = pd.read_csv("../datasets/sql/world_development_indicators/wdi_empleos.csv").drop(['id','name'],axis=1)
 table_empleos = wdi_empleos
+
+# Ingesta de datos en los dataframes relevantes
 
 with database.atomic():
     for batch in chunked(table_poblacion.to_dict(orient="records"), 100):

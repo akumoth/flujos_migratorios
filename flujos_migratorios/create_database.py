@@ -5,6 +5,8 @@ import etl
 from sqlite3 import Error
 from playhouse.migrate import *
 
+# Definición de la base de datos y nuestra conexión a ella
+
 db = pw.SqliteDatabase("sql.db")
 migrator = SqliteMigrator(db)
 
@@ -20,6 +22,8 @@ def create_connection(db_file):
             conn.close()
 
 create_connection("sql.db")
+
+# Creación del modelo de la base de datos, utilizando una clase por tabla 
 
 class BaseModel(pw.Model):
     class Meta:
@@ -56,12 +60,15 @@ class Employment(BaseModel):
     year = pw.IntegerField()
     region = pw.ForeignKeyField(Region)
 
+# Conexión y creación de las tablas
 
 db.connect()
 
 db.create_tables([Region, Demography, Health, Economy, Education, Employment])
 
 myfield = pw.FloatField(null=True)
+
+# Creando cada uno de los campos relevantes en las tablas, como están definidas en el archivo etl.py
 
 for i in etl.economia:
     migrate(
@@ -88,5 +95,7 @@ for i in etl.poblacion:
 Region.insert_many(etl.country_code_df.set_index('cod').to_dict(orient="records")).execute()
 
 import os
+
+# Ejecutando el script de pwiz que genere automaticamente un modulo que cargué las tablas en la base de datos
 
 os.system("python -m pwiz sql.db > peewee_models.py")

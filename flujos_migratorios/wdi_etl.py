@@ -37,12 +37,17 @@ wdi_df = (
     .rename_axis("id")
 )
 
-wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
+# Normalizamos los nombres de los países 
+
 wdi_df['name'] = wdi_df['name'].apply(etl.normalize_country).str.lower()
-
-print(wdi_df)
-
 etl.insert_country_code(wdi_df)
+
+# Borramos los países que no esten en nuestra lista de valores a contemplar 
+
+wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
+
+# Generamos los archivos CSV, dividiendo la información según las tablas planteadas para la base de datos.
+
 wdi_df[["name", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.economia))].to_csv(
     "../datasets/sql/world_development_indicators/wdi_economia.csv"
 )
@@ -58,7 +63,3 @@ wdi_df[["name", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_li
 wdi_df[["name", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.poblacion))].to_csv(
     "../datasets/sql/world_development_indicators/wdi_poblacion.csv"
 )
-
-
-
-# etl.insert_data(wdi_df.drop('region',axis=1))

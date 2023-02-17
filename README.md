@@ -9,6 +9,10 @@
 
 Analísis de los flujos migratorios que ocurren entre los países del globo, sus causas y sus consecuencias.
 
+# Ejecución del proyecto
+
+Para generar los datos normalizados, se deben ejecutar los scripts *`wdi_etl.py`* y *`wpp_etl.py`* alojados en la carpeta de `flujos_migratorios`, utilizado el comando `python` en CMD o Bash. Se puede después generar la base de datos ejecutando el script *`create_database.py`*, y ingresar los datos al archivo *`sql.db`* con el script *`update_database.py`*.
+
 ### Estructura de los archivos del repositorio
 
 Basada en el proyecto [*Cookiecutter Data Science*], para acercarse lo más posible a un esquema universal, accesible y facíl de entender. Nuestros archivos los hemos organizado de la siguiente manera:

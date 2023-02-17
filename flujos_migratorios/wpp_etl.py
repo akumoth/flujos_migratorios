@@ -1,8 +1,5 @@
 import pandas as pd
-import numpy as np
 import etl
-from peewee import chunked
-from peewee_models import *
 
 # Importación de datos
 
@@ -46,14 +43,17 @@ etl.insert_country_code(reg_wpp_df)
 reg_wpp_df.to_csv('../datasets/processed/world_population_prospects/WPP_by_region.csv')
 dev_wpp_df.to_csv('../datasets/processed/world_population_prospects/WPP_by_development.csv')
 
-### Carga de los datos a nuestra base de datos
+# Borramos los países que no esten en nuestra lista de valores a contemplar 
+
+reg_wpp_df = reg_wpp_df.drop('type',axis=1)
+reg_wpp_df = reg_wpp_df.drop(reg_wpp_df.where(~reg_wpp_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
 
 # Renombrando el indice a "id"
-reg_wpp_df = reg_wpp_df.drop('type',axis=1)
-# Soltando valores que no coincidan con las regiones en la base de datos
-reg_wpp_df = reg_wpp_df.drop(reg_wpp_df.where(~reg_wpp_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
+
 reg_wpp_df = reg_wpp_df.drop(reg_wpp_df.where((reg_wpp_df.year < 1990) | (reg_wpp_df.year > 2020)).dropna().index,axis=0).sort_values(['name','year']).reset_index(drop=True).rename_axis("id")
 reg_wpp_df.year = reg_wpp_df.year.astype(int)
+
+# Generamos los archivos CSV, dividiendo la información según las tablas planteadas para la base de datos.
 
 reg_wpp_df[["name", "region_id", "year"] + list(set(reg_wpp_df.columns.str.lower().to_list()) & set(etl.salud))].to_csv(
     "../datasets/sql/world_population_prospects/wpp_salud.csv"
@@ -61,5 +61,3 @@ reg_wpp_df[["name", "region_id", "year"] + list(set(reg_wpp_df.columns.str.lower
 reg_wpp_df[["name", "region_id", "year"] + list(set(reg_wpp_df.columns.str.lower().to_list()) & set(etl.poblacion))].to_csv(
     "../datasets/sql/world_population_prospects/wpp_poblacion.csv"
 )
-
-# etl.insert_data(reg_wpp_df.drop('region',axis=1))
