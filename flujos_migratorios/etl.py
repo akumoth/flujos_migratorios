@@ -10,8 +10,8 @@ from peewee import chunked
 from peewee_models import *
 
 country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
-country_code_df.columns = ['region','region_id']
-country_code_df.set_index('region',inplace=True)
+country_code_df['cod'] = country_code_df['cod'].astype(str)
+country_code_df.columns = ['name','lang','cod']
 
 geolocator = Nominatim(user_agent="geoapiExercises")
 
@@ -66,7 +66,6 @@ def normalize_country(name):
     try: 
         # country = pycountry.countries.search_fuzzy(name) - Añadir después
         country = pycountry.countries.lookup(name)
-        print(country)
         return country.name
     except LookupError:
         return name
@@ -83,7 +82,7 @@ def get_lat_long(country_name):
         return location.latitude, location.longitude
 
 def insert_country_code(df):
-    df.insert((df.columns.get_loc("region")+1),'region_id',df.join(country_code_df,on='region',how='left',validate='m:1')['region_id'])
+    df.insert((df.columns.get_loc("name")+1),'region_id',df.merge(country_code_df[['cod','name']],on='name',how='left',validate='m:1')['cod'])
     df.dropna(inplace=True)
     df['region_id'] = df['region_id'].astype(int)
 
@@ -102,19 +101,6 @@ def insert_lat_long(df):
         log.append(longitude)
     df['latitude'] = pd.Series(lat)
     df['longitude'] = pd.Series(log)
-
-def insert_data(df):
-    with database.atomic():
-        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(poblacion))].to_dict(orient="records"), 100):
-            Demography.insert_many(batch).on_conflict_replace(True).execute()
-        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(economia))].to_dict(orient="records"), 100):
-            Economy.insert_many(batch).on_conflict_replace(True).execute()
-        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(educacion))].to_dict(orient="records"), 100):
-            Education.insert_many(batch).on_conflict_replace(True).execute()
-        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(empleos))].to_dict(orient="records"), 100):
-            Employment.insert_many(batch).on_conflict_replace(True).execute()
-        for batch in chunked(df[["region_id", "year"] + list(set(df.columns.str.lower().to_list()) & set(salud))].to_dict(orient="records"), 100):
-            Health.insert_many(batch).on_conflict_replace(True).execute()
 
 def obtener_idioma_principal(pais):
     gc = geonamescache.GeonamesCache()

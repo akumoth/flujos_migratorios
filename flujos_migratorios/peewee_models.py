@@ -10,6 +10,7 @@ class BaseModel(Model):
         database = database
 
 class Region(BaseModel):
+    lang = CharField()
     name = CharField()
 
     class Meta:

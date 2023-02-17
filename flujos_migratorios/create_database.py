@@ -7,7 +7,6 @@ from playhouse.migrate import *
 
 db = pw.SqliteDatabase("sql.db")
 migrator = SqliteMigrator(db)
-country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
 
 def create_connection(db_file):
     conn = None
@@ -29,6 +28,13 @@ class BaseModel(pw.Model):
 
 class Region(BaseModel):
     name = pw.CharField()
+    lang = pw.CharField()
+
+class Migration(BaseModel):
+    year = pw.IntegerField()
+    inflow_id = pw.ForeignKeyField(Region,backref='incoming_id')
+    outflow_id = pw.ForeignKeyField(Region,backref='outgoing_id')
+    migration = pw.IntegerField()
 
 class Demography(BaseModel):
     year = pw.IntegerField()
@@ -78,10 +84,8 @@ for i in etl.poblacion:
         migrator.add_column('Demography',i,myfield)
     )
 
-country_code_df = country_code_df.set_index('cod')
-country_code_df.columns = ['name']
 
-Region.insert_many(country_code_df.to_dict(orient="records")).execute()
+Region.insert_many(etl.country_code_df.set_index('cod').to_dict(orient="records")).execute()
 
 import os
 
