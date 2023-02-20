@@ -236,22 +236,13 @@ poblacion = [
     "multidimensional poverty headcount ratio (% of total population)",
 ]
 
-economia = [i.replace("%", "percent") for i in economia]
-economia = [remove_special_characters(i) for i in economia]
-economia = [i.replace(" ", "_") for i in economia]
+for i in [economia, salud, educacion, empleos, poblacion]:
+    i = [x.replace("%", "prcnt") for x in i]
+    i = [x.replace("management", "mgmt") for x in i]
+    i = [x.replace("unemployment", "unemploy") for x in i]
+    i = [x.replace("female", "fem") for x in i]
+    i = [x.replace("of ", "") for x in i]
+    i = [remove_special_characters(x) for x in i]
+    i = [x.replace(" ", "_") for x in i]
 
-salud = [i.replace("%", "percent") for i in salud]
-salud = [remove_special_characters(i) for i in salud]
-salud = [i.replace(" ", "_") for i in salud]
-
-educacion = [i.replace("%", "percent") for i in educacion]
-educacion = [remove_special_characters(i) for i in educacion]
-educacion = [i.replace(" ", "_") for i in educacion]
-
-empleos = [i.replace("%", "percent") for i in empleos]
-empleos = [remove_special_characters(i) for i in empleos]
-empleos = [i.replace(" ", "_") for i in empleos]
-
-poblacion = [i.replace("%", "percent") for i in poblacion]
-poblacion = [remove_special_characters(i) for i in poblacion]
-poblacion = [i.replace(" ", "_") for i in poblacion]
+print(economia)

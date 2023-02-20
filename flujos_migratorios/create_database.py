@@ -1,27 +1,14 @@
 import pandas as pd
-import sqlite3
 import peewee as pw
 import etl
-from sqlite3 import Error
 from playhouse.migrate import *
 
 # Definición de la base de datos y nuestra conexión a ella
 
-db = pw.SqliteDatabase("sql.db")
-migrator = SqliteMigrator(db)
+db = pw.MySQLDatabase('henrytest', user='root', password='password',
+                         host='127.0.0.1', port=3306)
 
-def create_connection(db_file):
-    conn = None
-    try:
-        conn = sqlite3.connect(db_file)
-        print(sqlite3.version)
-    except Error as e:
-        print(e)
-    finally:
-        if conn:
-            conn.close()
-
-create_connection("sql.db")
+migrator = MySQLMigrator(db)
 
 # Creación del modelo de la base de datos, utilizando una clase por tabla 
 
@@ -64,7 +51,10 @@ class Employment(BaseModel):
 
 db.connect()
 
-db.create_tables([Region, Demography, Health, Economy, Education, Employment])
+for i in [Region, Demography, Health, Economy, Education, Employment, Migration]:
+    i.drop_table().execute()
+
+db.create_tables([Region, Demography, Health, Economy, Education, Employment, Migration])
 
 myfield = pw.FloatField(null=True)
 
