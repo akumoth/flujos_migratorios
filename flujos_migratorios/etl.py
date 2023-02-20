@@ -82,9 +82,11 @@ def get_lat_long(country_name):
         return location.latitude, location.longitude
 
 def insert_country_code(df):
-    df.insert((df.columns.get_loc("name")+1),'region_id',df.merge(country_code_df[['cod','name']],on='name',how='left',validate='m:1')['cod'])
-    df.dropna(inplace=True)
-    df['region_id'] = df['region_id'].astype(int)
+    for name in df['name'].unique():
+        subset = df[df['name'] == name]
+        codes = country_code_df[country_code_df['name'] == name]['cod']
+        code_str = ', '.join(codes.astype(str))
+        df.loc[df['name'] == name, 'region_id'] = code_str
 
 def insert_lat_long(df):
     lat = []
