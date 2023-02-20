@@ -11,13 +11,7 @@ wpp_df.drop(['Variant','Notes','Location code','ISO3 Alpha-code','ISO2 Alpha-cod
 wpp_columns = wpp_df.columns.to_series()
 wpp_columns[0] = 'name'
 wpp_columns = wpp_columns.str.lower()
-wpp_columns = [x.replace("%", "prcnt") for x in wpp_columns]
-wpp_columns = [x.replace("management", "mgmt") for x in wpp_columns]
-wpp_columns = [x.replace("unemployment", "unemploy") for x in wpp_columns]
-wpp_columns = [x.replace("female", "fem") for x in wpp_columns]
-wpp_columns = [x.replace("of ", "") for x in wpp_columns]
-wpp_columns = [etl.remove_special_characters(i) for i in wpp_columns]
-wpp_columns = [i.replace(" ", "_") for i in wpp_columns]
+wpp_columns = etl.normalize_lists(wpp_columns)
 wpp_df.columns = wpp_columns
 wpp_df.name = wpp_df.name.astype(str)
 wpp_df.type = wpp_df.type.astype(str)

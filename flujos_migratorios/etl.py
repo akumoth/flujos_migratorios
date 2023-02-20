@@ -6,9 +6,6 @@ import re
 from geopy.geocoders import Nominatim
 import geonamescache
 
-from peewee import chunked
-from peewee_models import *
-
 country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
 country_code_df['cod'] = country_code_df['cod'].astype(str)
 country_code_df.columns = ['name','lang','cod']
@@ -236,7 +233,7 @@ poblacion = [
     "multidimensional poverty headcount ratio (% of total population)",
 ]
 
-for i in [economia, salud, educacion, empleos, poblacion]:
+def normalize_lists(i):
     i = [x.replace("%", "prcnt") for x in i]
     i = [x.replace("management", "mgmt") for x in i]
     i = [x.replace("unemployment", "unemploy") for x in i]
@@ -244,5 +241,31 @@ for i in [economia, salud, educacion, empleos, poblacion]:
     i = [x.replace("of ", "") for x in i]
     i = [remove_special_characters(x) for x in i]
     i = [x.replace(" ", "_") for x in i]
+    i = [x.replace("__", "_") for x in i]
+    i = [x.replace("multidimensional ", "") for x in i]
+    i = [x.replace("performance", "perf") for x in i]
+    i = [x.replace('time_spent_dealing_with_the_requirements_government_regulations_prcnt_senior_mgmt_time','time_dealing_with_government_regulations_prcnt_senior_mngmnt') for x in i]
+    i = [x.replace('cause_death_by_communicable_diseases_and_maternal_prenatal_and_nutrition_conditions_prcnt_total','death_by_communicable_diseases_prcnt_total') for x in i]
+    i = [x.replace('male_mortality_between_age_15_and_50_deaths_under_age_50_per_1000_males_alive_at_age_15','male_mortality_between_15_and_50_per_1000_15_yold_males') for x in i]
+    i = [x.replace('fem_mortality_between_age_15_and_50_deaths_under_age_50_per_1000_fems_alive_at_age_15','fem_mortality_between_15_and_50_per_1000_15_yold_fems') for x in i]
+    i = [x.replace('domestic_general_government_health_expenditure_per_capita_current_us','government_health_expenditure_per_capita_current_us') for x in i]
+    i = [x.replace('people_using_at_least_basic_drinking_water_services_prcnt_population','access_basic_drinking_water_services_prcnt_population') for x in i]
+    i = [x.replace('people_with_basic_handwashing_facilities_including_soap_and_water_prcnt_population','access_basic_handwashing_facilities_prcnt_population') for x in i]
+    i = [x.replace('prevalence_moderate_or_severe_food_insecurity_in_the_population_prcnt','prevalence_food_insecurity_in_the_population_prcnt') for x in i]
+    i = [x.replace('educational_attainment_at_least_bachelors_or_equivalent_population_25_total_prcnt_cumulative','educational_attainment_bachelor_total_prcnt_cumulative') for x in i]
+    i = [x.replace('educational_attainment_at_least_completed_lower_secondary_population_25_total_prcnt_cumulative','educational_attainment_lowersecondary_total_prcnt_cumulative') for x in i]
+    i = [x.replace('educational_attainment_at_least_completed_upper_secondary_population_25_total_prcnt_cumulative','educational_attainment_uppersecondary_total_prcnt_cumulative') for x in i]
+    i = [x.replace('educational_attainment_at_least_masters_or_equivalent_population_25_total_prcnt_cumulative','educational_attainment_masters_total_prcnt_cumulative') for x in i]
+    i = [x.replace('educational_attainment_doctoral_or_equivalent_population_25_total_prcnt_cumulative','educational_attainment_doctoral_total_prcnt_cumulative') for x in i]
+    i = [x.replace('employment_in_agriculture_prcnt_total_employment_modeled_ilo_estimate','employment_in_agriculture_prcnt_total_employment_estimate') for x in i]
+    i = [x.replace('employment_in_industry_prcnt_total_employment_modeled_ilo_estimate','employment_in_industry_prcnt_total_employment_estimate') for x in i]
+    i = [x.replace('employment_in_services_prcnt_total_employment_modeled_ilo_estimate','employment_in_services_prcnt_total_employment_estimate') for x in i]
+    return i
 
-print(economia)
+
+
+economia = normalize_lists(economia)
+salud = normalize_lists(salud)
+educacion = normalize_lists(educacion)
+empleos = normalize_lists(empleos)
+poblacion = normalize_lists(poblacion)

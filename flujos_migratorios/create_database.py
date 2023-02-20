@@ -51,8 +51,7 @@ class Employment(BaseModel):
 
 db.connect()
 
-for i in [Region, Demography, Health, Economy, Education, Employment, Migration]:
-    i.drop_table().execute()
+db.drop_tables((Demography, Region, Health, Economy, Education, Employment, Migration))
 
 db.create_tables([Region, Demography, Health, Economy, Education, Employment, Migration])
 
@@ -88,4 +87,6 @@ import os
 
 # Ejecutando el script de pwiz que genere automaticamente un modulo que cargué las tablas en la base de datos
 
-os.system("python -m pwiz sql.db > peewee_models.py")
+os.system("python -m pwiz -e mysql -u root -P henrytest -H 127.0.0.1 > peewee_models.py")
+
+db.close()

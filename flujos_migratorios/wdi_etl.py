@@ -48,13 +48,7 @@ wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna(
 
 wdi_columns = wdi_df.columns.to_series()
 wdi_columns = wdi_columns.str.lower()
-wdi_columns = [x.replace("%", "prcnt") for x in wdi_columns]
-wdi_columns = [x.replace("management", "mgmt") for x in wdi_columns]
-wdi_columns = [x.replace("unemployment", "unemploy") for x in wdi_columns]
-wdi_columns = [x.replace("female", "fem") for x in wdi_columns]
-wdi_columns = [x.replace("of ", "") for x in wdi_columns]
-wdi_columns = [etl.remove_special_characters(i) for i in wdi_columns]
-wdi_columns = [i.replace(" ", "_") for i in wdi_columns]
+wpp_columns = wdi_columns(wdi_columns)
 wdi_df.columns = wdi_columns
 
 # Generamos los archivos CSV, dividiendo la información según las tablas planteadas para la base de datos.
