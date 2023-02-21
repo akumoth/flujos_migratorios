@@ -2,27 +2,19 @@ import pandas as pd
 import etl
 
 wdi_df = pd.read_csv(
-    "../datasets/processed/world_development_indicators/world_development_indicators.csv"
-)
+    "../datasets/processed/world_development_indicators/P-world_development_indicators.csv"
+).drop('region_id',axis=1)
 
 # Renombramos y limpiamos columnas en el dataframe de WDI
 
 wdi_df = wdi_df.rename(
-    {"Country Name": "name", "Series Name": "conditions"}, axis=1
-).drop(["Unnamed: 0", "Country Code"], axis=1)
+    {"Country name": "name", "Series Name": "conditions"}, axis=1
+)
 
 j = []
 for i in wdi_df.columns:
     j.append(i.split(" ")[0])
 wdi_df.columns = j
-
-# Renombramos los valores de Series Name en el dataframe de WDI
-
-wdi_df["conditions"] = wdi_df["conditions"].str.replace("%", "prcnt")
-wdi_df["conditions"] = wdi_df["conditions"].apply(
-    etl.remove_special_characters
-)
-wdi_df["conditions"] = wdi_df["conditions"].str.replace(" ", "_")
 
 # Transponemos el dataframe de WDI de manera tal que queden los años como filas y las condiciones como columnas
 
@@ -37,6 +29,11 @@ wdi_df = (
     .rename_axis("id")
 )
 
+wdi_columns = wdi_df.columns.to_series()
+wdi_columns = wdi_columns.str.lower()
+wdi_columns = etl.normalize_lists(wdi_columns)
+wdi_df.columns = wdi_columns
+
 # Normalizamos los nombres de los países 
 
 wdi_df['name'] = wdi_df['name'].apply(etl.normalize_country).str.lower()
@@ -46,10 +43,8 @@ etl.insert_country_code(wdi_df)
 
 wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
 
-wdi_columns = wdi_df.columns.to_series()
-wdi_columns = wdi_columns.str.lower()
-wpp_columns = wdi_columns(wdi_columns)
-wdi_df.columns = wdi_columns
+
+print(wdi_df.columns[wdi_df.columns.str.contains('internet')])
 
 # Generamos los archivos CSV, dividiendo la información según las tablas planteadas para la base de datos.
 

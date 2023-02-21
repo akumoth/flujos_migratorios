@@ -23,29 +23,29 @@ class Region(BaseModel):
 
 class Migration(BaseModel):
     year = pw.IntegerField()
-    inflow_id = pw.ForeignKeyField(Region,backref='incoming_id')
-    outflow_id = pw.ForeignKeyField(Region,backref='outgoing_id')
+    inflow = pw.ForeignKeyField(Region, null=True)
+    outflow = pw.ForeignKeyField(Region, null=True)
     migration = pw.IntegerField()
 
 class Demography(BaseModel):
     year = pw.IntegerField()
-    region = pw.ForeignKeyField(Region)
+    region = pw.ForeignKeyField(Region, default=None, null=True)
     
 class Health(BaseModel):
     year = pw.IntegerField()
-    region = pw.ForeignKeyField(Region)
+    region = pw.ForeignKeyField(Region, default=None, null=True)
 
 class Economy(BaseModel):
     year = pw.IntegerField()
-    region = pw.ForeignKeyField(Region)
+    region = pw.ForeignKeyField(Region, default=None, null=True)
 
 class Education(BaseModel):
     year = pw.IntegerField()
-    region = pw.ForeignKeyField(Region)
+    region = pw.ForeignKeyField(Region, default=None, null=True)
 
 class Employment(BaseModel):
     year = pw.IntegerField()
-    region = pw.ForeignKeyField(Region)
+    region = pw.ForeignKeyField(Region, default=None, null=True)
 
 # Conexión y creación de las tablas
 
@@ -53,8 +53,10 @@ db.connect()
 
 db.drop_tables((Demography, Region, Health, Economy, Education, Employment, Migration))
 
-db.create_tables([Region, Demography, Health, Economy, Education, Employment, Migration])
+db.create_tables([Region])
+Region.insert_many(etl.country_code_df.set_index('cod').to_dict(orient="records")).execute()
 
+db.create_tables([Demography, Health, Economy, Education, Employment, Migration])
 myfield = pw.FloatField(null=True)
 
 # Creando cada uno de los campos relevantes en las tablas, como están definidas en el archivo etl.py
@@ -80,8 +82,6 @@ for i in etl.poblacion:
         migrator.add_column('Demography',i,myfield)
     )
 
-
-Region.insert_many(etl.country_code_df.set_index('cod').to_dict(orient="records")).execute()
 
 import os
 
