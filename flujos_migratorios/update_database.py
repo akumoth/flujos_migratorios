@@ -36,11 +36,15 @@ wdi_empleos = pd.read_csv("../datasets/sql/world_development_indicators/wdi_empl
 table_empleos = wdi_empleos
 table_empleos = table_empleos.replace(np.nan, None)
 
+migration = pd.read_csv("../datasets/sql/migration.csv")
+table_migration = migration
+table_migration = table_migration.replace(np.nan, None)
+
 # Ingesta de datos en los dataframes relevantes
 
 with database.atomic():
-    for idx in range(0, len(table_economia), 100):
-        Demography.insert(table_poblacion.iloc[idx:idx+100].to_dict(orient='records')).execute()
+    for batch in chunked(table_poblacion.to_dict(orient="records"), 100):
+        Demography.insert_many(batch).on_conflict_replace(True).execute()
     for batch in chunked(table_economia.to_dict(orient="records"), 100):
         Economy.insert_many(batch).on_conflict_replace(True).execute()
     for batch in chunked(table_educacion.to_dict(orient="records"), 100):
@@ -49,3 +53,5 @@ with database.atomic():
         Employment.insert_many(batch).on_conflict_replace(True).execute()
     for batch in chunked(table_salud.to_dict(orient="records"), 100):
         Health.insert_many(batch).on_conflict_replace(True).execute()
+    for batch in chunked(table_migration.to_dict(orient="records"), 100):
+        Migration.insert_many(batch).on_conflict_replace(True).execute()

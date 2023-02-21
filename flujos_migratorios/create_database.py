@@ -23,9 +23,9 @@ class Region(BaseModel):
 
 class Migration(BaseModel):
     year = pw.IntegerField()
-    inflow = pw.ForeignKeyField(Region, null=True)
-    outflow = pw.ForeignKeyField(Region, null=True)
-    migration = pw.IntegerField()
+    destination = pw.ForeignKeyField(Region, null=True)
+    origin = pw.ForeignKeyField(Region, null=True)
+    migrants = pw.IntegerField(null=True)
 
 class Demography(BaseModel):
     year = pw.IntegerField()
