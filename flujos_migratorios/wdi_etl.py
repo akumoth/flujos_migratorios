@@ -43,9 +43,6 @@ etl.insert_country_code(wdi_df)
 
 wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
 
-
-print(wdi_df.columns[wdi_df.columns.str.contains('internet')])
-
 # Generamos los archivos CSV, dividiendo la información según las tablas planteadas para la base de datos.
 
 wdi_df[["name", "region_id", "year"] + list(set(wdi_df.columns.str.lower().to_list()) & set(etl.economia))].to_csv(

@@ -1,12 +1,18 @@
 import pandas as pd
 import peewee as pw
 import etl
+import sys
 from playhouse.migrate import *
+import time
 
 # Definición de la base de datos y nuestra conexión a ella
 
-db = pw.MySQLDatabase('henrytest', user='root', password='password',
-                         host='127.0.0.1', port=3306)
+if len(sys.argv) < 4:
+    print('Not enough arguments!\n usage: python create_database.py [MySQL DB name] [username] [password] [host]')
+    exit()
+
+db = pw.MySQLDatabase(sys.argv[1], user=sys.argv[2], password=sys.argv[3],
+                         host=sys.argv[4], port=3306)
 
 migrator = MySQLMigrator(db)
 
@@ -63,27 +69,29 @@ Region.insert_many(etl.country_code_df.set_index('cod').to_dict(orient="records"
 db.create_tables([Demography, Health, Economy, Education, Employment, Migration])
 myfield = pw.FloatField(null=True)
 
+time.sleep(5)
+
 # Creando cada uno de los campos relevantes en las tablas, como están definidas en el archivo etl.py
 
 for i in etl.economia:
     migrate(
-        migrator.add_column('Economy',i,myfield)
+        migrator.add_column('economy',i,myfield)
     )
 for i in etl.salud:
     migrate(
-        migrator.add_column('Health',i,myfield)
+        migrator.add_column('health',i,myfield)
     )
 for i in etl.educacion:
     migrate(
-        migrator.add_column('Education',i,myfield)
+        migrator.add_column('education',i,myfield)
     )
 for i in etl.empleos:
     migrate(
-        migrator.add_column('Employment',i,myfield)
+        migrator.add_column('employment',i,myfield)
     )
 for i in etl.poblacion:
     migrate(
-        migrator.add_column('Demography',i,myfield)
+        migrator.add_column('demography',i,myfield)
     )
 
 
@@ -91,6 +99,6 @@ import os
 
 # Ejecutando el script de pwiz que genere automaticamente un modulo que cargué las tablas en la base de datos
 
-os.system("python -m pwiz -e mysql -u root -P henrytest -H 127.0.0.1 > peewee_models.py")
+os.system(f"python -m pwiz -e mysql -u {sys.argv[2]} -P {sys.argv[1]} -H {sys.argv[4]} > peewee_models.py")
 
 db.close()
