@@ -26,16 +26,12 @@ class BaseModel(pw.Model):
 class Region(BaseModel):
     name = pw.CharField()
     lang = pw.CharField()
-    lat = pw.FloatField(null=True)
-    long = pw.FloatField(null=True)
 
 class Migration(BaseModel):
     year = pw.IntegerField()
     destination = pw.ForeignKeyField(Region, null=True)
     origin = pw.ForeignKeyField(Region, null=True)
     migrants = pw.IntegerField(null=True)
-    fem = pw.IntegerField(null=True)
-    male = pw.IntegerField(null=True)
 
 class Demography(BaseModel):
     year = pw.IntegerField()
