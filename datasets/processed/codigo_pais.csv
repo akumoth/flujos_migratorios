@@ -1,178 +1,178 @@
-region,idioma_principal,cod
-afghanistan,fa-AF,2
-albania,sq,51
-algeria,ar-DZ,143
-andorra,ca,52
-angola,pt-AO,136
-anguilla,en-AI,76
-antigua and barbuda,en-AG,77
-argentina,es-AR,105
-armenia,hy,11
-aruba,nl-AW,78
-austria,de-AT,67
-azerbaijan,az,12
-bahamas,en-BS,79
-bahrain,ar-BH,13
-bangladesh,bn-BD,3
-barbados,en-BB,80
-belarus,be,29
-belgium,nl-BE,68
-belize,en-BZ,97
-benin,fr-BJ,153
-bhutan,dz,4
-"bolivia, plurinational state of",Es-BO,106
-bosnia and herzegovina,bs,53
-botswana,en-BW,149
-brazil,pt-BR,107
-bulgaria,bg,30
-burkina faso,fr-BF,154
-burundi,fr-BI,118
-cabo verde,Pt-CV,155
-cameroon,en-CM,137
-cayman islands,en-KY,82
-chad,fr-TD,138
-chile,es-CL,108
-china,zh-CN,174
-colombia,es-CO,109
-comoros,ar,119
-congo,,139
-costa rica,es-CR,98
-cote d'ivoire,,156
-croatia,hr-HR,54
-cuba,es-CU,83
-cyprus,el-CY,14
-czechia,,31
-denmark,da-DK,39
-djibouti,fr-DJ,120
-dominica,en-DM,84
-dominican republic,es-DO,85
-ecuador,es-EC,110
-egypt,ar-EG,144
-el salvador,es-SV,99
-equatorial guinea,es-GQ,140
-eritrea,aa-ER,121
-estonia,et,40
-eswatini,,150
-ethiopia,am,122
-faroe islands,fo,41
-finland,fi-FI,42
-france,fr-FR,69
-french guiana,fr-GF,111
-gabon,fr-GA,141
-gambia,en-GM,157
-georgia,ka,15
-germany,de,70
-ghana,en-GH,158
-gibraltar,en-GI,55
-greece,el-GR,56
-grenada,en-GD,86
-guatemala,es-GT,100
-guinea,fr-GN,159
-guinea-bissau,pt-GW,160
-guyana,en-GY,112
-haiti,ht,87
-honduras,es-HN,101
-hong kong,zh-HK,175
-hungary,hu-HU,32
-iceland,is,43
-india,en-IN,5
-iran,fa-IR,6
-iraq,ar-IQ,16
-ireland,en-IE,44
-isle of man,en,45
-israel,he,17
-italy,it-IT,58
-jamaica,en-JM,88
-japan,ja,179
-jordan,ar-JO,18
-kazakhstan,kk,169
-kenya,en-KE,123
-kuwait,ar-KW,19
-kyrgyzstan,ky,170
-latvia,lv,46
-lebanon,ar-LB,20
-lesotho,en-LS,151
-liberia,en-LR,161
-libya,ar-LY,145
-liechtenstein,de-LI,71
-lithuania,lt,47
-luxembourg,lb,72
-macao,zh,176
-madagascar,fr-MG,124
-malawi,ny,125
-maldives,dv,7
-mali,fr-ML,162
-malta,mt,59
-mauritania,ar-MR,163
-mauritius,en-MU,126
-mexico,es-MX,102
-monaco,fr-MC,73
-montenegro,sr,60
-montserrat,en-MS,89
-morocco,ar-MA,146
-mozambique,pt-MZ,127
-namibia,en-NA,152
-nepal,ne,8
-netherlands,nl-NL,74
-nicaragua,es-NI,103
-nigeria,en-NG,164
-north korea,,178
-north macedonia,,61
-norway,no,48
-oman,ar-OM,21
-pakistan,ur-PK,9
-palestina,PS,24
-panama,es-PA,104
-paraguay,es-PY,113
-peru,es-PE,114
-poland,pl,33
-portugal,pt-PT,62
-puerto rico,en-PR,90
-qatar,ar-QA,22
-republic of maldova,MD,34
-romania,ro,35
-russia,ru,36
-rwanda,rw,128
-saint barthélemy,,91
-"saint helena, ascension and tristan da cunha",,165
-saint kitts and nevis,en-KN,92
-saint lucia,en-LC,93
-saint vincent and the grenadines,en-VC,94
-san marino,it-SM,63
-sao tome and principe,pt-ST,142
-saudi arabia,ar-SA,23
-senegal,fr-SN,166
-serbia,sr,64
-seychelles,en-SC,129
-sierra leone,en-SL,167
-slovakia,sk,37
-slovenia,sl,65
-somalia,so-SO,130
-south africa,zu,117
-south sudan,en,131
-spain,es-ES,66
-sri lanka,si,10
-sudan,ar-SD,147
-suriname,nl-SR,115
-sweden,sv-SE,49
-switzerland,de-CH,75
-syrian,,25
-taiwan,zh-TW,177
-tajikistan,tg,171
-"tanzania, united republic of",,133
-togo,fr-TG,168
-trinidad and tobago,en-TT,95
-tunisia,ar-TN,148
-turkey,tr-TR,26
-turkmenistan,tk,172
-turks and caicos islands,en-TC,96
-uganda,en-UG,132
-ukraine,uk,38
-united arab emirates,ar-AE,27
-united kingdom,en-GB,50
-uruguay,es-UY,116
-uzbekistan,uz,173
-vietnam,vi,1
-yemen,ar-YE,28
-zambia,en-ZM,134
-zimbabwe,en-ZW,135
+,region,idioma_principal,cod,latitude,longitude
+0,afghanistan,fa-AF,2,33.7680065,66.2385139
+1,albania,sq,51,41.000028,19.9999619
+2,algeria,ar-DZ,143,28.0000272,2.9999825
+3,andorra,ca,52,42.5407167,1.5732033
+4,angola,pt-AO,136,-11.8775768,17.5691241
+5,anguilla,en-AI,76,18.1954947,-63.0750234
+6,antigua and barbuda,en-AG,77,17.2234721,-61.9554608
+7,argentina,es-AR,105,-34.9964963,-64.9672817
+8,armenia,hy,11,40.7696272,44.6736646
+9,aruba,nl-AW,78,12.51756625,-69.98186415210564
+10,austria,de-AT,67,47.59397,14.12456
+11,azerbaijan,az,12,40.3936294,47.7872508
+12,bahamas,en-BS,79,24.7736546,-78.0000547
+13,bahrain,ar-BH,13,26.1551249,50.5344606
+14,bangladesh,bn-BD,3,24.4769288,90.2934413
+15,barbados,en-BB,80,13.1500331,-59.5250305
+16,belarus,be,29,53.4250605,27.6971358
+17,belgium,nl-BE,68,50.6402809,4.6667145
+18,belize,en-BZ,97,16.8259793,-88.7600927
+19,benin,fr-BJ,153,9.5293472,2.2584408
+20,bhutan,dz,4,27.549511,90.5119273
+21,"bolivia, plurinational state of",Es-BO,106,-17.0568696,-64.9912286
+22,bosnia and herzegovina,bs,53,44.3053476,17.5961467
+23,botswana,en-BW,149,-23.1681782,24.5928742
+24,brazil,pt-BR,107,-10.3333333,-53.2
+25,bulgaria,bg,30,42.6073975,25.4856617
+26,burkina faso,fr-BF,154,12.0753083,-1.6880314
+27,burundi,fr-BI,118,-3.426449,29.9324519
+28,cabo verde,Pt-CV,155,16.0000552,-24.0083947
+29,cameroon,en-CM,137,4.6125522,13.1535811
+30,cayman islands,en-KY,82,19.703182249999998,-79.9174627243246
+31,chad,fr-TD,138,15.6134137,19.0156172
+32,chile,es-CL,108,-31.7613365,-71.3187697
+33,china,zh-CN,174,35.000074,104.999927
+34,colombia,es-CO,109,4.099917,-72.9088133
+35,comoros,ar,119,-12.2045176,44.2832964
+36,congo,,139,-2.9814344,23.8222636
+37,costa rica,es-CR,98,10.2735633,-84.0739102
+38,cote d'ivoire,,156,7.9897371,-5.5679458
+39,croatia,hr-HR,54,45.3658443,15.6575209
+40,cuba,es-CU,83,23.0131338,-80.8328748
+41,cyprus,el-CY,14,34.9823018,33.1451285
+42,czechia,,31,49.7439047,15.3381061
+43,denmark,da-DK,39,55.670249,10.3333283
+44,djibouti,fr-DJ,120,11.8145966,42.8453061
+45,dominica,en-DM,84,19.0974031,-70.3028026
+46,dominican republic,es-DO,85,19.0974031,-70.3028026
+47,ecuador,es-EC,110,-1.3397668,-79.3666965
+48,egypt,ar-EG,144,26.2540493,29.2675469
+49,el salvador,es-SV,99,13.8000382,-88.9140683
+50,equatorial guinea,es-GQ,140,1.613172,10.5170357
+51,eritrea,aa-ER,121,15.9500319,37.9999668
+52,estonia,et,40,58.7523778,25.3319078
+53,eswatini,,150,-26.5624806,31.3991317
+54,ethiopia,am,122,10.2116702,38.6521203
+55,faroe islands,fo,41,62.0448724,-7.0322972
+56,finland,fi-FI,42,63.2467777,25.9209164
+57,france,fr-FR,69,46.603354,1.8883335
+58,french guiana,fr-GF,111,4.0039882,-52.999998
+59,gabon,fr-GA,141,-0.8999695,11.6899699
+60,gambia,en-GM,157,13.470062,-15.4900464
+61,georgia,ka,15,32.3293809,-83.1137366
+62,germany,de,70,51.1638175,10.4478313
+63,ghana,en-GH,158,8.0300284,-1.0800271
+64,gibraltar,en-GI,55,36.1285933,-5.3474761
+65,greece,el-GR,56,38.9953683,21.9877132
+66,grenada,en-GD,86,12.1360374,-61.6904045
+67,guatemala,es-GT,100,15.5855545,-90.345759
+68,guinea,fr-GN,159,10.7226226,-10.7083587
+69,guinea-bissau,pt-GW,160,11.815215,-15.2351044
+70,guyana,en-GY,112,4.8417097,-58.6416891
+71,haiti,ht,87,19.1399952,-72.3570972
+72,honduras,es-HN,101,15.2572432,-86.0755145
+73,hong kong,zh-HK,175,22.2793278,114.1628131
+74,hungary,hu-HU,32,47.1817585,19.5060937
+75,iceland,is,43,64.9841821,-18.1059013
+76,india,en-IN,5,22.3511148,78.6677428
+77,iran,fa-IR,6,32.6475314,54.5643516
+78,iraq,ar-IQ,16,33.0955793,44.1749775
+79,ireland,en-IE,44,52.865196,-7.9794599
+80,isle of man,en,45,54.1936805,-4.5591148
+81,israel,he,17,30.8124247,34.8594762
+82,italy,it-IT,58,42.6384261,12.674297
+83,jamaica,en-JM,88,18.1850507,-77.3947693
+84,japan,ja,179,36.5748441,139.2394179
+85,jordan,ar-JO,18,31.1667049,36.941628
+86,kazakhstan,kk,169,48.1012954,66.7780818
+87,kenya,en-KE,123,1.4419683,38.4313975
+88,kuwait,ar-KW,19,29.2733964,47.4979476
+89,kyrgyzstan,ky,170,41.5089324,74.724091
+90,latvia,lv,46,56.8406494,24.7537645
+91,lebanon,ar-LB,20,33.8750629,35.843409
+92,lesotho,en-LS,151,-29.6039267,28.3350193
+93,liberia,en-LR,161,5.7499721,-9.3658524
+94,libya,ar-LY,145,26.8234472,18.1236723
+95,liechtenstein,de-LI,71,47.1416307,9.5531527
+96,lithuania,lt,47,55.3500003,23.7499997
+97,luxembourg,lb,72,49.8158683,6.1296751
+98,macao,zh,176,22.1899448,113.5380454
+99,madagascar,fr-MG,124,-18.9249604,46.4416422
+100,malawi,ny,125,-13.2687204,33.9301963
+101,maldives,dv,7,3.7203503,73.2244152
+102,mali,fr-ML,162,16.3700359,-2.2900239
+103,malta,mt,59,35.8885993,14.4476911
+104,mauritania,ar-MR,163,20.2540382,-9.2399263
+105,mauritius,en-MU,126,-20.2759451,57.5703566
+106,mexico,es-MX,102,23.6585116,-102.0077097
+107,monaco,fr-MC,73,43.7323492,7.4276832
+108,montenegro,sr,60,42.9868853,19.5180992
+109,montserrat,en-MS,89,16.7417041,-62.1916844
+110,morocco,ar-MA,146,31.1728205,-7.3362482
+111,mozambique,pt-MZ,127,-19.302233,34.9144977
+112,namibia,en-NA,152,-23.2335499,17.3231107
+113,nepal,ne,8,28.1083929,84.0917139
+114,netherlands,nl-NL,74,52.2434979,5.6343227
+115,nicaragua,es-NI,103,12.6090157,-85.2936911
+116,nigeria,en-NG,164,9.6000359,7.9999721
+117,north korea,,178,40.3736611,127.0870417
+118,north macedonia,,61,41.6171214,21.7168387
+119,norway,no,48,61.1529386,8.7876653
+120,oman,ar-OM,21,21.0000287,57.0036901
+121,pakistan,ur-PK,9,30.3308401,71.247499
+122,palestina,PS,24,31.462420950000002,34.262716572130714
+123,panama,es-PA,104,8.559559,-81.1308434
+124,paraguay,es-PY,113,-23.3165935,-58.1693445
+125,peru,es-PE,114,-6.8699697,-75.0458515
+126,poland,pl,33,52.215933,19.134422
+127,portugal,pt-PT,62,39.6621648,-8.1353519
+128,puerto rico,en-PR,90,18.2247706,-66.4858295
+129,qatar,ar-QA,22,25.3336984,51.2295295
+130,republic of maldova,MD,34,47.2879608,28.5670941
+131,romania,ro,35,45.9852129,24.6859225
+132,russia,ru,36,64.6863136,97.7453061
+133,rwanda,rw,128,-1.9646631,30.0644358
+134,saint barthélemy,,91,17.9036287,-62.811568843006896
+135,"saint helena, ascension and tristan da cunha",,165,-15.9694573,-5.7129442
+136,saint kitts and nevis,en-KN,92,17.250512,-62.6725973
+137,saint lucia,en-LC,93,13.8250489,-60.975036
+138,saint vincent and the grenadines,en-VC,94,12.90447,-61.2765569
+139,san marino,it-SM,63,43.9458623,12.458306
+140,sao tome and principe,pt-ST,142,0.9713095,7.02255
+141,saudi arabia,ar-SA,23,25.6242618,42.3528328
+142,senegal,fr-SN,166,14.4750607,-14.4529612
+143,serbia,sr,64,44.1534121,20.55144
+144,seychelles,en-SC,129,-4.6574977,55.4540146
+145,sierra leone,en-SL,167,8.6400349,-11.8400269
+146,slovakia,sk,37,48.7411522,19.4528646
+147,slovenia,sl,65,46.1199444,14.8153333
+148,somalia,so-SO,130,8.3676771,49.083416
+149,south africa,zu,117,-28.8166236,24.991639
+150,south sudan,en,131,7.8699431,29.6667897
+151,spain,es-ES,66,39.3260685,-4.8379791
+152,sri lanka,si,10,7.877395849999999,80.66247852355892
+153,sudan,ar-SD,147,14.5844444,29.4917691
+154,suriname,nl-SR,115,4.1413025,-56.0771187
+155,sweden,sv-SE,49,59.6749712,14.5208584
+156,switzerland,de-CH,75,46.7985624,8.2319736
+157,syrian,,25,33.7754035,35.8972724
+158,taiwan,zh-TW,177,23.9739374,120.9820179
+159,tajikistan,tg,171,38.6281733,70.8156541
+160,"tanzania, united republic of",,133,-6.5247123,35.7878438
+161,togo,fr-TG,168,8.7800265,1.0199765
+162,trinidad and tobago,en-TT,95,10.7466905,-61.0840075
+163,tunisia,ar-TN,148,33.8439408,9.400138
+164,turkey,tr-TR,26,38.9597594,34.9249653
+165,turkmenistan,tk,172,39.3763807,59.3924609
+166,turks and caicos islands,en-TC,96,21.721746,-71.5527809
+167,uganda,en-UG,132,1.5333554,32.2166578
+168,ukraine,uk,38,49.4871968,31.2718321
+169,united arab emirates,ar-AE,27,24.0002488,53.9994829
+170,united kingdom,en-GB,50,54.7023545,-3.2765753
+171,uruguay,es-UY,116,-32.8755548,-56.0201525
+172,uzbekistan,uz,173,41.32373,63.9528098
+173,vietnam,vi,1,15.9266657,107.9650855
+174,yemen,ar-YE,28,16.3471243,47.8915271
+175,zambia,en-ZM,134,-14.5189121,27.5589884
+176,zimbabwe,en-ZW,135,-18.4554963,29.7468414
