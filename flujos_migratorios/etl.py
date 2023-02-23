@@ -22,20 +22,20 @@ def normalize_country(name):
         "taiwan, province of china" : "taiwan",
         "vie tnam": "vietnam",
         "spain*": "spain",
-        "Iran (Islamic Republic of)": "iran",
+        "iran (islamic republic of)": "iran",
         "côte d'ivoire": "cote d'ivoire",
-        "China, Hong Kong SAR*": "hong kong",
+        "china, hong kong sar*": "hong kong",
         "hong kong sar, china": "hong kong",
         "iran, islamic rep.": "iran",
         "turkiye": "turkey",
-        "United States of America*": "United States",
-        "Iran (Islamic Republic of)": "iran",
-        "Russian Federation": "russia",
-        "France*": "France",
-        "Australia*": "Australia",
-        "United Kingdom*": "United Kingdom",
-        "China, Hong Kong SAR*": "hong kong", 
-        "Ukraine*": "Ukraine",
+        "united states of america*": "United States",
+        "iran (islamic republic of)": "iran",
+        "russian federation": "russia",
+        "france*": "France",
+        "australia*": "Australia",
+        "united kingdom*": "United Kingdom",
+        "china, hong kong sar*": "hong kong", 
+        "ukraine*": "Ukraine",
         "iran islamic republic of": "iran",
         "curazao" : "curacao",
         "saint barthlemy" : "saint barth",
@@ -55,12 +55,14 @@ def normalize_country(name):
         "maldovia": "republic of maldova",
         "moldova, republic of": "republic of maldova",
         "siria": "syrian",
-        "syrian arab republic": "syrian"
+        "syrian arab republic": "syrian",
+        "venezuela, rb": "venezuela rb",
+        "venezuela (bolivarian republic of)": "venezuela rb"
 
     }
     
-    if name in custom_mapping:
-        return custom_mapping[name]
+    if name.lower() in custom_mapping:
+        return custom_mapping[name.lower()]
     
     # Buscar el país más cercano al nombre normalizado
     try: 

@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import inspect
 import os
-
+import numpy as np
 sys.path.append("../")
 
 from peewee_models import *
@@ -27,9 +27,13 @@ salud_df = pd.DataFrame(Health.select().dicts()).drop('id',axis=1)
 demografia_df = pd.DataFrame(Demography.select().dicts()).drop('id',axis=1)
 educacion_df = pd.DataFrame(Education.select().dicts()).drop('id',axis=1)
 
+region_df.index = np.arange(1, len(region_df) + 1)
+region_df.reset_index(inplace=True)
+region_df = region_df.rename({"index": "region_id"}, axis=1)
+
 namedfs = {'economy_df':'economy_parquet',}
-for i in [economy_df, region_df, migration_df, empleos_df, salud_df, demografia_df, educacion_df]:
-    i.to_parquet(f'parquet/{retrieve_name(i)}.parquet')
-    
+for i in [economy_df, empleos_df, salud_df, demografia_df, educacion_df]:
+    pd.merge(i.rename({"region": "region_id"}, axis=1), region_df, on="region_id").to_csv(f'parquet/{retrieve_name(i)}.csv')
+
 os.system(f"streamlit run introduccion.py")
 

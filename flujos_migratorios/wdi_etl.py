@@ -79,7 +79,7 @@ etl.insert_country_code(wdi_df)
 
 # Borramos los países que no esten en nuestra lista de valores a contemplar 
 
-wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
+wdi_df = wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
 wdi_df.replace(np.nan,None,inplace=True)
 wdi_df.replace(0.0,None,inplace=True)
 
