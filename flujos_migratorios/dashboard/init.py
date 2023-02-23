@@ -35,5 +35,13 @@ namedfs = {'economy_df':'economy_parquet',}
 for i in [economy_df, empleos_df, salud_df, demografia_df, educacion_df]:
     pd.merge(i.rename({"region": "region_id"}, axis=1), region_df, on="region_id").to_csv(f'parquet/{retrieve_name(i)}.csv')
 
+data_merge = pd.merge(migration_df.rename({"origin": "origin_id"}, axis=1), region_df.rename({"region_id": "origin_id"}, axis=1), on= 'origin_id', how='inner')
+data_merge.rename(columns={'name':'origin'},inplace=True)
+data_merge.drop(['origin_id','lang'],axis=1,inplace=True)
+data_merge = pd.merge(data_merge.rename({"destination": "destination_id"}, axis=1), region_df.rename({"region_id": "destination_id"}, axis=1), on= 'destination_id', how='inner')
+data_merge.rename(columns={'name':'destination'},inplace=True)
+data_merge.drop(['destination_id','lang'],axis=1,inplace=True)
+data_merge.to_csv('parquet/migration_df.csv')
+
 os.system(f"streamlit run introduccion.py")
 
