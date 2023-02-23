@@ -184,6 +184,8 @@ salud = [
     "people using at least basic drinking water services (% of population)",
     "people with basic handwashing facilities including soap and water (% of population)",
     "pregnant women receiving prenatal care (%)",
+    "probability of dying among children ages 5-9 years (per 1,000)",
+    "prevalence of overweight (% of adults)", 
     "prevalence of moderate or severe food insecurity in the population (%)",
     "suicide mortality rate (per 100,000 population)",
 ]
@@ -195,6 +197,11 @@ educacion = [
     "educational attainment, at least master's or equivalent, population 25+, total (%) (cumulative)",
     "educational attainment, doctoral or equivalent, population 25+, total (%) (cumulative)",
     "technicians in r&d (per million people)",
+    "barro-lee: percentage of population age 15+ with no education",
+    "internet users (per 100 people)",
+    "government expenditure on education as % of gdp (%)",
+    "out-of-school children of primary school age, both sexes (number)",
+    
 ]
 
 empleos = [
