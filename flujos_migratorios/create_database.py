@@ -4,6 +4,7 @@ import etl
 import sys
 from playhouse.migrate import *
 import time
+import numpy as np
 
 # Definición de la base de datos y nuestra conexión a ella
 
@@ -26,6 +27,8 @@ class BaseModel(pw.Model):
 class Region(BaseModel):
     name = pw.CharField()
     lang = pw.CharField()
+    lat = pw.FloatField(null=True)
+    long = pw.FloatField(null=True)
 
 class Migration(BaseModel):
     year = pw.IntegerField()
@@ -60,7 +63,7 @@ db.connect()
 db.drop_tables((Demography, Region, Health, Economy, Education, Employment, Migration))
 
 db.create_tables([Region])
-Region.insert_many(etl.country_code_df.set_index('cod').to_dict(orient="records")).execute()
+Region.insert_many(etl.country_code_df.set_index('cod').replace(np.nan,None).to_dict(orient="records")).execute()
 
 db.create_tables([Demography, Health, Economy, Education, Employment, Migration])
 myfield = pw.FloatField(null=True)

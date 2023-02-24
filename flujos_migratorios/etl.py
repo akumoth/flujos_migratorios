@@ -6,9 +6,9 @@ import re
 from geopy.geocoders import Nominatim
 import geonamescache
 
-country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv')
+country_code_df = pd.read_csv('../datasets/processed/codigo_pais.csv').drop('Unnamed: 0',axis=1)
 country_code_df['cod'] = country_code_df['cod'].astype(int)
-country_code_df.columns = ['name','lang','cod']
+country_code_df.columns = ['name','lang','cod','lat','long']
 country_code_df = country_code_df.sort_values('cod').reset_index(drop=True)
 country_code_df.index = np.arange(1, len(country_code_df) + 1)
 country_code_df = country_code_df.drop('cod',axis=1).reset_index(names='cod')
