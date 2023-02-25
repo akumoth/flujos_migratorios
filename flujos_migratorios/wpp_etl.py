@@ -16,20 +16,17 @@ wpp_df.columns = wpp_columns
 wpp_df.name = wpp_df.name.astype(str)
 wpp_df.type = wpp_df.type.astype(str)
 
+# Conversión de campos numericos al tipo de dato Float
+
+for i in wpp_df.columns[2:]:
+    wpp_df[i] = wpp_df[i].replace('...',None)
+    wpp_df[i] = pd.to_numeric(wpp_df[i],downcast='float')
+    
 # División en dos DF (uno de regiones, y otro según grupos de desarrollo)
 
 reg_wpp_df = wpp_df[(wpp_df.type != 'World') & (wpp_df.type != 'Label/Separator') & (wpp_df.type != 'Development Group') & (wpp_df.type != 'Income Group') & (wpp_df.type != 'Special other')]
 dev_wpp_df = wpp_df[(wpp_df.type == 'Development Group') | (wpp_df.type == 'Income Group') | (wpp_df.type == 'Special other')]
 
-# Conversión de campos numericos al tipo de dato Float
-
-for i in reg_wpp_df.columns[2:]:
-    reg_wpp_df[i] = reg_wpp_df[i].astype(str).str.replace('...','0',regex=False)
-    reg_wpp_df[i] = pd.to_numeric(reg_wpp_df[i],downcast='float')
-
-for i in dev_wpp_df.columns[2:]:
-    dev_wpp_df[i] = dev_wpp_df[i].astype(str).str.replace('...','0',regex=False)
-    dev_wpp_df[i] = pd.to_numeric(dev_wpp_df[i],downcast='float')
 
 # Inserción del codigo país
 

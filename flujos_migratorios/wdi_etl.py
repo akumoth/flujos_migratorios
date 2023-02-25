@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 import etl
 
+# Carga inicial de los conjuntos de datos.
+# Al realizar su normalización inicial, se detallaron ciertas columnas que serían inutiles para nuestra base de datos, 
+# las cuales quitamos al cargar.
+
 wdi_df = pd.read_csv(
     "../datasets/processed/world_development_indicators/P-world_development_indicators.csv"
 ).drop('region_id',axis=1)
@@ -14,47 +18,29 @@ wdi_educacion_indicador_df = pd.read_csv(
     "../datasets/processed/work_bank/indicador_educacion_normalizado.csv"
 ).drop('Unnamed: 0', axis=1)
 
-wdi_salud_indicador_df['Country Name'] = wdi_salud_indicador_df['Country Name'].str.lower()
-wdi_salud_indicador_df['Series Name'] = wdi_salud_indicador_df['Series Name'].str.lower()
+# Estandarización de columnas:
 
-wdi_educacion_indicador_df['Country Name'] = wdi_educacion_indicador_df['Country Name'].str.lower()
-wdi_educacion_indicador_df['Series'] = wdi_educacion_indicador_df['Series'].str.lower()
+def pre_normalization(df):
+    for i in df.columns.to_list():
+        # Cambiando todas las columnas de tipo cadena a minusculas
+        if pd.api.types.is_string_dtype(df[i]):
+            df[i] = df[i].str.lower()
+        # y, en caso de que sean dos palabras, utilizando nada más la primera
+        df = df.rename({i:str(i).split(" ")[0]},axis=1)
+    # Además, se estandarizaran los nombres a lo largo de los distintos conjuntos de datos
+    df.rename({"Country":"name","Series":"conditions"},axis=1,inplace=True)
+    return df
 
-wdi_df = wdi_df.rename(
-    {"Country name": "name", "Series Name": "conditions"}, axis=1
-)
+# La función definida anteriormente la utilizamos para normalizar los dataframes.
+wdi_df = pre_normalization(wdi_df)
+wdi_salud_indicador_df = pre_normalization(wdi_salud_indicador_df)
+wdi_educacion_indicador_df = pre_normalization(wdi_educacion_indicador_df)
 
-j = []
-for i in wdi_df.columns:
-    j.append(i.split(" ")[0])
-wdi_df.columns = j
-
-wdi_salud_indicador_df = wdi_salud_indicador_df.rename(
-    {"Country Name": "name", "Series Name": "conditions"}, axis=1
-)
-
-j = []
-for i in wdi_salud_indicador_df.columns:
-    j.append(i.split(" ")[0])
-wdi_salud_indicador_df.columns = j
-
-wdi_educacion_indicador_df = wdi_educacion_indicador_df.rename(
-    {"Country Name": "name", "Series": "conditions"}, axis=1
-)
-
-j = []
-for i in wdi_educacion_indicador_df.columns:
-    j.append(i.split(" ")[0])
-wdi_educacion_indicador_df.columns = j
-
+# Concatenamos los anteriores df en uno solo.
 wdi_df = pd.concat([wdi_df,wdi_educacion_indicador_df,wdi_salud_indicador_df]).replace([np.nan], [None]).replace([0.0], [None])
+wdi_df = wdi_df.reset_index(drop=True)
 
-# Renombramos y limpiamos columnas en el dataframe de WDI
-
-wdi_df = wdi_df.reset_index(drop=True).drop('Unnamed:',axis=1)
-
-# Transponemos el dataframe de WDI de manera tal que queden los años como filas y las condiciones como columnas
-
+# Pivoteo para que quedé del mismo formato que la tabla SQL, volviendo el año una columna
 wdi_df = (
     wdi_df.set_index(["name", "conditions"])
     .rename_axis("year", axis=1)
@@ -67,17 +53,14 @@ wdi_df = (
     .rename_axis("id")
 )
 
-wdi_columns = wdi_df.columns.to_series()
-wdi_columns = wdi_columns.str.lower()
-wdi_columns = etl.normalize_lists(wdi_columns)
-wdi_df.columns = wdi_columns
+# Normalizamos los nombres de los indicadores en "conditions" con la función anteriormente definida en el modulo etl
+wdi_df.columns = etl.normalize_lists(wdi_df.columns.str.lower())
 
 # Normalizamos los nombres de los países 
-
 wdi_df['name'] = wdi_df['name'].apply(etl.normalize_country).str.lower()
 etl.insert_country_code(wdi_df)
 
-# Borramos los países que no esten en nuestra lista de valores a contemplar 
+# Borramos los países que no estén en nuestro modelo, y estandarizamos los valores faltantes como "None" 
 
 wdi_df = wdi_df.drop(wdi_df.where(~wdi_df.name.isin(etl.country_code_df['name'])).dropna().index,axis=0)
 wdi_df.replace(np.nan,None,inplace=True)
