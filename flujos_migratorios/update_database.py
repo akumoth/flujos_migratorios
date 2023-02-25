@@ -1,6 +1,11 @@
 import pandas as pd
 import numpy as np
 from peewee_models import *
+import os
+
+os.system('wdi_etl.py')
+os.system('wpp_etl.py')
+os.system('pvp_etl.py')
 
 # Transformación y concatenación de los csv anteriormente generados a un solo dataframe para ingestarlos después a la base de datos
 

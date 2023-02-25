@@ -83,12 +83,12 @@ def get_lat_long(country_name):
         location.latitude, location.longitude = np.NaN
         return location.latitude, location.longitude
 
-def insert_country_code(df):
-    for name in df['name'].unique():
-        subset = df[df['name'] == name]
+def insert_country_code(df, col='name', idcol='region_id'):
+    for name in df[col].unique():
+        subset = df[df[col] == name]
         codes = country_code_df[country_code_df['name'] == name]['cod']
         code_str = ', '.join(codes.astype(str))
-        df.loc[df['name'] == name, 'region_id'] = code_str
+        df.loc[df[col] == name, idcol] = code_str
 
 def insert_lat_long(df):
     lat = []

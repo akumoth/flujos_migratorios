@@ -35,6 +35,8 @@ class Migration(BaseModel):
     destination = pw.ForeignKeyField(Region, null=True)
     origin = pw.ForeignKeyField(Region, null=True)
     migrants = pw.IntegerField(null=True)
+    male = pw.IntegerField(null=True)
+    fem = pw.IntegerField(null=True)
 
 class Demography(BaseModel):
     year = pw.IntegerField()
