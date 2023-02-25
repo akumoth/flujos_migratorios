@@ -1,0 +1,95 @@
+Cantidad de nulos por columna:
+Region, development group, country or area    0
+Location code                                 0
+1990                                          0
+1995                                          0
+2000                                          0
+2005                                          0
+2010                                          0
+2015                                          0
+2020                                          0
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+0
+
+Cantidad de ceros por columna:
+Region, development group, country or area    0
+Location code                                 0
+1990                                          3
+1995                                          3
+2000                                          3
+2005                                          2
+2010                                          0
+2015                                          0
+2020                                          0
+dtype: int64
+Columnas con más ceros:
+1990    3
+1995    3
+2000    3
+2005    2
+dtype: int64
+
+Nombres de las columnas:
+Index(['Region, development group, country or area', 'Location code', '1990',
+       '1995', '2000', '2005', '2010', '2015', '2020'],
+      dtype='object')
+
+Tamaño del dataframe:
+(230, 9)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+       Location code          1990          1995          2000          2005  \
+count     230.000000  2.300000e+02  2.300000e+02  2.300000e+02  2.300000e+02   
+mean      435.752174  6.651329e+05  7.012393e+05  7.531575e+05  8.323626e+05   
+std       251.906190  2.030484e+06  2.289587e+06  2.662348e+06  2.953672e+06   
+min         4.000000  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+25%       223.000000  1.833325e+04  2.145125e+04  2.222875e+04  2.435300e+04   
+50%       436.000000  9.869250e+04  1.081430e+05  1.228945e+05  1.236790e+05   
+75%       645.250000  4.634778e+05  5.157638e+05  5.336290e+05  5.866028e+05   
+max       894.000000  2.325103e+07  2.845105e+07  3.481405e+07  3.925829e+07   
+
+               2010          2015          2020  
+count  2.300000e+02  2.300000e+02  2.300000e+02  
+mean   9.597815e+05  1.074401e+06  1.216147e+06  
+std    3.330486e+06  3.633892e+06  3.929761e+06  
+min    2.200000e+02  2.300000e+02  2.390000e+02  
+25%    2.928500e+04  3.214425e+04  3.336075e+04  
+50%    1.295945e+05  1.579345e+05  1.861590e+05  
+75%    5.878838e+05  7.088970e+05  8.706198e+05  
+max    4.418364e+07  4.817888e+07  5.063284e+07  
+
+Vista previa de las primeras filas:
+  Region, development group, country or area  Location code     1990    1995  \
+0                                    burundi            108   333110  254853   
+1                                    comoros            174    14079   13939   
+2                                   djibouti            262   122221   99774   
+3                                    eritrea            232    11848   12400   
+4                                   ethiopia            231  1155390  806904   
+
+     2000    2005    2010     2015     2020  
+0  125628  192774  247321   298299   344767  
+1   13799   13209   12618    12555    12496  
+2  100507   92110  102307   112351   119738  
+3   12952   15905   15813    15941    13934  
+4  611384  514451  568748  1161642  1085517  
+
+Vista previa de las últimas filas:
+    Region, development group, country or area  Location code  1990  1995  \
+225                                      samoa            882  3357  4694   
+226                                    tokelau            772   360   506   
+227                                      tonga            776  2911  3274   
+228                                     tuvalu            798   318   263   
+229                  wallis and futuna islands            876  1402  1704   
+
+     2000  2005  2010  2015  2020  
+225  5998  5746  5122  4255  4021  
+226   712  1003  1128  1185  1238  
+227  3684  4301  4607  3954  3742  
+228   218   209   220   230   239  
+229  2015  2191  2111  2050  2040  
+

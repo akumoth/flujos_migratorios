@@ -1,0 +1,122 @@
+Cantidad de nulos por columna:
+Unnamed: 0                                    0
+Region, development group, country or area    0
+Location code                                 0
+1990                                          0
+1995                                          0
+2000                                          0
+2005                                          0
+2010                                          0
+2015                                          0
+2020                                          0
+Emigracion_Promedio                           0
+Inmigracion_Promedio                          0
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+0
+
+Cantidad de ceros por columna:
+Unnamed: 0                                    0
+Region, development group, country or area    0
+Location code                                 0
+1990                                          0
+1995                                          0
+2000                                          0
+2005                                          0
+2010                                          0
+2015                                          0
+2020                                          0
+Emigracion_Promedio                           0
+Inmigracion_Promedio                          0
+dtype: int64
+Columnas con más ceros:
+Series([], dtype: int64)
+
+Nombres de las columnas:
+Index(['Unnamed: 0', 'Region, development group, country or area',
+       'Location code', '1990', '1995', '2000', '2005', '2010', '2015', '2020',
+       'Emigracion_Promedio', 'Inmigracion_Promedio'],
+      dtype='object')
+
+Tamaño del dataframe:
+(16, 12)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+       Unnamed: 0  Location code          1990          1995          2000  \
+count   16.000000      16.000000  1.600000e+01  1.600000e+01  1.600000e+01   
+mean   114.875000     485.812500  6.115082e+06  6.327798e+06  6.849230e+06   
+std     54.526905     265.633386  5.190237e+06  6.429012e+06  7.917710e+06   
+min     42.000000      36.000000  1.653000e+06  1.512577e+06  1.406498e+06   
+25%     77.000000     327.000000  3.642514e+06  3.173393e+06  2.822926e+06   
+50%    106.500000     391.000000  4.665882e+06  4.510036e+06  4.996776e+06   
+75%    147.250000     712.500000  6.379383e+06  6.367313e+06  6.311871e+06   
+max    207.000000     860.000000  2.325103e+07  2.845105e+07  3.481405e+07   
+
+               2005          2010          2015          2020  \
+count  1.600000e+01  1.600000e+01  1.600000e+01  1.600000e+01   
+mean   7.286500e+06  7.965929e+06  8.603048e+06  9.467377e+06   
+std    8.948279e+06  1.005719e+07  1.103163e+07  1.176605e+07   
+min    1.329932e+06  1.220149e+06  1.170873e+06  1.162007e+06   
+25%    3.007579e+06  3.196190e+06  3.340168e+06  3.198058e+06   
+50%    5.488229e+06  5.728499e+06  5.970288e+06  6.341624e+06   
+75%    6.560764e+06  7.589978e+06  8.860352e+06  9.928918e+06   
+max    3.925829e+07  4.418364e+07  4.817888e+07  5.063284e+07   
+
+       Emigracion_Promedio  Inmigracion_Promedio  
+count         1.600000e+01          1.600000e+01  
+mean          7.516423e+06          7.516423e+06  
+std           8.679653e+06          8.679653e+06  
+min           1.350719e+06          1.350719e+06  
+25%           3.246139e+06          3.246139e+06  
+50%           5.780902e+06          5.780902e+06  
+75%           7.167388e+06          7.167388e+06  
+max           3.839568e+07          3.839568e+07  
+
+Vista previa de las primeras filas:
+   Unnamed: 0 Region, development group, country or area  Location code  \
+0         206                  United States of America*            840   
+1         113                         Russian Federation            643   
+2          82                                      India            356   
+3         115                                   Ukraine*            804   
+4          86                                   Pakistan            586   
+
+       1990      1995      2000      2005      2010      2015      2020  \
+0  23251026  28451053  34814053  39258293  44183643  48178877  50632836   
+1  11524948  11928927  11900297  11667588  11194710  11643276  11636911   
+2   7594801   6952238   6411331   5936740   5574018   5210847   4878704   
+3   6892920   6172338   5527087   5050302   4818767   4915142   4997387   
+4   6208204   3669308   4181912   3174558   3943681   3506520   3276580   
+
+   Emigracion_Promedio  Inmigracion_Promedio  
+0         3.839568e+07          3.839568e+07  
+1         1.164238e+07          1.164238e+07  
+2         6.079811e+06          6.079811e+06  
+3         5.481992e+06          5.481992e+06  
+4         3.994395e+06          3.994395e+06  
+
+Vista previa de las últimas filas:
+    Unnamed: 0 Region, development group, country or area  Location code  \
+11         128                            United Kingdom*            826   
+12          56                                 Kazakhstan            398   
+13          62                      China, Hong Kong SAR*            344   
+14          42                              Côte d'Ivoire            384   
+15          60                                 Uzbekistan            860   
+
+       1990     1995     2000     2005     2010     2015     2020  \
+11  3650286  4155293  4730165  5926156  7119664  8406996  9359587   
+12  3619200  3251968  2874194  3103027  3334937  3546060  3732073   
+13  2218473  2443798  2669122  2721235  2779950  2841113  2962492   
+14  1816426  2076394  2163644  2265090  2366537  2470613  2564857   
+15  1653000  1512577  1406498  1329932  1220149  1170873  1162007   
+
+    Emigracion_Promedio  Inmigracion_Promedio  
+11         6.192592e+06          6.192592e+06  
+12         3.351637e+06          3.351637e+06  
+13         2.662312e+06          2.662312e+06  
+14         2.246223e+06          2.246223e+06  
+15         1.350719e+06          1.350719e+06  
+

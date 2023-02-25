@@ -1,0 +1,116 @@
+Cantidad de nulos por columna:
+Country Name    0
+Country Code    0
+Series          0
+1990            0
+1995            0
+2000            0
+2005            0
+2010            0
+2015            0
+2020            0
+cod             0
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+0
+
+Cantidad de ceros por columna:
+Country Name       0
+Country Code       0
+Series             0
+1990            5119
+1995            4970
+2000            3835
+2005            3796
+2010            3599
+2015            4614
+2020            6337
+cod                0
+dtype: int64
+Columnas con más ceros:
+2020    6337
+1990    5119
+1995    4970
+2015    4614
+2000    3835
+2005    3796
+2010    3599
+dtype: int64
+
+Nombres de las columnas:
+Index(['Country Name', 'Country Code', 'Series', '1990', '1995', '2000',
+       '2005', '2010', '2015', '2020', 'cod'],
+      dtype='object')
+
+Tamaño del dataframe:
+(6510, 11)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+               1990          1995          2000          2005          2010  \
+count  6.510000e+03  6.510000e+03  6.510000e+03  6.510000e+03  6.510000e+03   
+mean   4.225603e+04  5.804166e+03  3.536528e+04  2.674131e+04  3.592541e+04   
+std    2.353887e+06  1.652548e+05  1.161764e+06  7.566411e+05  9.785479e+05   
+min    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+25%    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+50%    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+75%    0.000000e+00  0.000000e+00  6.000000e+00  6.000000e+00  8.000000e+00   
+max    1.867954e+08  9.980293e+06  8.820309e+07  4.798804e+07  5.412732e+07   
+
+               2015          2020          cod  
+count  6.510000e+03   6510.000000  6510.000000  
+mean   2.085173e+04      5.670586   109.000000  
+std    5.496107e+05    385.076588    62.646651  
+min    0.000000e+00      0.000000     1.000000  
+25%    0.000000e+00      0.000000    55.000000  
+50%    0.000000e+00      0.000000   109.000000  
+75%    3.000000e+00      0.000000   163.000000  
+max    3.847197e+07  30897.000000   217.000000  
+
+Vista previa de las primeras filas:
+  Country Name Country Code  \
+0  afghanistan          AFG   
+1  afghanistan          AFG   
+2  afghanistan          AFG   
+3  afghanistan          AFG   
+4  afghanistan          AFG   
+
+                                              Series  1990  1995  2000  2005  \
+0  Government expenditure on education as % of GD...   0.0   0.0   0.0   0.0   
+1  Out-of-school children of primary school age, ...   0.0   0.0   0.0   0.0   
+2  Proportion of teachers with the minimum requir...   0.0   0.0   0.0   0.0   
+3  Proportion of teachers with the minimum requir...   0.0   0.0   0.0   0.0   
+4  Proportion of teachers with the minimum requir...   0.0   0.0   0.0   0.0   
+
+      2010    2015  2020  cod  
+0  3.47945  3.2558   0.0    1  
+1  0.00000  0.0000   0.0    1  
+2  0.00000  0.0000   0.0    1  
+3  0.00000  0.0000   0.0    1  
+4  0.00000  0.0000   0.0    1  
+
+Vista previa de las últimas filas:
+     Country Name Country Code  \
+6505     zimbabwe          ZWE   
+6506     zimbabwe          ZWE   
+6507     zimbabwe          ZWE   
+6508     zimbabwe          ZWE   
+6509     zimbabwe          ZWE   
+
+                                                 Series  1990  1995  2000  \
+6505  Proportion of lower secondary schools with acc...   0.0   0.0   0.0   
+6506  Proportion of lower secondary schools with acc...   0.0   0.0   0.0   
+6507  Proportion of lower secondary schools with acc...   0.0   0.0   0.0   
+6508  Proportion of 15-24 year-olds enrolled in voca...   0.0   0.0   0.0   
+6509      Primary school age children out-of-school (%)   0.0   0.0   0.0   
+
+      2005  2010  2015  2020  cod  
+6505   0.0   0.0   0.0   0.0  217  
+6506   0.0   0.0   0.0   0.0  217  
+6507   0.0   0.0   0.0   0.0  217  
+6508   0.0   0.0   0.0   0.0  217  
+6509   0.0   0.0   0.0   0.0  217  
+

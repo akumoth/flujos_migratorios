@@ -1,0 +1,636 @@
+Cantidad de nulos por columna:
+Index                                                                                         0
+name                                                                                          0
+type                                                                                          0
+year                                                                                          0
+total_population_as_1_january_thousands                                                       0
+total_population_as_1_july_thousands                                                          0
+male_population_as_1_july_thousands                                                           0
+fem_population_as_1_july_thousands                                                            0
+population_density_as_1_july_persons_per_square_km                                            0
+population_sex_ratio_as_1_july_males_per_100_fems                                             0
+median_age_as_1_july_years                                                                    0
+natural_change_births_minus_deaths_thousands                                                  0
+rate_natural_change_per_1000_population                                                       0
+population_change_thousands                                                                   0
+population_growth_rate_percentage                                                             0
+population_annual_doubling_time_years                                                         0
+births_thousands                                                                              0
+births_by_women_aged_15_to_19_thousands                                                       0
+crude_birth_rate_births_per_1000_population                                                   0
+total_fertility_rate_live_births_per_woman                                                    0
+net_reproduction_rate_surviving_daughters_per_woman                                           0
+mean_age_childbearing_years                                                                   0
+sex_ratio_at_birth_males_per_100_fem_births                                                   0
+total_deaths_thousands                                                                        0
+male_deaths_thousands                                                                         0
+fem_deaths_thousands                                                                          0
+crude_death_rate_deaths_per_1000_population                                                   0
+life_expectancy_at_birth_both_sexes_years                                                     0
+male_life_expectancy_at_birth_years                                                           0
+fem_life_expectancy_at_birth_years                                                            0
+life_expectancy_at_age_15_both_sexes_years                                                    0
+male_life_expectancy_at_age_15_years                                                          0
+fem_life_expectancy_at_age_15_years                                                           0
+life_expectancy_at_age_65_both_sexes_years                                                    0
+male_life_expectancy_at_age_65_years                                                          0
+fem_life_expectancy_at_age_65_years                                                           0
+life_expectancy_at_age_80_both_sexes_years                                                    0
+male_life_expectancy_at_age_80_years                                                          0
+fem_life_expectancy_at_age_80_years                                                           0
+infant_deaths_under_age_1_thousands                                                           0
+infant_mortality_rate_infant_deaths_per_1000_live_births                                      0
+live_births_surviving_to_age_1_thousands                                                      0
+underfive_deaths_under_age_5_thousands                                                        0
+underfive_mortality_deaths_under_age_5_per_1000_live_births                                   0
+mortality_before_age_40_both_sexes_deaths_under_age_40_per_1000_live_births                   0
+male_mortality_before_age_40_deaths_under_age_40_per_1000_male_live_births                    0
+fem_mortality_before_age_40_deaths_under_age_40_per_1000_fem_live_births                      0
+mortality_before_age_60_both_sexes_deaths_under_age_60_per_1000_live_births                   0
+male_mortality_before_age_60_deaths_under_age_60_per_1000_male_live_births                    0
+fem_mortality_before_age_60_deaths_under_age_60_per_1000_fem_live_births                      0
+mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1000_alive_at_age_15       0
+male_mortality_between_15_and_50_per_1000_15_yold_males                                       0
+fem_mortality_between_15_and_50_per_1000_15_yold_fems                                         0
+mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1000_alive_at_age_15       0
+male_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_males_alive_at_age_15       0
+fem_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_fems_alive_at_age_15         0
+net_number_migrants_thousands                                                                 0
+net_migration_rate_per_1000_population                                                        0
+region_id                                                                                  7704
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+0
+
+Cantidad de ceros por columna:
+Index                                                                                         0
+name                                                                                          0
+type                                                                                          0
+year                                                                                          0
+total_population_as_1_january_thousands                                                       0
+total_population_as_1_july_thousands                                                          0
+male_population_as_1_july_thousands                                                          72
+fem_population_as_1_july_thousands                                                           72
+population_density_as_1_july_persons_per_square_km                                            0
+population_sex_ratio_as_1_july_males_per_100_fems                                            72
+median_age_as_1_july_years                                                                   72
+natural_change_births_minus_deaths_thousands                                                 75
+rate_natural_change_per_1000_population                                                      72
+population_change_thousands                                                                  11
+population_growth_rate_percentage                                                            13
+population_annual_doubling_time_years                                                      3645
+births_thousands                                                                             72
+births_by_women_aged_15_to_19_thousands                                                      81
+crude_birth_rate_births_per_1000_population                                                  72
+total_fertility_rate_live_births_per_woman                                                   72
+net_reproduction_rate_surviving_daughters_per_woman                                          72
+mean_age_childbearing_years                                                                  72
+sex_ratio_at_birth_males_per_100_fem_births                                                  72
+total_deaths_thousands                                                                       72
+male_deaths_thousands                                                                        72
+fem_deaths_thousands                                                                         72
+crude_death_rate_deaths_per_1000_population                                                  72
+life_expectancy_at_birth_both_sexes_years                                                    72
+male_life_expectancy_at_birth_years                                                          72
+fem_life_expectancy_at_birth_years                                                           72
+life_expectancy_at_age_15_both_sexes_years                                                   72
+male_life_expectancy_at_age_15_years                                                         72
+fem_life_expectancy_at_age_15_years                                                          72
+life_expectancy_at_age_65_both_sexes_years                                                   72
+male_life_expectancy_at_age_65_years                                                         72
+fem_life_expectancy_at_age_65_years                                                          72
+life_expectancy_at_age_80_both_sexes_years                                                   72
+male_life_expectancy_at_age_80_years                                                         72
+fem_life_expectancy_at_age_80_years                                                          72
+infant_deaths_under_age_1_thousands                                                         131
+infant_mortality_rate_infant_deaths_per_1000_live_births                                     72
+live_births_surviving_to_age_1_thousands                                                     72
+underfive_deaths_under_age_5_thousands                                                      117
+underfive_mortality_deaths_under_age_5_per_1000_live_births                                  72
+mortality_before_age_40_both_sexes_deaths_under_age_40_per_1000_live_births                  72
+male_mortality_before_age_40_deaths_under_age_40_per_1000_male_live_births                   72
+fem_mortality_before_age_40_deaths_under_age_40_per_1000_fem_live_births                     72
+mortality_before_age_60_both_sexes_deaths_under_age_60_per_1000_live_births                  72
+male_mortality_before_age_60_deaths_under_age_60_per_1000_male_live_births                   72
+fem_mortality_before_age_60_deaths_under_age_60_per_1000_fem_live_births                     72
+mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1000_alive_at_age_15      72
+male_mortality_between_15_and_50_per_1000_15_yold_males                                      72
+fem_mortality_between_15_and_50_per_1000_15_yold_fems                                        72
+mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1000_alive_at_age_15      72
+male_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_males_alive_at_age_15      72
+fem_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_fems_alive_at_age_15        72
+net_number_migrants_thousands                                                               578
+net_migration_rate_per_1000_population                                                      578
+region_id                                                                                     0
+dtype: int64
+Columnas con más ceros:
+population_annual_doubling_time_years                                                      3645
+net_migration_rate_per_1000_population                                                      578
+net_number_migrants_thousands                                                               578
+infant_deaths_under_age_1_thousands                                                         131
+underfive_deaths_under_age_5_thousands                                                      117
+births_by_women_aged_15_to_19_thousands                                                      81
+natural_change_births_minus_deaths_thousands                                                 75
+male_mortality_before_age_40_deaths_under_age_40_per_1000_male_live_births                   72
+life_expectancy_at_age_80_both_sexes_years                                                   72
+male_life_expectancy_at_age_80_years                                                         72
+fem_life_expectancy_at_age_80_years                                                          72
+infant_mortality_rate_infant_deaths_per_1000_live_births                                     72
+live_births_surviving_to_age_1_thousands                                                     72
+underfive_mortality_deaths_under_age_5_per_1000_live_births                                  72
+mortality_before_age_40_both_sexes_deaths_under_age_40_per_1000_live_births                  72
+male_mortality_before_age_60_deaths_under_age_60_per_1000_male_live_births                   72
+fem_mortality_before_age_40_deaths_under_age_40_per_1000_fem_live_births                     72
+mortality_before_age_60_both_sexes_deaths_under_age_60_per_1000_live_births                  72
+male_life_expectancy_at_age_65_years                                                         72
+fem_mortality_before_age_60_deaths_under_age_60_per_1000_fem_live_births                     72
+mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1000_alive_at_age_15      72
+male_mortality_between_15_and_50_per_1000_15_yold_males                                      72
+fem_mortality_between_15_and_50_per_1000_15_yold_fems                                        72
+mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1000_alive_at_age_15      72
+male_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_males_alive_at_age_15      72
+fem_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_fems_alive_at_age_15        72
+fem_life_expectancy_at_age_65_years                                                          72
+male_population_as_1_july_thousands                                                          72
+life_expectancy_at_age_65_both_sexes_years                                                   72
+fem_population_as_1_july_thousands                                                           72
+population_sex_ratio_as_1_july_males_per_100_fems                                            72
+median_age_as_1_july_years                                                                   72
+rate_natural_change_per_1000_population                                                      72
+births_thousands                                                                             72
+crude_birth_rate_births_per_1000_population                                                  72
+total_fertility_rate_live_births_per_woman                                                   72
+net_reproduction_rate_surviving_daughters_per_woman                                          72
+mean_age_childbearing_years                                                                  72
+sex_ratio_at_birth_males_per_100_fem_births                                                  72
+total_deaths_thousands                                                                       72
+male_deaths_thousands                                                                        72
+fem_deaths_thousands                                                                         72
+crude_death_rate_deaths_per_1000_population                                                  72
+life_expectancy_at_birth_both_sexes_years                                                    72
+male_life_expectancy_at_birth_years                                                          72
+fem_life_expectancy_at_birth_years                                                           72
+life_expectancy_at_age_15_both_sexes_years                                                   72
+male_life_expectancy_at_age_15_years                                                         72
+fem_life_expectancy_at_age_15_years                                                          72
+population_growth_rate_percentage                                                            13
+population_change_thousands                                                                  11
+dtype: int64
+
+Nombres de las columnas:
+Index(['Index', 'name', 'type', 'year',
+       'total_population_as_1_january_thousands',
+       'total_population_as_1_july_thousands',
+       'male_population_as_1_july_thousands',
+       'fem_population_as_1_july_thousands',
+       'population_density_as_1_july_persons_per_square_km',
+       'population_sex_ratio_as_1_july_males_per_100_fems',
+       'median_age_as_1_july_years',
+       'natural_change_births_minus_deaths_thousands',
+       'rate_natural_change_per_1000_population',
+       'population_change_thousands', 'population_growth_rate_percentage',
+       'population_annual_doubling_time_years', 'births_thousands',
+       'births_by_women_aged_15_to_19_thousands',
+       'crude_birth_rate_births_per_1000_population',
+       'total_fertility_rate_live_births_per_woman',
+       'net_reproduction_rate_surviving_daughters_per_woman',
+       'mean_age_childbearing_years',
+       'sex_ratio_at_birth_males_per_100_fem_births', 'total_deaths_thousands',
+       'male_deaths_thousands', 'fem_deaths_thousands',
+       'crude_death_rate_deaths_per_1000_population',
+       'life_expectancy_at_birth_both_sexes_years',
+       'male_life_expectancy_at_birth_years',
+       'fem_life_expectancy_at_birth_years',
+       'life_expectancy_at_age_15_both_sexes_years',
+       'male_life_expectancy_at_age_15_years',
+       'fem_life_expectancy_at_age_15_years',
+       'life_expectancy_at_age_65_both_sexes_years',
+       'male_life_expectancy_at_age_65_years',
+       'fem_life_expectancy_at_age_65_years',
+       'life_expectancy_at_age_80_both_sexes_years',
+       'male_life_expectancy_at_age_80_years',
+       'fem_life_expectancy_at_age_80_years',
+       'infant_deaths_under_age_1_thousands',
+       'infant_mortality_rate_infant_deaths_per_1000_live_births',
+       'live_births_surviving_to_age_1_thousands',
+       'underfive_deaths_under_age_5_thousands',
+       'underfive_mortality_deaths_under_age_5_per_1000_live_births',
+       'mortality_before_age_40_both_sexes_deaths_under_age_40_per_1000_live_births',
+       'male_mortality_before_age_40_deaths_under_age_40_per_1000_male_live_births',
+       'fem_mortality_before_age_40_deaths_under_age_40_per_1000_fem_live_births',
+       'mortality_before_age_60_both_sexes_deaths_under_age_60_per_1000_live_births',
+       'male_mortality_before_age_60_deaths_under_age_60_per_1000_male_live_births',
+       'fem_mortality_before_age_60_deaths_under_age_60_per_1000_fem_live_births',
+       'mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1000_alive_at_age_15',
+       'male_mortality_between_15_and_50_per_1000_15_yold_males',
+       'fem_mortality_between_15_and_50_per_1000_15_yold_fems',
+       'mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1000_alive_at_age_15',
+       'male_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_males_alive_at_age_15',
+       'fem_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_fems_alive_at_age_15',
+       'net_number_migrants_thousands',
+       'net_migration_rate_per_1000_population', 'region_id'],
+      dtype='object')
+
+Tamaño del dataframe:
+(19584, 59)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+              Index          year  total_population_as_1_january_thousands  \
+count  19584.000000  19584.000000                             1.958400e+04   
+mean   10776.882353   1985.500000                             7.211583e+04   
+std     5702.006188     20.783136                             2.814680e+05   
+min       74.000000   1950.000000                             5.150000e-01   
+25%     5908.750000   1967.750000                             3.319875e+02   
+50%    10804.500000   1985.500000                             4.277291e+03   
+75%    15700.250000   2003.250000                             2.100403e+04   
+max    20596.000000   2021.000000                             4.680790e+06   
+
+       total_population_as_1_july_thousands  \
+count                          1.958400e+04   
+mean                           7.266834e+04   
+std                            2.834036e+05   
+min                            5.110000e-01   
+25%                            3.341760e+02   
+50%                            4.304993e+03   
+75%                            2.120718e+04   
+max                            4.694576e+06   
+
+       male_population_as_1_july_thousands  \
+count                         1.958400e+04   
+mean                          3.648098e+04   
+std                           1.438242e+05   
+min                           0.000000e+00   
+25%                           1.665745e+02   
+50%                           2.131712e+03   
+75%                           1.055981e+04   
+max                           2.389589e+06   
+
+       fem_population_as_1_july_thousands  \
+count                        1.958400e+04   
+mean                         3.618736e+04   
+std                          1.396240e+05   
+min                          0.000000e+00   
+25%                          1.670070e+02   
+50%                          2.171022e+03   
+75%                          1.060769e+04   
+max                          2.304987e+06   
+
+       population_density_as_1_july_persons_per_square_km  \
+count                                       19584.000000    
+mean                                          273.686687    
+std                                          1453.010113    
+min                                             0.049000    
+25%                                            16.824250    
+50%                                            57.477500    
+75%                                           138.565000    
+max                                         24879.530000    
+
+       population_sex_ratio_as_1_july_males_per_100_fems  \
+count                                       19584.000000   
+mean                                           99.808208   
+std                                            14.198115   
+min                                             0.000000   
+25%                                            95.334000   
+50%                                            98.814500   
+75%                                           102.292000   
+max                                           327.456000   
+
+       median_age_as_1_july_years  \
+count                19584.000000   
+mean                    23.489354   
+std                      7.857388   
+min                      0.000000   
+25%                     17.188000   
+50%                     20.683500   
+75%                     29.108250   
+max                     54.524000   
+
+       natural_change_births_minus_deaths_thousands  ...  \
+count                                  19584.000000  ...   
+mean                                    1109.164270  ...   
+std                                     4402.858529  ...   
+min                                    -2776.580000  ...   
+25%                                        3.135750  ...   
+50%                                       50.523500  ...   
+75%                                      319.238750  ...   
+max                                    62204.439000  ...   
+
+       fem_mortality_before_age_60_deaths_under_age_60_per_1000_fem_live_births  \
+count                                       19584.000000                          
+mean                                          261.743898                          
+std                                           174.058695                          
+min                                             0.000000                          
+25%                                           120.417000                          
+50%                                           209.651500                          
+75%                                           383.393500                          
+max                                           998.752000                          
+
+       mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1000_alive_at_age_15  \
+count                                       19584.000000                                         
+mean                                          136.118649                                         
+std                                            94.154678                                         
+min                                             0.000000                                         
+25%                                            65.098000                                         
+50%                                           108.228500                                         
+75%                                           192.331250                                         
+max                                           996.166000                                         
+
+       male_mortality_between_15_and_50_per_1000_15_yold_males  \
+count                                       19584.000000         
+mean                                          157.392234         
+std                                           100.423304         
+min                                             0.000000         
+25%                                            83.010000         
+50%                                           133.270500         
+75%                                           216.010750         
+max                                           999.102000         
+
+       fem_mortality_between_15_and_50_per_1000_15_yold_fems  \
+count                                       19584.000000       
+mean                                          114.152611       
+std                                            89.949927       
+min                                             0.000000       
+25%                                            45.103750       
+50%                                            81.555500       
+75%                                           168.340500       
+max                                           985.125000       
+
+       mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1000_alive_at_age_15  \
+count                                       19584.000000                                         
+mean                                          235.184584                                         
+std                                           122.709736                                         
+min                                             0.000000                                         
+25%                                           142.105750                                         
+50%                                           208.574500                                         
+75%                                           318.269500                                         
+max                                           999.602000                                         
+
+       male_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_males_alive_at_age_15  \
+count                                       19584.000000                                         
+mean                                          273.727875                                         
+std                                           127.653695                                         
+min                                             0.000000                                         
+25%                                           179.634500                                         
+50%                                           254.938000                                         
+75%                                           360.286500                                         
+max                                           999.942000                                         
+
+       fem_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_fems_alive_at_age_15  \
+count                                       19584.000000                                       
+mean                                          195.348404                                       
+std                                           120.530629                                       
+min                                             0.000000                                       
+25%                                           100.845750                                       
+50%                                           161.769500                                       
+75%                                           277.403500                                       
+max                                           997.597000                                       
+
+       net_number_migrants_thousands  net_migration_rate_per_1000_population  \
+count                   19584.000000                            19584.000000   
+mean                       -4.137135                               -0.073606   
+std                       253.601410                               15.445337   
+min                     -3463.405000                             -526.323000   
+25%                       -13.638250                               -3.463000   
+50%                        -0.244000                               -0.319000   
+75%                         4.332000                                2.180500   
+max                      3547.755000                              415.239000   
+
+          region_id  
+count  11880.000000  
+mean      88.024242  
+std       49.220195  
+min        2.000000  
+25%       47.000000  
+50%       88.000000  
+75%      130.000000  
+max      177.000000  
+
+[8 rows x 57 columns]
+
+Vista previa de las primeras filas:
+   Index                name        type    year  \
+0     74  sub-saharan africa  SDG region  1950.0   
+1     75  sub-saharan africa  SDG region  1951.0   
+2     76  sub-saharan africa  SDG region  1952.0   
+3     77  sub-saharan africa  SDG region  1953.0   
+4     78  sub-saharan africa  SDG region  1954.0   
+
+   total_population_as_1_january_thousands  \
+0                               175662.711   
+1                               179321.000   
+2                               183092.382   
+3                               186958.429   
+4                               190891.610   
+
+   total_population_as_1_july_thousands  male_population_as_1_july_thousands  \
+0                            177491.856                            88203.727   
+1                            181206.691                            90039.036   
+2                            185025.405                            91926.985   
+3                            188925.019                            93857.236   
+4                            192937.718                            95846.475   
+
+   fem_population_as_1_july_thousands  \
+0                           89288.129   
+1                           91167.655   
+2                           93098.421   
+3                           95067.783   
+4                           97091.243   
+
+   population_density_as_1_july_persons_per_square_km  \
+0                                              8.118    
+1                                              8.288    
+2                                              8.462    
+3                                              8.641    
+4                                              8.824    
+
+   population_sex_ratio_as_1_july_males_per_100_fems  ...  \
+0                                             98.786  ...   
+1                                             98.762  ...   
+2                                             98.742  ...   
+3                                             98.727  ...   
+4                                             98.718  ...   
+
+   fem_mortality_before_age_60_deaths_under_age_60_per_1000_fem_live_births  \
+0                                            640.425                          
+1                                            637.117                          
+2                                            632.918                          
+3                                            626.921                          
+4                                            621.454                          
+
+   mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1000_alive_at_age_15  \
+0                                            322.423                                         
+1                                            320.690                                         
+2                                            319.241                                         
+3                                            316.060                                         
+4                                            313.613                                         
+
+   male_mortality_between_15_and_50_per_1000_15_yold_males  \
+0                                            336.168         
+1                                            334.615         
+2                                            333.851         
+3                                            331.284         
+4                                            329.548         
+
+   fem_mortality_between_15_and_50_per_1000_15_yold_fems  \
+0                                            308.554       
+1                                            306.625       
+2                                            304.463       
+3                                            300.644       
+4                                            297.451       
+
+   mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1000_alive_at_age_15  \
+0                                            462.452                                         
+1                                            460.466                                         
+2                                            458.764                                         
+3                                            455.094                                         
+4                                            452.339                                         
+
+   male_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_males_alive_at_age_15  \
+0                                            485.228                                         
+1                                            483.519                                         
+2                                            482.595                                         
+3                                            479.779                                         
+4                                            477.926                                         
+
+   fem_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_fems_alive_at_age_15  \
+0                                            439.873                                       
+1                                            437.577                                       
+2                                            435.026                                       
+3                                            430.424                                       
+4                                            426.651                                       
+
+   net_number_migrants_thousands  net_migration_rate_per_1000_population  \
+0                         -4.600                                  -0.026   
+1                        -25.436                                  -0.140   
+2                        -71.434                                  -0.386   
+3                       -171.911                                  -0.909   
+4                       -162.311                                  -0.841   
+
+   region_id  
+0        NaN  
+1        NaN  
+2        NaN  
+3        NaN  
+4        NaN  
+
+[5 rows x 59 columns]
+
+Vista previa de las últimas filas:
+       Index                       name          type    year  \
+19579  20592  wallis and futuna islands  Country/Area  2017.0   
+19580  20593  wallis and futuna islands  Country/Area  2018.0   
+19581  20594  wallis and futuna islands  Country/Area  2019.0   
+19582  20595  wallis and futuna islands  Country/Area  2020.0   
+19583  20596  wallis and futuna islands  Country/Area  2021.0   
+
+       total_population_as_1_january_thousands  \
+19579                                   12.002   
+19580                                   11.870   
+19581                                   11.761   
+19582                                   11.667   
+19583                                   11.642   
+
+       total_population_as_1_july_thousands  \
+19579                                11.936   
+19580                                11.816   
+19581                                11.714   
+19582                                11.655   
+19583                                11.627   
+
+       male_population_as_1_july_thousands  \
+19579                                5.769   
+19580                                5.703   
+19581                                5.648   
+19582                                5.614   
+19583                                5.595   
+
+       fem_population_as_1_july_thousands  \
+19579                               6.167   
+19580                               6.112   
+19581                               6.066   
+19582                               6.040   
+19583                               6.032   
+
+       population_density_as_1_july_persons_per_square_km  \
+19579                                             85.257    
+19580                                             84.396    
+19581                                             83.671    
+19582                                             83.246    
+19583                                             83.054    
+
+       population_sex_ratio_as_1_july_males_per_100_fems  ...  \
+19579                                             93.562  ...   
+19580                                             93.301  ...   
+19581                                             93.109  ...   
+19582                                             92.955  ...   
+19583                                             92.748  ...   
+
+       fem_mortality_before_age_60_deaths_under_age_60_per_1000_fem_live_births  \
+19579                                            102.718                          
+19580                                             89.345                          
+19581                                             80.136                          
+19582                                             86.364                          
+19583                                             84.680                          
+
+       mortality_between_age_15_and_50_both_sexes_deaths_under_age_50_per_1000_alive_at_age_15  \
+19579                                             30.643                                         
+19580                                             29.201                                         
+19581                                             24.304                                         
+19582                                             26.572                                         
+19583                                             25.848                                         
+
+       male_mortality_between_15_and_50_per_1000_15_yold_males  \
+19579                                             26.781         
+19580                                             29.159         
+19581                                             22.291         
+19582                                             24.691         
+19583                                             24.836         
+
+       fem_mortality_between_15_and_50_per_1000_15_yold_fems  \
+19579                                             33.892       
+19580                                             29.170       
+19581                                             25.981       
+19582                                             28.127       
+19583                                             26.644       
+
+       mortality_between_age_15_and_60_both_sexes_deaths_under_age_60_per_1000_alive_at_age_15  \
+19579                                             82.852                                         
+19580                                             79.633                                         
+19581                                             66.639                                         
+19582                                             72.730                                         
+19583                                             74.207                                         
+
+       male_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_males_alive_at_age_15  \
+19579                                             82.197                                         
+19580                                             88.556                                         
+19581                                             69.324                                         
+19582                                             76.411                                         
+19583                                             80.373                                         
+
+       fem_mortality_between_age_15_and_60_deaths_under_age_60_per_1000_fems_alive_at_age_15  \
+19579                                             83.320                                       
+19580                                             72.163                                       
+19581                                             64.496                                       
+19582                                             69.685                                       
+19583                                             68.905                                       
+
+       net_number_migrants_thousands  net_migration_rate_per_1000_population  \
+19579                         -0.201                                 -16.706   
+19580                         -0.171                                 -14.368   
+19581                         -0.171                                 -14.489   
+19582                         -0.083                                  -7.096   
+19583                         -0.083                                  -7.112   
+
+       region_id  
+19579        NaN  
+19580        NaN  
+19581        NaN  
+19582        NaN  
+19583        NaN  
+
+[5 rows x 59 columns]
+

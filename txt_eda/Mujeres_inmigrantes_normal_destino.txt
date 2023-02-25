@@ -1,0 +1,98 @@
+Cantidad de nulos por columna:
+Region, development group, country or area    0
+Location code                                 0
+1990                                          0
+1995                                          0
+2000                                          0
+2005                                          0
+2010                                          0
+2015                                          0
+2020                                          0
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+1
+
+Cantidad de ceros por columna:
+Region, development group, country or area    0
+Location code                                 0
+1990                                          8
+1995                                          8
+2000                                          8
+2005                                          7
+2010                                          4
+2015                                          4
+2020                                          4
+dtype: int64
+Columnas con más ceros:
+1990    8
+1995    8
+2000    8
+2005    7
+2010    4
+2015    4
+2020    4
+dtype: int64
+
+Nombres de las columnas:
+Index(['Region, development group, country or area', 'Location code', '1990',
+       '1995', '2000', '2005', '2010', '2015', '2020'],
+      dtype='object')
+
+Tamaño del dataframe:
+(283, 9)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+       Location code          1990          1995          2000          2005  \
+count     283.000000  2.830000e+02  2.830000e+02  2.830000e+02  2.830000e+02   
+mean      584.371025  2.193851e+06  2.274622e+06  2.404807e+06  2.614456e+06   
+std       553.080118  7.557269e+06  7.956572e+06  8.579312e+06  9.434000e+06   
+min         4.000000  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+25%       264.000000  1.097800e+04  1.277750e+04  1.274000e+04  1.460250e+04   
+50%       528.000000  7.822400e+04  8.463900e+04  9.006100e+04  1.070200e+05   
+75%       786.000000  5.507795e+05  5.492000e+05  6.095430e+05  6.813750e+05   
+max      5501.000000  7.542269e+07  7.970848e+07  8.551075e+07  9.378375e+07   
+
+               2010          2015          2020  
+count  2.830000e+02  2.830000e+02  2.830000e+02  
+mean   2.978787e+06  3.353011e+06  3.785748e+06  
+std    1.076671e+07  1.200715e+07  1.351135e+07  
+min    0.000000e+00  0.000000e+00  0.000000e+00  
+25%    1.806700e+04  1.956050e+04  2.100700e+04  
+50%    1.138530e+05  1.349040e+05  1.464090e+05  
+75%    8.345355e+05  9.794395e+05  1.101564e+06  
+max    1.070423e+08  1.197206e+08  1.349423e+08  
+
+Vista previa de las primeras filas:
+  Region, development group, country or area  Location code      1990  \
+0                                      world            900  75422690   
+1                          subsaharan africa            947   6237924   
+2           northern africa and western asia           1833   7471631   
+3                  central and southern asia            921  12913106   
+4              eastern and southeastern asia           1832   3327975   
+
+       1995      2000      2005       2010       2015       2020  
+0  79708475  85510752  93783747  107042306  119720586  134942261  
+1   6761344   6211237   6633203    7466593    9855568   10570519  
+2   7864355   8261331   8867261   11478799   14916129   17831662  
+3  10604668  10013959   9459367    9859683    9662404    9699640  
+4   4148930   5340299   6543109    7894310    8926996    9670168  
+
+Vista previa de las últimas filas:
+    Region, development group, country or area  Location code  1990  1995  \
+278                                      samoa            882  1586  2243   
+279                                    tokelau            772   164   238   
+280                                      tonga            776  1423  1556   
+281                                     tuvalu            798   138   115   
+282                  wallis and futuna islands            876   676   832   
+
+     2000  2005  2010  2015  2020  
+278  2897  2806  2528  2104  1990  
+279   346   503   585   621   652  
+280  1703  1977  2104  1796  1698  
+281    97    94    99   104   107  
+282   997  1084  1045  1015  1010  
+

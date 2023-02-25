@@ -1,0 +1,91 @@
+Cantidad de nulos por columna:
+Region, development group, country or area    0
+Location code                                 0
+1990                                          0
+1995                                          0
+2000                                          0
+2005                                          0
+2010                                          0
+2015                                          0
+2020                                          0
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+1
+
+Cantidad de ceros por columna:
+Region, development group, country or area    0
+Location code                                 0
+1990                                          0
+1995                                          0
+2000                                          0
+2005                                          0
+2010                                          0
+2015                                          0
+2020                                          0
+dtype: int64
+Columnas con más ceros:
+Series([], dtype: int64)
+
+Nombres de las columnas:
+Index(['Region, development group, country or area', 'Location code', '1990',
+       '1995', '2000', '2005', '2010', '2015', '2020'],
+      dtype='object')
+
+Tamaño del dataframe:
+(283, 9)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+       Location code          1990          1995          2000          2005  \
+count     283.000000  2.830000e+02  2.830000e+02  2.830000e+02  2.830000e+02   
+mean      584.371025  1.712938e+05  1.854145e+05  1.989847e+05  2.125275e+05   
+std       553.080118  6.277312e+05  6.804968e+05  7.310182e+05  7.807269e+05   
+min         4.000000  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00   
+25%       264.000000  4.180000e+02  4.860000e+02  5.665000e+02  6.140000e+02   
+50%       528.000000  5.439000e+03  5.836000e+03  6.575000e+03  7.387000e+03   
+75%       786.000000  3.286100e+04  3.549500e+04  3.748650e+04  3.867150e+04   
+max      5501.000000  5.327231e+06  5.744213e+06  6.143494e+06  6.541907e+06   
+
+               2010          2015          2020  
+count  2.830000e+02  2.830000e+02  2.830000e+02  
+mean   2.265982e+05  2.410293e+05  2.552509e+05  
+std    8.317564e+05  8.839290e+05  9.350182e+05  
+min    1.000000e+00  1.000000e+00  1.000000e+00  
+25%    6.405000e+02  6.470000e+02  6.855000e+02  
+50%    8.317000e+03  8.877000e+03  9.449000e+03  
+75%    4.162400e+04  4.399850e+04  4.546850e+04  
+max    6.956824e+06  7.379797e+06  7.794799e+06  
+
+Vista previa de las primeras filas:
+  Region, development group, country or area  Location code     1990     1995  \
+0                                      world            900  5327231  5744213   
+1                          subsaharan africa            947   490605   560759   
+2           northern africa and western asia           1833   288060   323178   
+3                  central and southern asia            921  1239984  1376200   
+4              eastern and southeastern asia           1832  1837799  1950220   
+
+      2000     2005     2010     2015     2020  
+0  6143494  6541907  6956824  7379797  7794799  
+1   639661   729733   836364   958577  1094366  
+2   355882   391986   435367   481520   525869  
+3  1511915  1647074  1775361  1896327  2014709  
+4  2044789  2125348  2201807  2279490  2346709  
+
+Vista previa de las últimas filas:
+    Region, development group, country or area  Location code  1990  1995  \
+278                                      samoa            882   163   170   
+279                                    tokelau            772     2     2   
+280                                      tonga            776    95    96   
+281                                     tuvalu            798     9     9   
+282                  wallis and futuna islands            876    14    14   
+
+     2000  2005  2010  2015  2020  
+278   174   180   186   194   198  
+279     2     1     1     1     1  
+280    98   101   104   101   106  
+281     9    10    11    11    12  
+282    15    15    13    12    11  
+

@@ -1,0 +1,104 @@
+Cantidad de nulos por columna:
+Unnamed: 0        0
+destination       0
+destination_id    0
+origin            0
+origin_id         0
+1990              0
+1995              0
+2000              0
+2005              0
+2010              0
+2015              0
+2020              0
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+0
+
+Cantidad de ceros por columna:
+Unnamed: 0           0
+destination          0
+destination_id       0
+origin               0
+origin_id            0
+1990              1300
+1995              1150
+2000              1082
+2005               955
+2010               598
+2015               206
+2020               221
+dtype: int64
+Columnas con más ceros:
+1990    1300
+1995    1150
+2000    1082
+2005     955
+2010     598
+2020     221
+2015     206
+dtype: int64
+
+Nombres de las columnas:
+Index(['Unnamed: 0', 'destination', 'destination_id', 'origin', 'origin_id',
+       '1990', '1995', '2000', '2005', '2010', '2015', '2020'],
+      dtype='object')
+
+Tamaño del dataframe:
+(8430, 12)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+         Unnamed: 0  destination_id    origin_id          1990          1995  \
+count   8430.000000     8430.000000  8430.000000  8.430000e+03  8.430000e+03   
+mean   21394.668683       71.721827    85.699526  1.180785e+04  1.181029e+04   
+std     6660.321151       41.291280    51.672020  1.242290e+05  1.101370e+05   
+min     6557.000000        1.000000     1.000000  0.000000e+00  0.000000e+00   
+25%    17476.250000       40.000000    40.000000  7.000000e+00  1.200000e+01   
+50%    21954.500000       64.000000    82.000000  1.000000e+02  1.370000e+02   
+75%    26203.750000       99.000000   131.000000  9.987500e+02  1.268500e+03   
+max    32908.000000      177.000000   177.000000  5.018098e+06  4.355392e+06   
+
+               2000          2005          2010          2015          2020  
+count  8.430000e+03  8.430000e+03  8.430000e+03  8.430000e+03  8.430000e+03  
+mean   1.205685e+04  1.305594e+04  1.496841e+04  1.679908e+04  1.917582e+04  
+std    1.058787e+05  1.023478e+05  1.106511e+05  1.199723e+05  1.322513e+05  
+min    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  
+25%    1.600000e+01  2.500000e+01  3.300000e+01  3.800000e+01  4.900000e+01  
+50%    1.655000e+02  2.170000e+02  2.560000e+02  2.920000e+02  3.660000e+02  
+75%    1.424750e+03  1.808000e+03  2.076750e+03  2.448500e+03  2.940750e+03  
+max    3.879114e+06  3.422713e+06  3.265811e+06  3.275758e+06  3.792505e+06  
+
+Vista previa de las primeras filas:
+   Unnamed: 0 destination  destination_id   origin  origin_id    1990    1995  \
+0        6557     burundi             116  belgium         67     642     621   
+1        6558     burundi             116    congo        137   36654   41447   
+2        6559     burundi             116   france         68     321     310   
+3        6560     burundi             116    kenya        121     186     216   
+4        6561     burundi             116   rwanda        126  221943  160197   
+
+    2000   2005    2010    2015    2020  
+0    475    466     497     605     718  
+1  37951  99099  147611  175768  199585  
+2    237    232     248     302     358  
+3    202    502     847    1032    1226  
+4  66415  61104   54794   64363   76567  
+
+Vista previa de las últimas filas:
+      Unnamed: 0 destination  destination_id          origin  origin_id  \
+8425       32904     uruguay             114          poland         33   
+8426       32905     uruguay             114        portugal         61   
+8427       32906     uruguay             114         romania         35   
+8428       32907     uruguay             114           spain         65   
+8429       32908     uruguay             114  united kingdom         50   
+
+       1990   1995   2000   2005   2010   2015   2020  
+8425   4067   2465   1318   1220   1130   1166   1390  
+8426   1216    877    633    586    543    560    668  
+8427    811    748    690    639    592    611    728  
+8428  34478  29447  24303  18858  15718  16232  19374  
+8429    535    523    513    475    440    454    541  
+

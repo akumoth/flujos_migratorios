@@ -1,0 +1,199 @@
+Cantidad de nulos por columna:
+Unnamed: 0                                                       0
+Index                                                            0
+Region, development group, country or area of destination        0
+Notes of destination                                         33477
+Location code of destination                                     0
+Type of data of destination                                  13728
+Region, development group, country or area of origin             0
+Location code of origin                                          0
+1990                                                             0
+1995                                                             0
+2000                                                             0
+2005                                                             0
+2010                                                             0
+2015                                                             0
+2020                                                             0
+dtype: int64
+
+Cantidad de valores duplicados por columna:
+0
+
+Cantidad de ceros por columna:
+Unnamed: 0                                                       1
+Index                                                            0
+Region, development group, country or area of destination        0
+Notes of destination                                             0
+Location code of destination                                     0
+Type of data of destination                                      0
+Region, development group, country or area of origin             0
+Location code of origin                                          0
+1990                                                         10451
+1995                                                         10105
+2000                                                         10046
+2005                                                          9696
+2010                                                          8975
+2015                                                          8227
+2020                                                          8362
+dtype: int64
+Columnas con más ceros:
+1990          10451
+1995          10105
+2000          10046
+2005           9696
+2010           8975
+2020           8362
+2015           8227
+Unnamed: 0        1
+dtype: int64
+
+Nombres de las columnas:
+Index(['Unnamed: 0', 'Index',
+       'Region, development group, country or area of destination',
+       'Notes of destination', 'Location code of destination',
+       'Type of data of destination',
+       'Region, development group, country or area of origin',
+       'Location code of origin', '1990', '1995', '2000', '2005', '2010',
+       '2015', '2020'],
+      dtype='object')
+
+Tamaño del dataframe:
+(37051, 15)
+
+Información sobre el dataframe:
+None
+
+Estadísticas descriptivas del dataframe:
+         Unnamed: 0         Index  Notes of destination  \
+count  37051.000000  37051.000000           3574.000000   
+mean   18525.000000  18526.000000             19.478176   
+std    10695.846748  10695.846748             11.194135   
+min        0.000000      1.000000              1.000000   
+25%     9262.500000   9263.500000             10.000000   
+50%    18525.000000  18526.000000             18.000000   
+75%    27787.500000  27788.500000             30.000000   
+max    37050.000000  37051.000000             41.000000   
+
+       Location code of destination  Location code of origin          1990  \
+count                  37051.000000             37051.000000  3.705100e+04   
+mean                     745.930663               761.146231  2.959657e+05   
+std                      732.774287               736.658418  2.596883e+06   
+min                        4.000000                 4.000000  0.000000e+00   
+25%                      336.000000               356.000000  0.000000e+00   
+50%                      686.000000               702.000000  1.980000e+02   
+75%                      916.000000               920.000000  8.234500e+03   
+max                     5501.000000              5501.000000  1.529862e+08   
+
+               1995          2000          2005          2010          2015  \
+count  3.705100e+04  3.705100e+04  3.705100e+04  3.705100e+04  3.705100e+04   
+mean   3.094353e+05  3.304824e+05  3.640804e+05  4.230856e+05  4.775787e+05   
+std    2.735540e+06  2.975041e+06  3.306144e+06  3.872671e+06  4.360690e+06   
+min    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+25%    0.000000e+00  0.000000e+00  0.000000e+00  1.000000e+00  4.000000e+00   
+50%    2.480000e+02  2.960000e+02  3.670000e+02  4.590000e+02  5.220000e+02   
+75%    9.629000e+03  1.058800e+04  1.250050e+04  1.456500e+04  1.594900e+04   
+max    1.612900e+08  1.732306e+08  1.914468e+08  2.209832e+08  2.479586e+08   
+
+               2020  
+count  3.705100e+04  
+mean   5.425222e+05  
+std    4.922727e+06  
+min    0.000000e+00  
+25%    5.000000e+00  
+50%    6.080000e+02  
+75%    1.851700e+04  
+max    2.805981e+08  
+
+Vista previa de las primeras filas:
+   Unnamed: 0  Index  \
+0           0      1   
+1           1      2   
+2           2      3   
+3           3      4   
+4           4      5   
+
+  Region, development group, country or area of destination  \
+0                                              WORLD          
+1                                              WORLD          
+2                                              WORLD          
+3                                              WORLD          
+4                                              WORLD          
+
+   Notes of destination  Location code of destination  \
+0                   NaN                           900   
+1                   NaN                           900   
+2                   NaN                           900   
+3                   NaN                           900   
+4                   NaN                           900   
+
+  Type of data of destination  \
+0                         NaN   
+1                         NaN   
+2                         NaN   
+3                         NaN   
+4                         NaN   
+
+  Region, development group, country or area of origin  \
+0                                              WORLD     
+1                                 Sub-Saharan Africa     
+2                   Northern Africa and Western Asia     
+3                          Central and Southern Asia     
+4                     Eastern and South-Eastern Asia     
+
+   Location code of origin       1990       1995       2000       2005  \
+0                      900  152986157  161289976  173230585  191446828   
+1                      947   15334807   16488973   15638014   17274985   
+2                     1833   16365218   18069437   19437054   21867791   
+3                      921   31104020   29069983   30897694   33347690   
+4                     1832   14774419   17860923   21440854   25556983   
+
+        2010       2015       2020  
+0  220983187  247958644  280598105  
+1   19942724   24197211   28284538  
+2   25313711   32606047   37563820  
+3   41082388   46481130   51229549  
+4   30977206   35205590   38400740  
+
+Vista previa de las últimas filas:
+       Unnamed: 0  Index  \
+37046       37046  37047   
+37047       37047  37048   
+37048       37048  37049   
+37049       37049  37050   
+37050       37050  37051   
+
+      Region, development group, country or area of destination  \
+37046                         Wallis and Futuna Islands*          
+37047                         Wallis and Futuna Islands*          
+37048                         Wallis and Futuna Islands*          
+37049                         Wallis and Futuna Islands*          
+37050                         Wallis and Futuna Islands*          
+
+       Notes of destination  Location code of destination  \
+37046                  41.0                           876   
+37047                  41.0                           876   
+37048                  41.0                           876   
+37049                  41.0                           876   
+37050                  41.0                           876   
+
+      Type of data of destination  \
+37046                         B R   
+37047                         B R   
+37048                         B R   
+37049                         B R   
+37050                         B R   
+
+      Region, development group, country or area of origin  \
+37046                                  French Polynesia*     
+37047                                           Mayotte*     
+37048                                     New Caledonia*     
+37049                                            Vanuatu     
+37050                                              Other     
+
+       Location code of origin  1990  1995  2000  2005  2010  2015  2020  
+37046                      258    18    23    28    32    19    15    10  
+37047                      175    35    44    52    58    41    38    27  
+37048                      540   843   975  1152  1207  1093  1021  1021  
+37049                      548   152   165   195   197   138    72    67  
+37050                     2003    27    36    43    51    25    27    26  
+
