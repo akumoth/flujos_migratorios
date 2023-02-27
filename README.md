@@ -32,8 +32,9 @@ Basada en el proyecto [*Cookiecutter Data Science*], para acercarse lo más posi
 * **datasets** - Carpeta en la que se guardan los conjuntos de datos con los que trabajamos, y de donde se cargan los archivos en nuestros scripts y dashboards.
 * * datasets/**raw** - Datos brutos en el formato (csv o xlsx) en el que fueron encontrados originalmente.
 * * datasets/**processed** - Datos después de ser llevados por un proceso de limpieza, normalización o estandarización. La mayoría tienen el mismo nombre que su contraparte en bruto, pero algunos están divididos según ciertas categorias o tienen información adicional que se le ha añadido utilizando scripts.
+* * datasets/**sql** - Datos puestos en el formato de las tablas de sql, después de ser procesados mediantes los scripts de ETL.
 
-Dentro de las *raw* y *processed*, encontramos otras subcarpetas, una por cada sitio o analísis origen del cual se extrayeron los datos:
+Dentro de las *raw*, *processed* y *sql*, encontramos otras subcarpetas, una por cada sitio o analísis origen del cual se extrayeron los datos:
 
 * * * datasets/raw/**proyecto_poblacion** - Datos extraidos de la ultima revisión del reporte [*International Migrant Stock*] disponible durante la realización de este proyecto. En estos conjuntos de datos juntados por la UN se encuentra la información pertinente a desplazamiento de poblaciones entre países: numeros totales de poblaciones por país a nivel mundial, y de migraciones/inmigraciones desde/hacía los países con información publica y accesible.
 * * * datasets/raw/proyecto_poblacion/**top_16** - De la anterior carpeta, datos preprocesados donde se da por año el desplazamiento total de habitantes desde/hacía el top 16 de los países, seleccionados a partir de su numero de migrantes/immigrantes.

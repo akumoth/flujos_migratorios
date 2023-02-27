@@ -11,11 +11,11 @@ wdi_df = pd.read_csv(
 ).drop('region_id',axis=1)
 
 wdi_salud_indicador_df = pd.read_csv(
-    "../datasets/processed/work_bank/indicador_de_salud_normalizado.csv"
+    "../datasets/processed/world_development_indicators/indicador_de_salud_normalizado.csv"
 ).drop('Unnamed: 0', axis=1)
 
 wdi_educacion_indicador_df = pd.read_csv(
-    "../datasets/processed/work_bank/indicador_educacion_normalizado.csv"
+    "../datasets/processed/world_development_indicators/indicador_educacion_normalizado.csv"
 ).drop('Unnamed: 0', axis=1)
 
 # Estandarización de columnas:
