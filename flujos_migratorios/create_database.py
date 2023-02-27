@@ -11,9 +11,9 @@ import numpy as np
 if len(sys.argv) < 4:
     print('Not enough arguments!\n usage: python create_database.py [MySQL DB name] [username] [password] [host]')
     exit()
-
+    
 db = pw.MySQLDatabase(sys.argv[1], user=sys.argv[2], password=sys.argv[3],
-                         host=sys.argv[4], port=3306)
+                         host=sys.argv[4], port=(3306 if len(sys.argv) < 5 else sys.argv[5]))
 
 migrator = MySQLMigrator(db)
 

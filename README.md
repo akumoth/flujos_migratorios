@@ -5,13 +5,25 @@
 [*DataBank*]: https://databank.worldbank.org/ "World Bank DataBank"
 [*World Development Indicators*]: https://databank.worldbank.org/source/world-development-indicators "World Development Indicators - World Bank"
 [*World Population Prospects*]: https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022 "World Population Prospects 2022"
+[*Jupyter Notebook*]: https://docs.jupyter.org/en/latest/running.html "Jupyter Docs | Running the Notebook"
 # Flujos Migratorios
 
-Analísis de los flujos migratorios que ocurren entre los países del globo, sus causas y sus consecuencias.
+Dashboard y analísis de diversos conjuntos de datos con el fin de contextualizar los flujos migratorios que ocurren entre los países del globo, e indagar acerca de sus causas y sus consecuencias.
+
+# ¿Porque tratar este problema?
+
+Los flujos migratorios son un fenómeno social y demográfico que se refiere al movimiento de personas de un lugar a otro. Estos movimientos pueden ser motivados por diversas razones, como la búsqueda de trabajo, estudios, reunificación familiar, huida de conflictos políticos o violencia, entre otros.
+Los flujos migratorios han sido una constante en la historia de la humanidad y han sido moldeados por factores económicos, políticos, sociales y culturales. En la actualidad, son cada vez más frecuentes y han adquirido una importancia significativa en el contexto de la globalización.
+La comprensión de los flujos migratorios es crucial para entender los retos y oportunidades que plantea la movilidad humana a nivel local, nacional e internacional. Por esta razón, resulta importante analizar sus causas, patrones y consecuencias, así como las políticas y medidas que se pueden implementar para hacer frente a sus desafíos y aprovechar sus beneficios.
 
 # Ejecución del proyecto
 
-Para generar los datos normalizados, se deben ejecutar los scripts *`wdi_etl.py`* y *`wpp_etl.py`* alojados en la carpeta de `flujos_migratorios`, utilizado el comando `python` en CMD o Bash. Se puede después generar la base de datos ejecutando el script *`create_database.py`*, y ingresar los datos al archivo *`sql.db`* con el script *`update_database.py`*.
+Nuestro proyecto tiene tres partes: 
+* Para ver los **notebook** donde analizamos los conjuntos iniciales de datos y graficamos algunos indicadores, instale los paquetes de python utilizados en estos archivos ejecutando `pip install -r requirements.txt` en una terminal, y después simplemente abralos utilizando [*Jupyter Notebook*].
+* Para crear las tablas con **MySQL**, y posteriormente cargar los datos ahí, instale los paquetes como fue anteriormente descrito, y después ejecute `python create_database.py [Nombre de su base de datos] [Nombre de usuario] [Contraseña] [Host] [Puerto (opcional)]` dentro de la carpeta *flujos_migratorios*. Esto creara un archivo llamado `peewee_models.py` en la misma carpeta (tenga cuidado, ya que contendrá la contraseña anteriormente utilizada), a través del cual podrá ingestar los datos utilizando `python update_database.py`.
+* Para ver el **dashboard** con el cual se visualizaron y analizaron los datos, abra el archivo `powerbimodel.pbix` dentro de la carpeta *flujos_migratorios/dashboard*.
+
+**Analísis exploratorio de los datos**
 
 ### Estructura de los archivos del repositorio
 

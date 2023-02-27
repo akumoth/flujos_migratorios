@@ -9,25 +9,21 @@ os.system('pvp_etl.py')
 
 # Transformación y concatenación de los csv anteriormente generados a un solo dataframe para ingestarlos después a la base de datos
 
-wpp_poblacion = pd.read_csv("../datasets/sql/world_population_prospects/wpp_poblacion.csv")
-wdi_poblacion = pd.read_csv("../datasets/sql/world_development_indicators/wdi_poblacion.csv")
-wpp_poblacion.set_index(["region_id", "year"], inplace=True)
-wdi_poblacion.set_index(["region_id", "year"], inplace=True)
-table_poblacion = wpp_poblacion.merge(wdi_poblacion, how="right", left_index=True, right_index=True).drop(['id_x','name_x','id_y','name_y'],axis=1).reset_index()
-table_poblacion = table_poblacion[table_poblacion['region_id'].notna()]
-table_poblacion = table_poblacion.replace(np.nan, None).reset_index(drop=True)
-table_poblacion.region_id = table_poblacion.region_id.astype(int)
-table_poblacion.insert(1,'region_id',table_poblacion.pop('region_id'))
+def merge_migration_datasets(df1,df2):
+    df = df1.merge(df2, how="right", left_index=True, right_index=True).drop(['id_x','name_x','id_y','name_y'],axis=1).reset_index()
+    df = df[df['region_id'].notna()]
+    df = df.replace(np.nan, None).reset_index(drop=True)
+    df.region_id = df.region_id.astype(int)
+    df.insert(1,'region_id',df.pop('region_id'))
+    return df
 
-wpp_salud = pd.read_csv("../datasets/sql/world_population_prospects/wpp_salud.csv")
-wdi_salud = pd.read_csv("../datasets/sql/world_development_indicators/wdi_salud.csv")
-wpp_salud.set_index(["region_id", "year"], inplace=True)
-wdi_salud.set_index(["region_id", "year"], inplace=True)
-table_salud = wpp_salud.merge(wdi_salud, how="right", left_index=True, right_index=True).drop(['id_x','name_x','id_y','name_y'],axis=1).reset_index()
-table_salud = table_salud[table_salud['region_id'].notna()]
-table_salud = table_salud.replace(np.nan, None).reset_index(drop=True)
-table_salud.region_id = table_salud.region_id.astype(int)
-table_salud.insert(1,'region_id',table_salud.pop('region_id'))
+wpp_poblacion = pd.read_csv("../datasets/sql/world_population_prospects/wpp_poblacion.csv").set_index(["region_id", "year"])
+wdi_poblacion = pd.read_csv("../datasets/sql/world_development_indicators/wdi_poblacion.csv").set_index(["region_id", "year"])
+table_poblacion = merge_migration_datasets(wpp_poblacion,wdi_poblacion)
+
+wpp_salud = pd.read_csv("../datasets/sql/world_population_prospects/wpp_salud.csv").set_index(["region_id", "year"])
+wdi_salud = pd.read_csv("../datasets/sql/world_development_indicators/wdi_salud.csv").set_index(["region_id", "year"])
+table_salud = merge_migration_datasets(wpp_salud,wdi_salud)
 
 wdi_economia = pd.read_csv("../datasets/sql/world_development_indicators/wdi_economia.csv").drop(['id','name'],axis=1)
 table_economia = wdi_economia
