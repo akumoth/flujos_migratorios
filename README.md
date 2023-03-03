@@ -6,6 +6,18 @@
 [*World Development Indicators*]: https://databank.worldbank.org/source/world-development-indicators "World Development Indicators - World Bank"
 [*World Population Prospects*]: https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022 "World Population Prospects 2022"
 [*Jupyter Notebook*]: https://docs.jupyter.org/en/latest/running.html "Jupyter Docs | Running the Notebook"
+
+[*@Defo0*]: https://github.com/Defo0 "Defo0 - Github.com"
+[*@akumoth*]: https://github.com/akumoth "akumoth - Github.com"
+[*@aramisjose*]: https://github.com/Defo0 "aramisjose - Github.com"
+[*@BuhoCosmico*]: https://github.com/Defo0 "BuhoCosmico - Github.com"
+
+[*Leonardo Moreno*]: https://www.linkedin.com/in/leonms "Leonardo Moreno - LinkedIn"
+[*Rainer Palm*]: https://www.linkedin.com/in/leonms "Leonardo Moreno - LinkedIn"
+[*Aramis Castellanos*]: https://www.linkedin.com/mwlite/in/aramis-castellanos-data-engineer-333450247 "Aramis Castellanos - LinkedIn"
+[*Tomás Toledo*]: https://www.linkedin.com/in/tom%C3%A1s-toledo-a9018317a "Tomás Toledo - LinkedIn"
+
+
 # Flujos Migratorios
 
 Dashboard y analísis de diversos conjuntos de datos con el fin de contextualizar los flujos migratorios que ocurren entre los países del globo, e indagar acerca de sus causas y sus consecuencias.
@@ -53,3 +65,9 @@ Dentro de las *raw*, *processed* y *sql*, encontramos otras subcarpetas, una por
 * **notebook** - Notebooks de Jupyter. En esta carpeta raíz se encuentran los EDA realizados, con el mismo nombre que la fuente de los datos que fueron trabajados.
 * notebook/**normalizacion** - Notebooks de Jupyter donde se detalla el proceso de normalización, división y filtración de los distintos conjuntos de datos.
 
+### Equipo de trabajo
+
+[*@Defo0*] - [*Leonardo Moreno*] - Data Engineer, Machine Learning Specialist
+[*@akumoth*] - [*Rainer Palm*] - Data Analyst & Architect
+[*@aramisjose*] - [*Aramis Castellanos*] - Data Engineer & Analyst
+[*@BuhoCosmico*] - [*Tomás Toledo*] - Analista Funcional, Data Engineer
