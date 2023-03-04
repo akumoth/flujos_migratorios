@@ -13,7 +13,7 @@
 [*@BuhoCosmico*]: https://github.com/Defo0 "BuhoCosmico - Github.com"
 
 [*Leonardo Moreno*]: https://www.linkedin.com/in/leonms "Leonardo Moreno - LinkedIn"
-[*Rainer Palm*]: https://www.linkedin.com/in/leonms "Leonardo Moreno - LinkedIn"
+[*Rainer Palm*]: https://www.linkedin.com/in/rdppetrizzo "Rainer Palm - LinkedIn"
 [*Aramis Castellanos*]: https://www.linkedin.com/mwlite/in/aramis-castellanos-data-engineer-333450247 "Aramis Castellanos - LinkedIn"
 [*Tomás Toledo*]: https://www.linkedin.com/in/tom%C3%A1s-toledo-a9018317a "Tomás Toledo - LinkedIn"
 
@@ -68,6 +68,9 @@ Dentro de las *raw*, *processed* y *sql*, encontramos otras subcarpetas, una por
 ### Equipo de trabajo
 
 [*@Defo0*] - [*Leonardo Moreno*] - Data Engineer, Machine Learning Specialist
+
 [*@akumoth*] - [*Rainer Palm*] - Data Analyst & Architect
+
 [*@aramisjose*] - [*Aramis Castellanos*] - Data Engineer & Analyst
+
 [*@BuhoCosmico*] - [*Tomás Toledo*] - Analista Funcional, Data Engineer
